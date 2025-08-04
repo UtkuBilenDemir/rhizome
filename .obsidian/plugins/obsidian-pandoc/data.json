@@ -1,0 +1,15 @@
+{
+  "showCLICommands": true,
+  "addExtensionsToInternalLinks": "html",
+  "injectAppCSS": "light",
+  "injectThemeCSS": false,
+  "customCSSFile": null,
+  "displayYAMLFrontmatter": false,
+  "linkStrippingBehaviour": "text",
+  "highDPIDiagrams": true,
+  "pandoc": "/opt/homebrew/bin/pandoc",
+  "pdflatex": null,
+  "outputFolder": "/Users/ubd/Bibliotheca/02_outputs/obsidian_converted",
+  "extraArguments": "--metadata bibliography=~/Bibliotheca/bibim.bib",
+  "exportFrom": "html"
+}

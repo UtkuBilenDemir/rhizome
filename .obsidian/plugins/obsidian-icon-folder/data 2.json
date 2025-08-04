@@ -1,0 +1,39 @@
+{
+  "settings": {
+    "migrated": true,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "RiDashboardFill",
+      "RiDashboardLine",
+      "FarFilePdf",
+      "FasPen",
+      "SiVlcmediaplayer"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "emojiStyle": "none",
+    "iconInTabsEnabled": false
+  },
+  "00_todo": "FarSquareCheck",
+  "01_daily_notes": "FarCalendar",
+  "02_fleeting_notes": "FarNoteSticky",
+  "03_fleeting_research_notes": "FarNoteSticky",
+  "04_literature_notes": "FarNoteSticky",
+  "05_permanent_notes": "FarChessRook",
+  "06_projects": "FasDiagramProject",
+  "07_references": "FasQuoteLeft",
+  "08_templates": "IbDocument",
+  "09_wonderwall": "SiGitbook",
+  "99_media": "SiVlcmediaplayer",
+  "9999_Excalidraw": "FasPen",
+  "9999_PDFs": "FarFilePdf",
+  "00_todo/DASHBOARD.md": "RiDashboardLine"
+}

@@ -1,0 +1,186 @@
+%\chapter{Introduction}
+%
+%%INFO: Brief History of AI
+%In recent years, there have been substantial advancements in the field of \gls{ai}, driven in particular by progress in \gls{nn} and \gls{dnn} architectures. These developments have enabled the deployment of predictive \gls{ai} models across a wide array of domains, ranging from social media platforms and search engines to natural language processing tasks such as text classification and topic modelling. While these applications primarily focused on analysis and prediction, a new paradigm has emerged in the form of \gls{genai}. Once a relatively silent front in \gls{nlp} research, \gls{genai}'s history goes back to 1950s \parencite[4]{cao2023a} . Unlike traditional predictive models, \gls{genai} systems are capable of producing novel outputs; such as text, images, or code by extracting and operationalizing intent from human provided instructions. These developments have enabled the rise of models that not only analyze and predict, but increasingly generate — initiating a paradigmatic shift in the epistemic and operational logics of machine intelligence. \Gls{genai}, particularly in its transformer-based implementations, now occupies a central position in how information is produced, interpreted, and circulated.
+%This marks a significant shift in the goals and capabilities of \gls{ai}, moving beyond automation and decision support to enabling more efficient, scalable, and creative content generation processes that put agency, subjectivity, and the truth itself into question.
+%
+%
+%%INFO: Generative AI Models deploy a specific governing rationality
+%%
+%The capabilities of the \gls{genai} models, particularly \glspl{llm} raised the
+%question if we are approaching a completely new era of \textit{meaning-making}
+%\parencite[]{gretzky2024, mishra2024, dishon2024}. Although this capality of generative processes of the current \gls{genai} models are coming from a long history of development in various scientific areas and statistical approaches, new architectures deploy a novel interpretation, representation of the world via the inroduction of political model, a governing rationality (see \cite[2]{amoore2024})
+%\sidenote{The governing rationality of \gls{genai} models (see e.g.	\cite{amoore2024}) is chosen to express	the underlying generational structure of algorithmic meaning-making without	initiating any confusion with \cite{rouvroy}'s concept of Algorithmic	Governmentality. While Rouvroy refers to an algorithmic turn in the	governmentality in neoliberal governance, governing rationality refers to the rationality established in the algorithmic models.}
+%
+%Beyond their technical capacities, these systems enact a form of governance deeply entangled with power, normativity, and subjectivity. \Gls{genai}  operates through a distributional logic that governs the production of knowledge by modelling the underlying statistical relations of a datafied world into a representational pattern\parencite[]{amoore2023} . These systems “traverse data foundations” to generate decisions that appear plausible within the learned distribution, but without deterministic causality or transparent justification. Consequently, \gls{genai} models blur the line between representation and enactment; they do not merely classify or reflect reality but participate in its structuring. Outputs from large language models, for instance, are increasingly treated as epistemically meaningful, even authorial, despite being generated through processes that lack an identifiable intentional agent.
+%
+%This thesis situates generative AI within the broader transformation of power described by \cite{deleuze1995a} as the shift from \textit{disciplinary societies} to \textit{societies of control}. Whereas Foucault’s account of disciplinary power emphasised confinement, surveillance, and the moulding of subjects within bounded institutions like prisons, schools, and hospitals \parencite{foucault2008}, Deleuze’s postscript characterises a more fluid and pervasive form of control. In this latter formation, governance operates through modulation; subjects are continuously governed through their data traces, captured and reshaped in real-time. Within control societies, individuals become “dividuals”—decomposed into streams of discrete, analysable data points that can be recombined algorithmically \parencite{mackenzie2021}.
+%
+%However, as \cite{mackenzie2021} suggest, this transformation is not merely technological but also institutional. Control does not replace institutions with pure flow; rather, it reorganizes institutional forms into entities that totalise by sequencing dividuals across domains. In this context, institutions of control no longer enclose or discipline; instead, they function by aggregating, modelling, and redistributing datafied subjectivities through infrastructures like \gls{genai} platforms. The key analytical innovation of this thesis lies in the hypothesis that generative AI models themselves act as \textit{institutions of control}—not metaphorically, but operationally. Their architectures instantiate truth regimes through statistical inference, effectively functioning as epistemic institutions that govern what can be said, imagined, or inferred.
+%
+%This raises the stakes of critique. In the context of control societies, resistance cannot rely on the exposure of ideological untruths or on demands for transparency alone. Instead, as MacKenzie and Porter argue, critique must become processual and counter-sequential. It must trace the operations of sequencing and propose alternative arrangements that disrupt the logic of totalization. For this reason, this thesis adopts a micropolitical lens, asking not merely what generative AI systems do, but how they do it. That is: what are the machinic elements—attention mechanisms, tokenisation, transformer layers—that allow generative models to modulate truth, and where might one locate lines of flight within these architectures? Can the operation of these models—particularly their ability to generate outputs that are probabilistically plausible but not semantically determined—be reappropriated as tools of critique, invention, or resistance?
+%
+%Rather than positioning \gls{genai} as either purely emancipatory or wholly repressive, this study approaches it as a complex institutional actor within contemporary capitalism. The power of capitalism, as Deleuze and Guattari remind us, lies in its ability to decode and deterritorialise flows only to reterritorialise them elsewhere \parencite{deleuze1983}. In this context, generative AI functions not simply as a tool of productivity or surveillance but as a mechanism of epistemic reterritorialisation: producing coherence, narrativity, and alignment from fragmented inputs. It operates like an institution, governing the production of meaning, yet also contains within its architecture the possibility for other uses—uses that exceed capitalist logics or reorient them from within.
+%
+%Accordingly, this thesis proposes a re-reading of control societies through the lens of generative architectures. It combines political theory, media theory, and technical insight to analyse how \gls{genai} models operate on both infrastructural and epistemic levels. In doing so, it offers a renewed account of power, one grounded in probabilistic modulation, infrastructural inscription, and the micropolitics of machine reasoning. It asks not only how we are governed by algorithms, but also how these algorithms could be made to think otherwise.
+%
+%
+%
+%\chapter{Introduction (THESIS 1)}\label{chap:Introduction} % (fold)
+%
+%
+%%INFO: Technical parts explained
+%My work focuses especially on the architectural components that made the
+%meaning-making process of the \gls{genai} Models as comprehensive as today,
+%especially those of transformer architecture like "attention", "latency",
+%"gradient descent".
+%%TODO: Add more
+%
+%%INFO: Could be better in the end
+%The rapidly evolving landscape of \gls{ai}, particularly with the emergence of \gls{genai} and \gls{aigc}, brings renewed urgency to questions surrounding the entanglement of algorithmic systems with power, subjectivity, and institutional transformation. As \gls{genai} systems increasingly mediate communication, creativity, and decision-making, this study critically examines their role in the contemporary operation of power. Drawing on Gilles Deleuze’s theoretical account of the shift from Michel Foucault’s \textit{disciplinary societies} \parencite{Foucault1995} to what Deleuze terms \textit{societies of control} \parencite{deleuze1995a}, the analysis situates \gls{genai} as emblematic of a broader transformation in the modes through which governance, normativity, and subject-formation are algorithmically enacted.
+%
+%My work especially focuses on the political theory of the generative AI
+%algorithms.
+%
+%Capitalism is distinctively characterised with the ability to decode,
+%deterritorialise the flows, but not to recode, reterritorialise. The
+%reterritorialisation in capitalism is delegated to to some institutional
+%frameworks, or protocologicalised processes.
+%
+%\section{utku}
+%I will try to focus on specific bits wethout concerning about the network they
+%are or might be connected to.
+%
+%One often urgently needed disclaimer in this cluster is that the concept of
+%disciplinary societies is a definition of the specific operation of
+%(bio-)power, speaking about control or post-disciplinary societies is not speaking about the absence or
+%replacement of discipline, one can freely emphasise that the control is
+%discipline (see \cite{kelly2015a} )
+%
+%\section{(U) A word about institution}
+%Capitalism reterritorialises with one hand what it deterriorialises with the
+%other. But it is the delegation to specific institutional entities doing the
+%reterritorialisation. AI in its application is a part of the
+%reterritorialisation, but in its own unique structure by keeping the borders of
+%the socius in its own past and structure.
+%
+%\cite{mackenzie2021} argument that in thw institutional framework of the
+%control societies, subjectivity construction operates on the basis of
+%dividualised subjects without the formation of a subjective centre \parencite[14]{mackenzie2021}.
+%
+%This work only partly relies on the works of Antoniette Rouvroy
+%%TODO: Citation needed
+%and Gerald Raunig
+%%TODO: Citation needed
+%because both the exploration of the Algorithmic Governmentality and the
+%institutional formation in control societies does not include a structural
+%analysis, especially an analysis on the level of the algorithm itself,
+%neither any of them are looking for a "bit element" in the current formation of
+%capitalism
+%
+%\sidenote{Although this statement somewhat aligns with \citeyear{mackenzie2021}'s claim, I do not agree that the 2 authors are not exploring the concepts they've initiated far enough. The problem rather lies in still not distinguished branches in the algorithmic critique, that would allow us to position ourselves around completely different disciplines and goals despite being on the same surface.}
+%
+%%TODO: Introduce the abbreviation D&G
+%
+%\section{Cognitive Capitalism}
+%If this is cogntive capitalism and this is the attention economy, then we need
+%to immediately turn to the subjectivity construction, as it is what defines the
+%nature of the attention.
+%
+%\gls{genai}
+%
+%
+%% chapter Introduction (end)
+%
+%
+%\chapter{Introduction}
+%
+%Over the past decade, the field of \gls{ai} has undergone a profound transformation, propelled especially by advancements in \gls{nn} and \gls{dnn} architectures.
+%
+%Unlike traditional symbolic \gls{ai} systems, which operated on rule-based inference, or earlier statistical models focused on classification, generative models such as large language models (LLMs) function probabilistically: they generate text, images, or code by traversing learned distributions of data. This shift does not merely represent a technical advancement; it enacts a broader transformation in the modes through which subjectivity, normativity, and truth are constituted.
+%
+%This thesis investigates the hypothesis that transformer-based \gls{genai} systems act not merely as computational tools, but as institutional agents of control. Drawing on Gilles Deleuze’s theory of \emph{societies of control} \parencite{deleuze1995a}, and building upon MacKenzie and Porter’s concept of \emph{totalizing institutions} \parencite{mackenzie2021}, I argue that the architecture of \gls{genai} instantiates a new form of infrastructural power: one that modulates subjectivity through probabilistic feedback mechanisms rather than direct coercion or symbolic representation.
+%
+%Central to this inquiry is the notion that the architectures of \gls{genai} — including attention mechanisms, gradient descent, and backpropagation — do not simply process data; they constitute machinic modes of meaning-production. These architectures embed within themselves a diagrammatic form of reasoning, through which the contours of subjectivity are shaped, and the boundaries of intelligibility are drawn.
+%
+%This study thus positions \gls{genai} as a form of epistemic infrastructure: a desiring-machine that operates through modulation rather than command, instituting regimes of verisimilitude, normativity, and plausibility. In doing so, it contributes to an emerging critique of algorithmic governance by asking: How do we theorize critique, resistance, and invention under conditions of automated modulation?
+%
+
+
+\chapter{Introduction}
+
+\greensquare
+In recent years, substantial advancements in the field of \gls{ai}, particularly through developments in \gls{nn} and \gls{dnn} architectures, have enabled the deployment of predictive models across a wide array of domains, from social media platforms and search engines to natural language processing tasks such as text classification and topic modelling. While these applications primarily focused on analysis, relevance association, personalisation, and prediction, a new paradigm has emerged in the form of \gls{genai}. Once a relatively silent front in \gls{nlp} research, \gls{genai}'s history dates back to the 1950s \parencite[4]{cao2023a}. Unlike traditional models, \gls{genai} systems are capable of producing novel outputs; such as text, images, or code by extracting and operationalising intent from human-provided instructions. This shift marks a transformation not only in the goals and capabilities of \gls{ai}, but also in its epistemic and operational logics. Particularly in its implementations based on transformer architecture, \gls{genai} now occupies a central role in the production, interpretation, and circulation of information and media, moving beyond automation and decision support to enabling generative processes that raise fundamental questions about agency, subjectivity, and truth.
+
+\greensquare
+The analysis and critique of the \gls{ai} models is nothing new, the surveillance capabilities that has been established by the contemporary data
+analysis (e.g. \cite{Krasmann2017}), the effect of a completely data based
+rationality introduced by the datalogical turn (see \cite{Clough2015}), a
+dividualised information flows through the profiling and association by the
+models running on the web (see e.g. \cite{Cheney2011}), and the decision-making
+systems adopting an algorithmic
+governmentality (see e.g.
+\cite{rouvroy2007}), and various ethical, as well as, bias related research
+(e.g. \cite{kordzadeh2022}) have been a vibrant field in the last years. The
+capability \gls{genai} models especially \glspl{llm} to meaning-making
+\parencite[]{gretzky2024, mishra2024, dishon2024}, however, , have provoked
+renewed inquiry. While these generative processes are rooted in a long history
+of statistical and computational development, contemporary architectures with
+their interpretation of the vast datasets of productive human legacy introduce
+an immediate representational logic, one that embodies a distinct political
+model or \emph{governing rationality} \parencite[2]{amoore2024}\sidenote{The governing rationality of \gls{genai} models (see e.g. \cite{amoore2024}) refers to the generative structure of algorithmic meaning-making and should not be confused with \cite{rouvroy}'s concept of Algorithmic Governmentality. Whereas Rouvroy addresses algorithmic turns in neoliberal governance, governing rationality designates the internal logic established by the model itself.}. While this
+interpretative substance
+enables \gls{genai} models to communicate human-like, also establishes a power
+structure over governing information as a governing institution (see e.g.
+\cite{mackenzie2021} or \cite{dishon2024}). Beyond their technical capacities, these systems enact a form of governance deeply entangled with power, normativity, and new forms of subjectivisation \parencite{eloff2021}. \Gls{genai} operates through a distributional logic that structures knowledge by modelling statistical regularities in a datafied world \parencite{amoore2023}. These systems “traverse data foundations” to generate outputs that appear plausible within a learned distribution, but are often critiqued with the lack of deterministic causality and transparency in justification. Whether \gls{genai} models blur the line between representation and enactment; especially the outputs form \glspl{llm} , for instance, are increasingly treated as epistemically meaningful, even authorial, despite the large discussion about the lack of intentional agent which brings us to an even richer debate and literature about the agency in human autorship.
+
+
+
+\marginnote{\textbf{TODO}: Title
+	\begin{todolist}
+		\item This discussion line can be followed up on
+
+
+		\item Mention somewhere soemthing like:
+
+		My work focuses especially on the architectural components that made the
+		meaning-making process of the \gls{genai} Models as comprehensive as today,
+		especially those of transformer architecture like "attention", "latency",
+		"gradient descent".
+
+	\end{todolist}
+}
+
+
+
+\yellowsquare
+As Michel Serres (\cite*[41]{serres2019}) put, \textit{the forces shaping our bodies} increasingly
+shifted from natural conditions to environments of our own making; the
+constructed world exerts influence more than the given one. The rapid acceleration of technological change has drawn the human condition more deeply into a culturally defined context, shaped by the flow of information and new forms of mediation than into any purely natural domain. The models capable of meaning-making are farther away from being mere classication and filtering tools, they actively participate in structuring the mediation of culture and knowledge, further amplifying their ability to (re-)structure the reality, . What \gls{genai} introduces is beyond its technical nature inquires institutional analysis \parencite{mackenzie2021} of the power structure deployed in this new constellation. Framing the question as \emph{in what form of institutional nature the architecture and rationality of the contemporary \gls{genai} algorithms deploy and what conclusions these implicate on agency, subjectivisation, ciritique, and resistance}; this study situates \gls{genai} within the broader transformation of power described by Gilles \textcite{deleuze1992a} as the shift from Michel Foucault's \emph{disciplinary societies} (\cite*{Foucault1977}) to \emph{societies of control}. Whereas Foucault’s account of disciplinary power emphasized enclosure, surveillance, and the moulding of subjects within bounded institutions like prisons, schools, and hospitals \parencite{foucault2008}, Deleuze's postscript outlines a more fluid and continuous, flexible form of control. Deleuze's description of governance in the \citetitle{deleuze1992a} operates through modulation: subjects are governed not by confinement but through their data traces, captured and recomposed in real-time\sidenote{One frequently necessary clarification in this context is that the concept of disciplinary societies refers to a specific mode of operation of (bio-)power; speaking of control or post-disciplinary societies does not imply the disappearance or replacement of discipline. Rather, one might underscore that control is itself a continuation or transformation of discipline (see \cite{kelly2015a})}.
+In such control societies, individuals become \emph{dividuals}, decomposed into discrete, analysable data points recombinable by algorithmic systems \parencite{mackenzie2021} vastly increasing the field of visibility on the bodies \parencite{foucault2008}. Control does not dissolve institutions into flow; rather, it reorganizes them into mechanisms that totalise by sequencing dividuals across domains. Institutions of control no longer discipline by containment, but by aggregating, modelling, and redistributing datafied subjectivities through infrastructures such as \gls{genai} platforms.
+
+Resistance does not have to be necessarily mean halting development or rejecting these systems outright; rather, it involves maintaining an openness to transformation while actively engaging with and shaping these changes where intervention remains possible (see \cite[227]{tucker2021}).
+
+\marginnote{\textbf{TODO}: Title
+	\begin{todolist}
+		\item Rewrite
+
+	\end{todolist}
+}
+
+
+This thesis therefore advances the hypothesis that generative AI models function as \emph{institutions of control}, not metaphorically, but operationally. Their architectures instantiate regimes of truth through statistical inference, acting as epistemic infrastructures that determine what can be said, imagined, or inferred. This shift raises the stakes of critique. In control societies, resistance cannot depend on unmasking ideology or demanding transparency alone. Instead, critique must become processual and counter-sequential: it must trace the operations of sequencing and propose alternative arrangements that disrupt the logic of totalisation \parencite{mackenzie2021} . Accordingly, I adopt a micropolitical perspective, asking not merely what \gls{genai} systems do, but how they do it. What are the machinic elements, attention mechanisms, tokenisation, transformer layers that enable the modulation of information and subjectivity? And where, if anywhere, might one locate lines of flight within these architectures? Can their operation be reappropriated as tools for critique, invention, or resistance?
+
+Rather than positioning \gls{genai} as either emancipatory or repressive, this study approaches it as a complex institutional actor embedded in contemporary capitalism, furthermore develops a ciritical reflection of Deleuze's concept of control by deviating both in terms of the analysis of the \gls{genai} architecture, and in the critique of the institutional formation these models establish other works of \gls{dg}  (see e.g. \cite{deleuze1983}, \cite{deleuze1987}). As \gls{dg} argue, capitalism decodes and deterritorialises flows only to reterritorialise them elsewhere \parencite{deleuze1983}. In this context, \gls{genai} functions not merely as a tool of production or surveillance, but as a mechanism of epistemic reterritorialisation: producing coherence, narrativity, and alignment from fragmented inputs. It governs the production of meaning while also embedding the potential for alternative uses, ones that may exceed or redirect capitalist logics. This study thus offers a re-critique of control societies through the lens of generative architectures. Combining political theory, and technical analysis, it examines how \gls{genai} models operate on both infrastructural and epistemic levels. In doing so, it seeks to develop a renewed account of power, one grounded in probabilistic modulation, infrastructural inscription, and the micropolitics of machine reasoning. Ultimately, I argue that while the generative capabilities challenge the pillars of the control society concept, while finding particularly insightful correspondences in other literature of \gls{dg} .
+
+
+\begin{orangebox}
+	Consider the following:
+
+
+	•	What does it mean when a machine modulates language, rather than represents it?
+	•	How does a transformer model participate in the social, not as a metaphor, but as a machinic node?
+	•	What kinds of institutions are being formed not through buildings or laws, but through attention-weighted predictions and recursive training?
+\end{orangebox}
+
+

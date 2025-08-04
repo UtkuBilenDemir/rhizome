@@ -1,0 +1,592 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{agartan2018}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=50930f2960883131928396f01e8b66c6}{%
+           family={Ağartan},
+           familyi={A\bibinitperiod},
+           given={Kaan},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{50930f2960883131928396f01e8b66c6}
+      \strng{fullhash}{50930f2960883131928396f01e8b66c6}
+      \strng{fullhashraw}{50930f2960883131928396f01e8b66c6}
+      \strng{bibnamehash}{50930f2960883131928396f01e8b66c6}
+      \strng{authorbibnamehash}{50930f2960883131928396f01e8b66c6}
+      \strng{authornamehash}{50930f2960883131928396f01e8b66c6}
+      \strng{authorfullhash}{50930f2960883131928396f01e8b66c6}
+      \strng{authorfullhashraw}{50930f2960883131928396f01e8b66c6}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0896-6346, 1305-3299}
+      \field{journaltitle}{New Perspectives on Turkey}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{shorttitle}{Politics of the {{Square}}}
+      \field{title}{Politics of the {{Square}}: {{Remembering Gezi Park Protests Five Years Later}}}
+      \field{urlday}{1}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{volume}{58}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \field{pages}{201\bibrangedash 217}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1017/npt.2018.4
+      \endverb
+      \verb{file}
+      \verb /Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Ağartan_2018_.pdf
+      \endverb
+    \endentry
+    \entry{badiouCommunistHypothesis2015}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=af994d05f8c0020c2bbe13f3fd61c420}{%
+           family={Badiou},
+           familyi={B\bibinitperiod},
+           given={Alain},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{2}{}{%
+        {{hash=147a8fb28245887ca2611682a9e9d054}{%
+           family={Macey},
+           familyi={M\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=04425a825eaae4b7ba7ffca23b6dfc86}{%
+           family={Corcoran},
+           familyi={C\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London New York}%
+      }
+      \list{publisher}{1}{%
+        {Verso}%
+      }
+      \strng{namehash}{af994d05f8c0020c2bbe13f3fd61c420}
+      \strng{fullhash}{af994d05f8c0020c2bbe13f3fd61c420}
+      \strng{fullhashraw}{af994d05f8c0020c2bbe13f3fd61c420}
+      \strng{bibnamehash}{af994d05f8c0020c2bbe13f3fd61c420}
+      \strng{authorbibnamehash}{af994d05f8c0020c2bbe13f3fd61c420}
+      \strng{authornamehash}{af994d05f8c0020c2bbe13f3fd61c420}
+      \strng{authorfullhash}{af994d05f8c0020c2bbe13f3fd61c420}
+      \strng{authorfullhashraw}{af994d05f8c0020c2bbe13f3fd61c420}
+      \strng{translatorbibnamehash}{a258f26f5300d4aaba5b8788c8f2e1a5}
+      \strng{translatornamehash}{a258f26f5300d4aaba5b8788c8f2e1a5}
+      \strng{translatorfullhash}{a258f26f5300d4aaba5b8788c8f2e1a5}
+      \strng{translatorfullhashraw}{a258f26f5300d4aaba5b8788c8f2e1a5}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{OCLC: 889164211}
+      \field{edition}{Paperback edition}
+      \field{isbn}{978-1-78168-870-0}
+      \field{langid}{english}
+      \field{title}{The Communist Hypothesis}
+      \field{year}{2015}
+    \endentry
+    \entry{burroughs1979}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3df3c63b71a25afff8e14c779d197877}{%
+           family={Burroughs},
+           familyi={B\bibinitperiod},
+           given={William\bibnamedelima S.},
+           giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Frankfurt/M}%
+      }
+      \list{publisher}{1}{%
+        {Ullstein}%
+      }
+      \strng{namehash}{3df3c63b71a25afff8e14c779d197877}
+      \strng{fullhash}{3df3c63b71a25afff8e14c779d197877}
+      \strng{fullhashraw}{3df3c63b71a25afff8e14c779d197877}
+      \strng{bibnamehash}{3df3c63b71a25afff8e14c779d197877}
+      \strng{authorbibnamehash}{3df3c63b71a25afff8e14c779d197877}
+      \strng{authornamehash}{3df3c63b71a25afff8e14c779d197877}
+      \strng{authorfullhash}{3df3c63b71a25afff8e14c779d197877}
+      \strng{authorfullhashraw}{3df3c63b71a25afff8e14c779d197877}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Ungekürzt Ausg}
+      \field{isbn}{978-3-548-02843-9}
+      \field{number}{Nr. 2843}
+      \field{series}{Ullstein-{{Buch}}}
+      \field{title}{The {{Naked Lunch}}}
+      \field{year}{1979}
+    \endentry
+    \entry{defneover2017}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=7592c97e0ca51d8a3c776700122f7973}{%
+           family={{Defne Över}},
+           familyi={D\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=a620e2cfc0d940182b4b27ed830cf5f5}{%
+           family={Over},
+           familyi={O\bibinitperiod},
+           given={Defne},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a11ff32e88b1c89d08da259b0ab5b660}{%
+           family={{Başak Taraktaş}},
+           familyi={B\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=a7ab38909e73b54da2ca3ee780009d72}{%
+           family={Taraktas},
+           familyi={T\bibinitperiod},
+           given={Basak},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f81f5b933044e581080c401701a806f6}
+      \strng{fullhash}{841debad33f8609a05e88e5560c4293d}
+      \strng{fullhashraw}{841debad33f8609a05e88e5560c4293d}
+      \strng{bibnamehash}{f81f5b933044e581080c401701a806f6}
+      \strng{authorbibnamehash}{f81f5b933044e581080c401701a806f6}
+      \strng{authornamehash}{f81f5b933044e581080c401701a806f6}
+      \strng{authorfullhash}{841debad33f8609a05e88e5560c4293d}
+      \strng{authorfullhashraw}{841debad33f8609a05e88e5560c4293d}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract This chapter offers a mechanism-based explanation of how single-cause oriented protest events are transformed into a mass movement where previously fragmented causes of contention come to be expressed in conjoint action. Drawing on the case of 2013 Gezi protests in Turkey, we map the protest waves and identify two mechanisms that mediate the influence of repression on mobilization of dissent. The first mechanism is the perceived nature of the cause of contention. Repression leads to scale shift (McAdam et al., 2008) in the first wave when exercised over those who protest for an issue perceived to be innocent. The second mechanism is the experience of repression. Boundary deactivation among protesters and the resulting continuity in protest activity follow scale shift in the second and third waves as experience of repression transforms perceptions of those that were previously framed as others. Our analysis relies on data collected via participant observation, in-depth interviews, and an online survey with 1,352 protesters.}
+      \field{annotation}{MAG ID: 2607369149\\ S2ID: 8337c45e8e9b965256dfcb9433710b952fb7f834}
+      \field{month}{4}
+      \field{title}{When {{Does Repression Trigger Mass Protest}}? {{The}} 2013 {{Gezi Protests}}}
+      \field{volume}{41}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.1108/s0163-786x20170000041017
+      \endverb
+      \verb{file}
+      \verb /Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Defne_Över_et_al_2017_.pdf
+      \endverb
+    \endentry
+    \entry{fossen2019}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f7cadc35660a0b6dca62c594129ace02}{%
+           family={Fossen},
+           familyi={F\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f7cadc35660a0b6dca62c594129ace02}
+      \strng{fullhash}{f7cadc35660a0b6dca62c594129ace02}
+      \strng{fullhashraw}{f7cadc35660a0b6dca62c594129ace02}
+      \strng{bibnamehash}{f7cadc35660a0b6dca62c594129ace02}
+      \strng{authorbibnamehash}{f7cadc35660a0b6dca62c594129ace02}
+      \strng{authornamehash}{f7cadc35660a0b6dca62c594129ace02}
+      \strng{authorfullhash}{f7cadc35660a0b6dca62c594129ace02}
+      \strng{authorfullhashraw}{f7cadc35660a0b6dca62c594129ace02}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{There are at least two politically salient senses of ``representation''--- acting-for-others and portraying-something-as-something . The difference is not just semantic but also logical: relations of representative agency are dyadic ( x represents y ), while portrayals are triadic ( x represents y as z ). I exploit this insight to disambiguate constructivism and to improve our theoretical vocabulary for analyzing political representation. I amend Saward's claims-based approach on three points, introducing the ``characterization'' to correctly identify the elements of representational claims; explaining the ``referent'' in pragmatic, not metaphysical terms; and differentiating multiple forms of representational activity. This enables me to clarify how the represented can be both prior to representation and constituted by it, and to recover Pitkin's idea that representatives ought to be ``responsive'' to the represented. These points are pertinent to debates about the role of representatives, the nature of representative democracy, and the dynamics of revolutionary movements.}
+      \field{issn}{0003-0554, 1537-5943}
+      \field{journaltitle}{American Political Science Review}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{3}
+      \field{title}{Constructivism and the {{Logic}} of {{Political Representation}}}
+      \field{urlday}{27}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{113}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{824\bibrangedash 837}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1017/S0003055419000273
+      \endverb
+      \verb{file}
+      \verb /Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Fossen_2019_.pdf
+      \endverb
+    \endentry
+    \entry{hardt2017}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b7bb34dd7c2c243429b9bdc9f32b38a8}{%
+           family={Hardt},
+           familyi={H\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6ebae220dd47c7722ada3f665577578b}{%
+           family={Negri},
+           familyi={N\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{9d7f5b76467a6504fc377156819761d6}
+      \strng{fullhash}{9d7f5b76467a6504fc377156819761d6}
+      \strng{fullhashraw}{9d7f5b76467a6504fc377156819761d6}
+      \strng{bibnamehash}{9d7f5b76467a6504fc377156819761d6}
+      \strng{authorbibnamehash}{9d7f5b76467a6504fc377156819761d6}
+      \strng{authornamehash}{9d7f5b76467a6504fc377156819761d6}
+      \strng{authorfullhash}{9d7f5b76467a6504fc377156819761d6}
+      \strng{authorfullhashraw}{9d7f5b76467a6504fc377156819761d6}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-19-067796-1}
+      \field{series}{Heretical Thought}
+      \field{title}{Assembly}
+      \field{year}{2017}
+      \keyw{Democracy,Political aspects,Power (Social sciences),Representative government and representation,Social movements}
+    \endentry
+    \entry{hayat2022}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=35cb2804f0a868bb7897323002c92f1b}{%
+           family={Hayat},
+           familyi={H\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{35cb2804f0a868bb7897323002c92f1b}
+      \strng{fullhash}{35cb2804f0a868bb7897323002c92f1b}
+      \strng{fullhashraw}{35cb2804f0a868bb7897323002c92f1b}
+      \strng{bibnamehash}{35cb2804f0a868bb7897323002c92f1b}
+      \strng{authorbibnamehash}{35cb2804f0a868bb7897323002c92f1b}
+      \strng{authornamehash}{35cb2804f0a868bb7897323002c92f1b}
+      \strng{authorfullhash}{35cb2804f0a868bb7897323002c92f1b}
+      \strng{authorfullhashraw}{35cb2804f0a868bb7897323002c92f1b}
+      \field{extraname}{1}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Sometimes, people engaged in politics actively refuse to speak for anyone but themselves. These unrepresentative claims multiply in social movements in times of crisis. During the French Yellow Vest movement of 2018--2019, such unrepresentative claims were routinely made by Yellow Vest leaders, to the point of being a condition for having a leadership position in the movement. By making these unrepresentative claims, they declined any representative mandate, asserting their freedom from any instituted influence. However, by claiming to speak only for themselves, they also selected the aspects of their identity they performed. This allowed them to embody the people sharing this identity, recalling the medieval repraesentatio identitatis , but in a way adjusted to today's greater personalization of politics. Drawing on this movement and on other examples of unrepresentative claims, we can delineate three broad ideal-types of identities that may be put forward by unrepresentative claims: generality, particularity, and individuality.}
+      \field{issn}{0003-0554, 1537-5943}
+      \field{journaltitle}{American Political Science Review}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{3}
+      \field{shorttitle}{Unrepresentative {{Claims}}}
+      \field{title}{Unrepresentative {{Claims}}: {{Speaking}} for {{Oneself}} in a {{Social Movement}}}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{116}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{1038\bibrangedash 1050}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1017/S0003055421001210
+      \endverb
+      \verb{file}
+      \verb /Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Hayat_2022_.pdf
+      \endverb
+    \endentry
+    \entry{hayat2024}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=35cb2804f0a868bb7897323002c92f1b}{%
+           family={Hayat},
+           familyi={H\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{35cb2804f0a868bb7897323002c92f1b}
+      \strng{fullhash}{35cb2804f0a868bb7897323002c92f1b}
+      \strng{fullhashraw}{35cb2804f0a868bb7897323002c92f1b}
+      \strng{bibnamehash}{35cb2804f0a868bb7897323002c92f1b}
+      \strng{authorbibnamehash}{35cb2804f0a868bb7897323002c92f1b}
+      \strng{authornamehash}{35cb2804f0a868bb7897323002c92f1b}
+      \strng{authorfullhash}{35cb2804f0a868bb7897323002c92f1b}
+      \strng{authorfullhashraw}{35cb2804f0a868bb7897323002c92f1b}
+      \field{extraname}{2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{1351-0487, 1467-8675}
+      \field{journaltitle}{Constellations}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{shorttitle}{Manifesting the Revolutionary People}
+      \field{title}{Manifesting the Revolutionary People: {{The Yellow Vest Movement}} and Popular Sovereignty}
+      \field{urlday}{15}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{1467\bibrangedash 8675.12736}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1111/1467-8675.12736
+      \endverb
+      \verb{file}
+      \verb /Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Hayat_2024_.pdf
+      \endverb
+    \endentry
+    \entry{manin1997}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=53330ddde0011db6cb8733d604c66e38}{%
+           family={Manin},
+           familyi={M\bibinitperiod},
+           given={Bernard},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{53330ddde0011db6cb8733d604c66e38}
+      \strng{fullhash}{53330ddde0011db6cb8733d604c66e38}
+      \strng{fullhashraw}{53330ddde0011db6cb8733d604c66e38}
+      \strng{bibnamehash}{53330ddde0011db6cb8733d604c66e38}
+      \strng{authorbibnamehash}{53330ddde0011db6cb8733d604c66e38}
+      \strng{authornamehash}{53330ddde0011db6cb8733d604c66e38}
+      \strng{authorfullhash}{53330ddde0011db6cb8733d604c66e38}
+      \strng{authorfullhashraw}{53330ddde0011db6cb8733d604c66e38}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The thesis of this original and provocative book is that representative government should be understood as a combination of democratic and undemocratic, aristocratic elements. Professor Manin challenges the conventional view that representative democracy is no more than an indirect form of government by the people, in which citizens elect representatives only because they cannot assemble and govern in person. The argument is developed by examining the historical moments when the present institutional arrangements were chosen from among the then available alternatives. Professor Manin reminds us that while today representative institutions and democracy appear as virtually indistinguishable, when representative government was first established in Europe and America, it was designed in opposition to democracy proper. Drawing on the procedures used in earlier republican systems, from classical Athens to Renaissance Florence, in order to highlight the alternatives that were forsaken, Manin brings to the fore the generally overlooked results of representative mechanisms. These include the elitist aspect of elections and the non-binding character of campaign promises.}
+      \field{edition}{1}
+      \field{isbn}{978-0-521-45891-7 978-0-521-45258-8 978-0-511-65993-5}
+      \field{month}{2}
+      \field{title}{The {{Principles}} of {{Representative Government}}}
+      \field{urlday}{5}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{1997}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1017/CBO9780511659935
+      \endverb
+      \verb{file}
+      \verb /Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Manin_1997_2.pdf
+      \endverb
+    \endentry
+    \entry{mouffe2013}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=4f36bd6eb87823e951d3a1406c7ad9a0}{%
+           family={Mouffe},
+           familyi={M\bibinitperiod},
+           given={Chantal},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=66a4a90d3d0c046bdc6b1b351faf52db}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={Elke},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f36bd6eb87823e951d3a1406c7ad9a0}{%
+           family={Mouffe},
+           familyi={M\bibinitperiod},
+           given={Chantal},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London ; New York}%
+      }
+      \list{publisher}{1}{%
+        {Verso}%
+      }
+      \strng{namehash}{ae7b6f6c73f389b380b5d8cae9e0cdbf}
+      \strng{fullhash}{ae7b6f6c73f389b380b5d8cae9e0cdbf}
+      \strng{fullhashraw}{ae7b6f6c73f389b380b5d8cae9e0cdbf}
+      \strng{bibnamehash}{ae7b6f6c73f389b380b5d8cae9e0cdbf}
+      \strng{authorbibnamehash}{ae7b6f6c73f389b380b5d8cae9e0cdbf}
+      \strng{authornamehash}{ae7b6f6c73f389b380b5d8cae9e0cdbf}
+      \strng{authorfullhash}{ae7b6f6c73f389b380b5d8cae9e0cdbf}
+      \strng{authorfullhashraw}{ae7b6f6c73f389b380b5d8cae9e0cdbf}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Political conflict in our society is inevitable, and the results are often far from negative. How then should we deal with the intractable differences arising from complex modern culture? Developing her groundbreaking political philosophy of agnostics--the search for a radical and plural democracy--Chantal Mouffe examines international relations, strategies for radical politics, the future of Europe and the politics of artistic practices. She shows that in many circumstances where no alternatives seem possible, agonistics offers a new road map for change. Engaging with cosmopolitanism, post-operaism, and theories of multiple modernities she argues in favor of a multipolar world with a real cultural and political pluralism. -- Publisher's website}
+      \field{annotation}{OCLC: ocn813931637}
+      \field{isbn}{978-1-78168-103-9 978-1-78168-114-5}
+      \field{shorttitle}{Agonistics}
+      \field{title}{Agonistics: Thinking the World Politically}
+      \field{year}{2013}
+      \keyw{Cultural pluralism,Democracy,Interviews,Mouffe Chantal,Philosophy,Political science,Radicalism}
+    \endentry
+    \entry{saward2010}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b4b54253f63c1eead1fc0aefcaa52000}{%
+           family={Saward},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{b4b54253f63c1eead1fc0aefcaa52000}
+      \strng{fullhash}{b4b54253f63c1eead1fc0aefcaa52000}
+      \strng{fullhashraw}{b4b54253f63c1eead1fc0aefcaa52000}
+      \strng{bibnamehash}{b4b54253f63c1eead1fc0aefcaa52000}
+      \strng{authorbibnamehash}{b4b54253f63c1eead1fc0aefcaa52000}
+      \strng{authornamehash}{b4b54253f63c1eead1fc0aefcaa52000}
+      \strng{authorfullhash}{b4b54253f63c1eead1fc0aefcaa52000}
+      \strng{authorfullhashraw}{b4b54253f63c1eead1fc0aefcaa52000}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-19-957938-9}
+      \field{month}{5}
+      \field{title}{The {{Representative Claim}}}
+      \field{urlday}{23}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1093/acprof:oso/9780199579389.001.0001
+      \endverb
+      \verb{file}
+      \verb /Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Saward_2010_2.pdf
+      \endverb
+    \endentry
+    \entry{smith2012a}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7dccaeb7662b9ba67889133bd6280b5b}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={W.\bibnamedelimi Rand},
+           giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Lanham, Md}%
+      }
+      \list{publisher}{1}{%
+        {Rowman \& Littlefield Publishers}%
+      }
+      \strng{namehash}{7dccaeb7662b9ba67889133bd6280b5b}
+      \strng{fullhash}{7dccaeb7662b9ba67889133bd6280b5b}
+      \strng{fullhashraw}{7dccaeb7662b9ba67889133bd6280b5b}
+      \strng{bibnamehash}{7dccaeb7662b9ba67889133bd6280b5b}
+      \strng{authorbibnamehash}{7dccaeb7662b9ba67889133bd6280b5b}
+      \strng{authornamehash}{7dccaeb7662b9ba67889133bd6280b5b}
+      \strng{authorfullhash}{7dccaeb7662b9ba67889133bd6280b5b}
+      \strng{authorfullhashraw}{7dccaeb7662b9ba67889133bd6280b5b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-1-4422-1898-7 978-1-4422-1900-7}
+      \field{shorttitle}{Enemy Brothers}
+      \field{title}{Enemy Brothers: Socialists and Communists in {{France}}, {{Italy}}, and {{Spain}}}
+      \field{year}{2012}
+      \keyw{France,History,Italy,Socialism,Spain}
+    \endentry
+    \entry{tufekci2020}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c37796737bfd689dd28da0a8de150f13}{%
+           family={Tufekci},
+           familyi={T\bibinitperiod},
+           given={Zeynep},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Yale University Press}%
+      }
+      \strng{namehash}{c37796737bfd689dd28da0a8de150f13}
+      \strng{fullhash}{c37796737bfd689dd28da0a8de150f13}
+      \strng{fullhashraw}{c37796737bfd689dd28da0a8de150f13}
+      \strng{bibnamehash}{c37796737bfd689dd28da0a8de150f13}
+      \strng{authorbibnamehash}{c37796737bfd689dd28da0a8de150f13}
+      \strng{authornamehash}{c37796737bfd689dd28da0a8de150f13}
+      \strng{authorfullhash}{c37796737bfd689dd28da0a8de150f13}
+      \strng{authorfullhashraw}{c37796737bfd689dd28da0a8de150f13}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-0-300-22817-5}
+      \field{month}{12}
+      \field{shorttitle}{Twitter and {{Tear Gas}}}
+      \field{title}{Twitter and {{Tear Gas}}: {{The Power}} and {{Fragility}} of {{Networked Protest}}}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.12987/9780300228175
+      \endverb
+      \verb{file}
+      \verb /Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Tufekci_2020_.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

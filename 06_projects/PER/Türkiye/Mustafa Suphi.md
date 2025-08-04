@@ -1,0 +1,26 @@
+---
+title: Mustafa Suphi
+tags:
+  - project_note 2024
+  - personal
+---
+|     Created      |  Last Modified   |       Exists Since        |
+|:----------------:|:----------------:|:----------------:|
+| `= this.file.ctime` | `= this.file.mtime` | `= date(now) - this.file.ctime`|
+
+# [Mustafa Suphi](https://tr.wikipedia.org/wiki/Mustafa_Suphi)
+
+TKP'nin kurucusu.
+
+1921 yılının 28 Ocağı'nı 29'a bağlayan gecesi 14 yoldaşı ile birlikte [Trabzon](https://tr.wikipedia.org/wiki/Trabzon "Trabzon")'dan Sovyetler'e geri gönderilmek için bindirildikleri teknede Kayıkçılar Kahyası [Yahya Kahya](https://tr.wikipedia.org/w/index.php?title=Yahya_Kahya&action=edit&redlink=1 "Yahya Kahya (sayfa mevcut değil)") tarafından öldürüldü.
+
+> Bazı kaynaklara göre Mustafa Suphi [Enver Paşa](https://tr.wikipedia.org/wiki/Enver_Pa%C5%9Fa "Enver Paşa")'nın [Moskova](https://tr.wikipedia.org/wiki/Moskova "Moskova")'daki siyasi faaliyetlerinden haberdardı ve Enver Paşa'nın [Anadolu Hareketi](https://tr.wikipedia.org/wiki/Anadolu_Hareketi "Anadolu Hareketi")'nin yenilgiye uğramasından sonra [Bolşevikleri](https://tr.wikipedia.org/wiki/Bol%C5%9Fevikler "Bolşevikler") kullanarak [Türkiye](https://tr.wikipedia.org/wiki/T%C3%BCrkiye "Türkiye")'deki otoriteyi ele geçirme planını biliyordu.[[42]](https://tr.wikipedia.org/wiki/Mustafa_Suphi#cite_note-asiatimes-43) Suphi'nin bu gizli planını ifşa etmesinden endişe edildiği için onun taraftarları tarafından öldürüldüğü iddia edilir.[[42]](https://tr.wikipedia.org/wiki/Mustafa_Suphi#cite_note-asiatimes-43) Ayrıca [Murat Bardakçı](https://tr.wikipedia.org/wiki/Murat_Bardak%C3%A7%C4%B1 "Murat Bardakçı"); Yahya Kahya'nın Enver Paşa'ya bağlı olduğunu ve öldürme emrini ondan aldığını öne sürmektedir.[[43]](https://tr.wikipedia.org/wiki/Mustafa_Suphi#cite_note-44)[[44]](https://tr.wikipedia.org/wiki/Mustafa_Suphi#cite_note-45) Buna karşılık bazı kaynaklara göre, Mustafa Suphi'yi Kemalistler öldürtmüştür; kimilerine göre ise (mesela [Mete Tunçay](https://tr.wikipedia.org/wiki/Mete_Tun%C3%A7ay "Mete Tunçay")) Mustafa Suphi, [Kazım Karabekir](https://tr.wikipedia.org/wiki/Kaz%C4%B1m_Karabekir "Kazım Karabekir") ve dönemin Erzurum valisi Hamit Bey'in inisiyatifi sonucu öldürülmüştür. Daha az rağbet gören iddialar, Mustafa Suphi'nin bir _"Türkiye-Rusya anlaşması sonucu Moskova'nın da rızasıyla tasfiye amaçlı öldürüldüğü"_ ([Kemal Tahir](https://tr.wikipedia.org/wiki/Kemal_Tahir "Kemal Tahir")),[[45]](https://tr.wikipedia.org/wiki/Mustafa_Suphi#cite_note-46) veya yanındaki paralar için öldürüldüğü şeklindedir. Nitekim [Akdes Nimet Kurat](https://tr.wikipedia.org/wiki/Akdes_Nimet_Kurat "Akdes Nimet Kurat"), _**Dr. Samih Çoruhlu**_ sahte adıyla yazdığı "İstiklal Savaşında komünizm faaliyeti" başlıklı yazı dizisinde şöyle yazmıştır:[[46]](https://tr.wikipedia.org/wiki/Mustafa_Suphi#cite_note-47)
+>> Bazı kaynaklara göre Mustafa Suphi [Enver Paşa](https://tr.wikipedia.org/wiki/Enver_Pa%C5%9Fa "Enver Paşa")'nın [Moskova](https://tr.wikipedia.org/wiki/Moskova "Moskova")'daki siyasi faaliyetlerinden haberdardı ve Enver Paşa'nın [Anadolu Hareketi](https://tr.wikipedia.org/wiki/Anadolu_Hareketi "Anadolu Hareketi")'nin yenilgiye uğramasından sonra [Bolşevikleri](https://tr.wikipedia.org/wiki/Bol%C5%9Fevikler "Bolşevikler") kullanarak [Türkiye](https://tr.wikipedia.org/wiki/T%C3%BCrkiye "Türkiye")'deki otoriteyi ele geçirme planını biliyordu.[[42]](https://tr.wikipedia.org/wiki/Mustafa_Suphi#cite_note-asiatimes-43) Suphi'nin bu gizli planını ifşa etmesinden endişe edildiği için onun taraftarları tarafından öldürüldüğü iddia edilir.[[42]](https://tr.wikipedia.org/wiki/Mustafa_Suphi#cite_note-asiatimes-43) Ayrıca [Murat Bardakçı](https://tr.wikipedia.org/wiki/Murat_Bardak%C3%A7%C4%B1 "Murat Bardakçı"); Yahya Kahya'nın Enver Paşa'ya bağlı olduğunu ve öldürme emrini ondan aldığını öne sürmektedir.[[43]](https://tr.wikipedia.org/wiki/Mustafa_Suphi#cite_note-44)[[44]](https://tr.wikipedia.org/wiki/Mustafa_Suphi#cite_note-45) Buna karşılık bazı kaynaklara göre, Mustafa Suphi'yi Kemalistler öldürtmüştür; kimilerine göre ise (mesela [Mete Tunçay](https://tr.wikipedia.org/wiki/Mete_Tun%C3%A7ay "Mete Tunçay")) Mustafa Suphi, [Kazım Karabekir](https://tr.wikipedia.org/wiki/Kaz%C4%B1m_Karabekir "Kazım Karabekir") ve dönemin Erzurum valisi Hamit Bey'in inisiyatifi sonucu öldürülmüştür. Daha az rağbet gören iddialar, Mustafa Suphi'nin bir _"Türkiye-Rusya anlaşması sonucu Moskova'nın da rızasıyla tasfiye amaçlı öldürüldüğü"_ ([Kemal Tahir](https://tr.wikipedia.org/wiki/Kemal_Tahir "Kemal Tahir")),[[45]](https://tr.wikipedia.org/wiki/Mustafa_Suphi#cite_note-46) veya yanındaki paralar için öldürüldüğü şeklindedir. Nitekim [Akdes Nimet Kurat](https://tr.wikipedia.org/wiki/Akdes_Nimet_Kurat "Akdes Nimet Kurat"), _**Dr. Samih Çoruhlu**_ sahte adıyla yazdığı "İstiklal Savaşında komünizm faaliyeti" başlıklı yazı dizisinde şöyle yazmıştır:[[46]](https://tr.wikipedia.org/wiki/Mustafa_Suphi#cite_note-47)
+
+[[Mustafa Kemal]]'in emri olduguna dair de iddialar var
+## References
+1. [[Türkiye]]
+2. [[TKP]]
+3. [[Mustafa Kemal]]
+4. [[Enver Pasa]]
+5. [[Kazim Karabekir]]

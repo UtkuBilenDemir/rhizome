@@ -1,0 +1,556 @@
+{
+  "mapMarkers": [
+    {
+      "id": "varus",
+      "lastAccessed": 1689193237898,
+      "markers": [
+        {
+          "id": "ID_9a7bf89929ca",
+          "type": "Loc",
+          "loc": [
+            -1.1047592163085938,
+            0.8227514502739152
+          ],
+          "link": "NPC-_-Nelson",
+          "layer": "%5B%5BVarus.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_cb0b3b1b7b5a",
+          "type": "Loc",
+          "loc": [
+            -0.74749755859375,
+            2.796182771258797
+          ],
+          "layer": "%5B%5BVarus.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Han (Julie, Berinn)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "06_projects/FRP/Loc-_-Varus.md"
+      ]
+    },
+    {
+      "id": "leaflet-map",
+      "lastAccessed": 1689193239273,
+      "markers": [
+        {
+          "id": "ID_b8abdaaa38ab",
+          "type": "?",
+          "loc": [
+            -4.79833984375,
+            5.8910015501130015
+          ],
+          "layer": "%5B%5BGrymra.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_588b3929f9bb",
+          "type": "Loc",
+          "loc": [
+            -2.115520477294922,
+            3.1659743083224527
+          ],
+          "link": "Loc-_-Tharmat",
+          "layer": "%5B%5BGrymra.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_eb7a4ae89bb9",
+          "type": "Loc",
+          "loc": [
+            -3.1552886962890625,
+            2.1996625583579488
+          ],
+          "link": "Loc-_-Forben",
+          "layer": "%5B%5BGrymra.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "06_projects/FRP/Map Template.md"
+      ]
+    },
+    {
+      "id": "Grymra",
+      "lastAccessed": 1701376482859,
+      "markers": [
+        {
+          "id": "ID_bafb8aa87a59",
+          "type": "?",
+          "loc": [
+            -4.79962158203125,
+            5.900091928178098
+          ],
+          "layer": "%5B%5BGrymra.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4a6aaa7a68b8",
+          "type": "Loc",
+          "loc": [
+            -2.1155738830566406,
+            3.1657545225809307
+          ],
+          "link": "Loc-_-Tharmat",
+          "layer": "%5B%5BGrymra.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4868da8a0969",
+          "type": "Loc",
+          "loc": [
+            -3.1798095703125,
+            2.2167344139723877
+          ],
+          "link": "Loc-_-Forben",
+          "layer": "%5B%5BGrymra.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.19981831337215888,
+            0.5095657276995306
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_28fa7baaeb7a",
+          "type": "Loc",
+          "loc": [
+            -2.8001747131347656,
+            2.504652363098967
+          ],
+          "link": "Loc-_-Tulga Tower",
+          "layer": "%5B%5BGrymra.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9a4bd9aab948",
+          "type": "Loc",
+          "loc": [
+            -2.8581085205078125,
+            2.808030442992469
+          ],
+          "link": "Loc-_-Varus",
+          "layer": "%5B%5BGrymra.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.2531182371148141,
+            0.45801300860719873
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_78ba6b7b0a6a",
+          "type": "Loc",
+          "loc": [
+            -3.033000946044922,
+            2.80687715649831
+          ],
+          "layer": "%5B%5BGrymra.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.2530142788956223,
+            0.4860395882237872
+          ],
+          "description": "Loch Ness\n",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4879a9d88a7b",
+          "type": "Quest",
+          "loc": [
+            -2.5752334594726562,
+            2.8237699505047735
+          ],
+          "layer": "%5B%5BGrymra.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Eskiyalari yakaladik, Dewdroptan Djarin ve ... ile karsilastik\n ",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_693bdbf8d918",
+          "type": "Loc",
+          "loc": [
+            -2.4380645751953125,
+            2.812245760199241
+          ],
+          "link": "Loc-_-Arla",
+          "layer": "%5B%5BGrymra.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b81b7bb9caaa",
+          "type": "?",
+          "loc": [
+            -5.72491455078125,
+            6.6774665501604495
+          ],
+          "layer": "%5B%5BGrymra.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Doran saldirdiginda Profine buradaymis\n\nDoran ilisikileri olusturmus",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5a29589a28c8",
+          "type": "Loc",
+          "loc": [
+            -2.2372055053710938,
+            1.5108445027606683
+          ],
+          "layer": "%5B%5BGrymra.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Yaratiklarin geldigi körfez",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [
+        {
+          "type": "polyline",
+          "color": "#b9c99c",
+          "vertices": [
+            {
+              "lat": -2.1155738830566406,
+              "lng": 3.1657545225809307,
+              "id": "ID_5b489bcbfb4b",
+              "targets": {
+                "vertexIds": [],
+                "markerId": "ID_4a6aaa7a68b8"
+              }
+            },
+            {
+              "lat": -2.8001747131347656,
+              "lng": 2.504652363098967,
+              "id": "ID_897868590aca",
+              "targets": {
+                "vertexIds": [
+                  "ID_2b697bab8aa9"
+                ],
+                "markerId": "ID_28fa7baaeb7a"
+              }
+            }
+          ],
+          "arrows": false,
+          "reversed": false
+        },
+        {
+          "type": "polyline",
+          "color": "#757297",
+          "vertices": [
+            {
+              "lat": -2.5752334594726562,
+              "lng": 2.8237699505047735,
+              "id": "ID_ab8a28db0bb8",
+              "targets": {
+                "vertexIds": [],
+                "markerId": "ID_4879a9d88a7b"
+              }
+            },
+            {
+              "lat": -2.8581085205078125,
+              "lng": 2.808030442992469,
+              "id": "ID_cbdb7b093b3a",
+              "targets": {
+                "vertexIds": [],
+                "markerId": "ID_9a4bd9aab948"
+              }
+            }
+          ],
+          "arrows": false,
+          "reversed": false
+        },
+        {
+          "type": "polyline",
+          "color": "#df7277",
+          "vertices": [
+            {
+              "lat": -2.5752334594726562,
+              "lng": 2.8237699505047735,
+              "id": "ID_d9b8baf9ab18",
+              "targets": {
+                "vertexIds": [],
+                "markerId": "ID_4879a9d88a7b"
+              }
+            },
+            {
+              "lat": -2.4380645751953125,
+              "lng": 2.812245760199241,
+              "id": "ID_f94bfada489a",
+              "targets": {
+                "vertexIds": [],
+                "markerId": "ID_693bdbf8d918"
+              }
+            }
+          ],
+          "arrows": false,
+          "reversed": false
+        },
+        {
+          "type": "polyline",
+          "color": "#757297",
+          "vertices": [
+            {
+              "lat": -2.8001747131347656,
+              "lng": 2.504652363098967,
+              "id": "ID_2b697bab8aa9",
+              "targets": {
+                "vertexIds": [
+                  "ID_897868590aca"
+                ],
+                "markerId": "ID_28fa7baaeb7a"
+              }
+            },
+            {
+              "lat": -2.8581085205078125,
+              "lng": 2.808030442992469,
+              "id": "ID_c999ea491b88",
+              "targets": {
+                "vertexIds": [],
+                "markerId": "ID_9a4bd9aab948"
+              }
+            }
+          ],
+          "arrows": false,
+          "reversed": false
+        },
+        {
+          "type": "polyline",
+          "color": "#df7277",
+          "vertices": [
+            {
+              "lat": -2.4380645751953125,
+              "lng": 2.812245760199241,
+              "id": "ID_2afa586928ba",
+              "targets": {
+                "vertexIds": [],
+                "markerId": "ID_693bdbf8d918"
+              }
+            },
+            {
+              "lat": -2.1155738830566406,
+              "lng": 3.1657545225809307,
+              "id": "ID_0a1818ab9a78",
+              "targets": {
+                "vertexIds": [],
+                "markerId": "ID_4a6aaa7a68b8"
+              }
+            }
+          ],
+          "arrows": false,
+          "reversed": false
+        }
+      ],
+      "files": [
+        "06_projects/PER/FRP/SCENARIO-_-Grymra/Loc-_-Grymra.md"
+      ]
+    },
+    {
+      "id": "Tharmat",
+      "lastAccessed": 1701376482859,
+      "markers": [
+        {
+          "id": "ID_f94b1b59683a",
+          "type": "Loc",
+          "loc": [
+            -1.3380050659179688,
+            1.1033856315018595
+          ],
+          "layer": "%5B%5BTharmat.jpeg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Garnizon",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ea9ac8b86b5a",
+          "type": "Loc",
+          "loc": [
+            -1.7540092468261719,
+            0.9818991700515954
+          ],
+          "layer": "%5B%5BTharmat.jpeg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Taverna\n",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "06_projects/PER/FRP/SCENARIO-_-Grymra/Loc-_-Tharmat.md"
+      ]
+    }
+  ],
+  "defaultMarker": {
+    "type": "default",
+    "iconName": "map-marker",
+    "color": "#ff8080",
+    "transform": {
+      "size": 6,
+      "x": 0,
+      "y": -2
+    }
+  },
+  "markerIcons": [
+    {
+      "type": "Quest",
+      "iconName": "bookmark",
+      "color": "#8da286",
+      "alpha": 0.69,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "?",
+      "iconName": "question",
+      "color": "#aa6e8e",
+      "alpha": 0.68,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Loc",
+      "iconName": "globe-africa",
+      "color": "#8b8f8a",
+      "alpha": 0.8,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    }
+  ],
+  "color": "#dddddd",
+  "lat": 39.983334,
+  "long": -82.98333,
+  "notePreview": true,
+  "layerMarkers": true,
+  "previousVersion": "6.0.5",
+  "version": {
+    "major": 6,
+    "minor": 0,
+    "patch": 5
+  },
+  "warnedAboutMapMarker": false,
+  "copyOnClick": false,
+  "displayMarkerTooltips": "hover",
+  "displayOverlayTooltips": true,
+  "configDirectory": null,
+  "mapViewEnabled": true,
+  "mapViewParameters": {},
+  "enableDraw": true,
+  "defaultUnitType": "imperial",
+  "defaultTile": "https://stamen-tiles.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png",
+  "defaultTileDark": "https://stamen-tiles.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png",
+  "defaultAttribution": "Map tiles by <a href=\"http://stamen.com\">Stamen Design</a>, under <a href=\"http://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>. Data by <a href=\"http://openstreetmap.org\">OpenStreetMap</a>, under <a href=\"http://www.openstreetmap.org/copyright\">ODbL</a>.",
+  "defaultTileSubdomains": "a,b,c"
+}

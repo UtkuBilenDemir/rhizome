@@ -1,0 +1,9 @@
+{
+  "file-explorer": false,
+  "tab-header": false,
+  "editor": false,
+  "properties": false,
+  "outline": false,
+  "bookmarks": false,
+  "obsidian-leaflet-plugin": true
+}

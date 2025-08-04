@@ -1,0 +1,409 @@
+\chapter{Algorithm, \gls{ai}, Connective Synthesis}\label{chap:Algorithm} % (fold)
+\epigraph{Every Telling Has a Taling}{\textcite{joyce1975}}
+
+%\begin{quote}
+%	This is evident in current problems in information science and computer science, which still cling to the oldest modes of thought in that they grant all power to a memory or central organ. Pierre Rosenstiehl and Jean Petitot, in a fine article denouncing "the imagery of command trees" (centered systems or hierarchical structures), note that "accepting the primacy of hierarchical structures amounts to giving arborescent structures privileged status.... The arborescent form admits of topological explanation.... In a hierarchical system, an individual has only one active neighbor, his or her hierarchical superior.... The channels of transmission are preestablished: the arborescent system preexists the individual, who is integrated into it at an allotted place" (signifiance and subjectification). \cite[16]{deleuze1987a}
+%\end{quote}
+
+
+
+
+%NOTE: Edgy much? 
+%It is a much out-reaching question to consider after which threshold a
+% meaning-producing entity to be called intelligent, or sentient considering
+% animals and sometimes other humans were prevented to be in this category.
+
+\section{Intelligence vs. Plagiarism (Alternative: The Intelligence Question)}
+
+\marginnote{
+	\begin{orangebox}
+		This is rather like a section where we discuss accusations and bullshit
+	\end{orangebox}
+}
+
+As \citeauthor{chomsky2023} often emphasised that he perceives the \gls{genai}
+nothing but a statistical plagarism machine that in comparison with the
+sophisticated functioning of the human brain that operates efficient and
+elegantly with little data drawing brute correlations from a vast amount of
+data.
+
+While Chomsky mainly focuses of the ethical and techno-moral aspects of
+the issue (see \cite{montanari2025}), the question is rather; \emph{but why does it work so well then}?
+
+\section{Introduction to Algorithm (Algo History?)}\label{sec:Introduction to Algorithm} % (fold)
+
+\begin{quote}
+Similar to [14], we understand the term language model (LM) to refer to systems which are trained on string prediction tasks: that is, predicting the likelihood of a token (character, word or string) given either its preceding context or (in bidirectional and masked LMs) its surrounding context. \cite[610]{bender2021b}
+\begin{quote}
+
+As the profile of algorithms has grown and as their actions become the source of discussion, we might want to avoid thinking of them as good and bad algorithms and think instead about how these media forms mesh human with machine agency and what this means.
+% section Introduction to Algorithm (end)
+
+At the end \gls{genai} employs \gls{ml} techniques to identify and internalise patterns in the vast datasets. However, as we have seen in the case of the social media algorithms the patterns derived might not be the ones playing well with the rules of the game.
+
+\subsection{Transition to GenAI}\label{sec:Transition to GenAI} % (fold)
+%INFO: This section is all about the transition from the AI algorithms that
+%profile associate relevance to those producing "meaning"
+
+An in-depth analysis of the steps in development of AI models is rarely
+meaningful in its whole extention outside of the areas dealing with AI development.
+While only few relatively distinctive steps had a relevance for the
+uninitiated, also, some categorical differences might sound arbitrary
+\sidenote{
+	E.g. difference between \emph{neural networks} to \emph{deep neural networks},
+	or \emph{language model} to \emph{large language model}.
+}
+%TODO: DO we need the previous paragraph?
+%TODO: Introduce an AI categorisation
+
+Previous AI algorithms that assesed relevance and association.
+%TODO: Take the AI definition from the BA
+
+The GenAI evolves the AI operation from the association of context, and
+association of agents into the \emph{meaning creation}
+\parencite[964]{dishon2024}.
+
+%\section{Pre-Training}
+
+%\section{Fine-Tuning}
+%In fine-tuning, the model’s capabilities are tailored by applying targeted
+%reinforcement learning (usually via human feedback) to refine and direct its
+%behaviors towards more specific contexts and outcomes
+%\parencite[964]{dishon2024} .
+%
+%
+%\section{Pre-Training to Fine-Tuning}\label{sec:Pre-Training} % (fold)
+%%TODO: Refer to @dishon2024 on thiese
+%
+%\begin{quote}
+%	Here, it is vital to distinguish two stages in GenAI model development: pre-training and fine-tuning. During pre-training, GenAI learns from vast datasets to identify patterns and generate similar content. This stage is marked by its unstructured approach and unpredictability. In fine-tuning, the model’s capabilities are tailored by applying targeted reinforcement learning (usually via human feedback) to refine and direct its behaviors towards more specific contexts and outcomes \parencite[964]{dishon2024}
+%\end{quote}
+%
+%
+%
+%Generative AI marks a transformative shift, as algorithms now transcend mere analysis and refinement, stepping into the domain of crafting independent representations—an area traditionally regarded as the unique province of human creativity and expression.
+%% section Pre-Training Fine-Tuning(end)
+
+\section{Algorithmic Architecture}
+
+\subsection{Transformer}
+
+\sidenote{INCORPORATED}
+%%TODO: Quote or incorporate the following
+%However, there are also some important differences. Transformer Networks do not inherently involve the same kind of recursive, feedback loops that characterize RNNs. They do not take the output of a node and return it as input to the same node. Instead, the self-attention mechanism allows every token to simultaneously consider every other token, in a kind of ‘global’ context. This gives transformers a form of ‘awareness’ of the entire sequence at once, which is different from the recursive, deferential nature of RNNs described by Cilliers. Arguably, this could be seen as bringing modern LLMs closer to Derrida’s original ideas regarding the trace, as the self-attention mechanism bakes in the haunting of other words in the representation of each word’s meaning within the LLM. \cite{maas}
+%
+%
+%\begin{quote}
+%	Consider the case of Transformer models, which exemplify the interplay between metaphor and function. Transformers, a specialized type of neural network, simulate certain structures and functions of the human brain, excelling at processing sequential data such as words in a sentence or notes in a melody. The transformative innovation within Transformers is the “attention mechanism,” which enables the model to focus selectively on the most relevant parts of the input sequence. This mechanism is pivotal for discerning complex relationships and dependencies within data. By revolutionizing natural language processing (NLP), Transformers have driven significant advancements in AI applications. The term “head” in Transformers, for instance, refers to the multi-head attention mechanism, a key feature that captures diverse aspects of an input sequence simultaneously. This dual role of technical objects – functionally specific and mythically resonant – reveals their broader cultural impact. Technical metaphors, often catachrestic and hybridized, solidify not only the utility but also the mystique and credibility of AI systems \parencite[206]{montanari2025} .
+%\end{quote}
+%
+\subsection{Algorithmic Understanding}
+
+\begin{quote}
+As we discuss in §5, LMs are not performing natural language understanding (NLU), and only have success in tasks that can be approached by manipulating linguistic form. \cite[610]{bender2021b}
+\begin{quote}
+
+%TODO: What is NLU. Is it important that LMs do not "understand"?
+\sidenote{\begin{orangebox}
+	What is NLU. Is it important that LMs do not "understand"?
+\end{orangebox}
+
+%\section{Gradient Descent}
+%
+%\begin{orangebox}
+%	\begin{itemize}
+%		\item Deleuzian repetition: Epoch based repetition \parencite[]{ai-inquiry2025}.
+%		\item Patterns recognised through repetition (seemingly ineffective in
+%		      isolation)
+%		\item Knowledge is obtained rhizomatically, because there is no overarching
+%		      meaning imposed in it (it is unsupervised).
+%		\item Arguably, the algorithm is nothing but pure Schizz operating on a
+%		      corpus. Nothing but a productive core (desiring-production?)
+%		\item Each neuron is a machine but meaningless on its own.
+%	\end{itemize}
+%\end{orangebox}
+
+
+
+%%NOTE: These might also just be the sections of the following chapter
+%\section{World Model, Representation, Simulacra}
+%What does it mean machines to have representations?
+%
+%
+%%INFO: Supervised to unsupervised learning
+%What does it mean for machines to possess representations? In earlier paradigms of \gls{ai}, the connection between data and meaning was structured through a supervised framework: models were trained to distinguish and assign labels based on human-defined categories, e.g. classifying images into the given categories. This approach, rooted in \gls{sl}, foregrounded a \textit{discriminative} logic in which inputs were sorted according to predefined endpoints \parencite{denton2021}.
+%
+%However, considering the vast amount of data produced
+%especially after the participative phase of the internet, soon there was a need
+%to find patterns in the data without any labels. \Gls{nlp} researchers came up
+%with \gls{ul} approaches to tackle this exact problematic whereas the models
+%should be identifying underlying probability distributions in the data (see
+%\cite[3]{amoore2013}). For a \gls{lm}, this would mean what next word is more
+%likely to fit to the given sentence, for a \gls{t2i} or \gls{mgm} this might be
+%finding corresponding image parts for a text or diffusing some corresponding
+%parts form a number of images.
+%
+%
+%% As the scale and variety of data inputs vastly increased—particularly following the participatory turn of the web—the demand to extrapolate insights from unlabeled data grew in parallel. Thus emerged the shift toward \gls{ul} methods: probabilistic systems trained not on categories, but on the underlying structure of data distributions. In such models, including \glspl{lm} and \glspl{t2i}, the goal is to infer likely continuities within a latent space: what word, what visual fragment, what structural extrapolation is most probable? This marks a paradigmatic departure, one in which prediction is less a matter of classifying existing states and more a matter of generating new ones drawn from the probabilistic contours of prior data.
+%
+%
+%%INFO: Does it mean, they have a political logic?
+%As \textcite[3]{amoore2013} has noted, this transition also signals the rise of a new political logic—a logic embedded not in rules or norms, but in the infrastructures of estimation. Where older critiques of algorithmic classification focused on mislabeling and proxy bias, the probabilistic orientation of \gls{genai} instead raises the stakes entirely: it generates decisions not from labels, but from dense inferential approximations of an underlying joint distribution. These models do not simply reproduce the past; they recompose it. Decisions emerge not as deterministic outputs but as samples drawn from a fluid, opaque space of probabilistic tendencies.
+%
+%
+%This process reframes how political reasoning operates. No longer does decision-making proceed from clear-cut categories; instead, actions and outputs emerge from systems that interpolate across immense and heterogeneous data spaces. In applied contexts such as border policy, healthcare, or military logistics, generative models—particularly those fine-tuned to sensitive operational corpora—do not merely support decisions, they produce the very field in which decisions appear viable. Courses of action are not selected from pre-existing menus, but generated within the structured imagination of the model, calibrated by the statistical weight of prior patterns.
+%
+%This reconfiguration creates what we may call an epistemology of inference: a form of reason that no longer resides in deliberation or classification but in the traversal of distributions. Decisions and courses of action—whether military, clinical, or bureaucratic—are made \textit{immanent} to these distributions. They are less the result of deliberation, and more the expression of what the distribution can produce. This dynamic, as \textcite{amoore2024} argues, marks a profound shift in the nature of governance, one in which the capacity to act is increasingly conditioned by what a model is able to estimate, interpolate, and simulate as plausible.
+%
+%
+%%INFO: Foucault's note on continuity
+%As \cite{amoore2024} points out, Foucault's emphasis on how statistical
+%populations became the objects of government in the modern period \parencite[108-109]{foucault2009a} is directly relating to the distribution logic \gls{genai}'s meaning-making leading to.
+%
+%
+%We are beyond bias or discrimative algorithms produced through labels and
+%toppling the previous critical literature on AI. \textit{The pathologies of
+%	disclassification} \parencite[3]{amoore2024} are over, not because the
+%discrimination or the bias is eliminated from the model, but the new axiom of
+%the model training is the labels, structures, distributions of truth are
+%already immanent in the data itself (see \cite[3]{amoore2024}), governing logic
+%is directly parsed from the given data substance. Meaning-making,
+%decision-making over the latent distributions are different than the parroting
+%(see e.g. \cite{bender2021b}), the models create an ambigious politics of
+%knowledge, the question is if there is a structure to it.
+%%TODO: Now, you need to take one more look at bender 2021b and tell if amoore
+%%is really correct about this one.
+%
+%
+%The political and ethical stakes of generative AI lie in its **ability to govern through underlying distributions**, generating novel but constrained decisions that reshape how we understand action, governance, and accountability. These models embed decision-making within probabilistic logic that is both powerful and fraught with potential risks \parencite{@amoore2013}. The latent distributions, patterns have structures that might go beyond the substance itself.
+%%TODO: Look at @delanda2015?
+%This distribution oriented rationalisation has a lot more to do in a
+%biopolitical \parencite{foucault1980}  operation than a directional form of control.
+%
+%
+%
+%
+%\begin{orangebox}
+%	Herein lies the double-bind of generative infrastructures: the speculative space of model output—what is likely, coherent, or novel—is always haunted by the empirical foundation on which the model was trained. The world is not represented, but rendered through compression, interpolation, and emergence. It is a world governed by the \textit{modelled real}, where the limits of possibility are not drawn from law or debate, but from the statistical borders of a distribution. The generative model thereby emerges not just as a computational artefact, but as a political actor—one whose authority lies in its capacity to make decisions appear immanent, natural, and unarguable.
+%\end{orangebox}
+%
+%%TODO: Add the 
+
+\section{Continuity and Discreetness}
+Probabilistic modelling also comes with a further effect. It is filling all the
+possible gaps in the process.
+%TODO: Point out how
+
+\gls{gm}'s account is not much different, any discontinuities will be filled in
+with the individual production structure of the model. However, this time...
+
+\begin{orangebox}
+	In the past, we could at least name where the information was missing. But in
+	the emergence of \gls{genai} models , all the gaps are filled in through a
+	generalised pre-trained logic. A productive flow benefits from the breaks as
+	much as it benefits from flowing.
+\end{orangebox}
+
+\section{Distribution, Vectors, Distance}
+
+%TODO: Decide if you explore it, @montanari2025, 199
+%hniques like Word2Vec10 and GloVe11 to capture semantic relationships between words.The other key role, alongside statistics and vectorization procedures, has been that played by distributionalism, which has taken on new life thanks to them (see Resnik 2024 on this “renaissance” of distributionalism, thanks to statistics and vectorialization). Distributionalism resuscitated thanks to statistics in AI, which focuses on meaning representation through language distribution models, underpins this framework. The distributional hypothesis, central to this paradigm, suggests that words appearing in similar contexts and patterns tend to have similar meanings. Distributional semantic models, based on this hypothesis, represent word or phrase meanings through their distribution patterns in text corpora. These models often use word embedding tec
+
+%\section{Latency}
+%Dimensionality reduction is an approach with rich literature in mathematics
+%which \textit{vastly} predates \gls{genai}.
+%%TODO: Citation needed 
+%%INFO: LeCun2015, 2022 seem to be good sources
+%It is central to the development of any kind of \gls{ai}, \gls{ml} models
+%whereas a dataset with large number of dimensions has to be represented in a
+%lower dimensional space to be \textit{processable}.
+%%TODO: Explain dimensionality reduction?
+%In the fitting of the high-dimensional data, it is represented in a lower-dimensional \textit{latent space}
+%\parencite[4]{amoore2024}
+%%TODO: Add images (self images?)
+%While the dimensionality reduction process reduces the storage needed for the
+%given data, it is also responsible of highlighting \textit{the important parts}
+%of the data, which generally means the most \textit{distinctive} parts in any
+%kind of data object to the other present data objects.
+%
+%%\citeauthor{foucault2012a} brings up the probabilistic turn in the logic of
+%%disciplines through the development in History. Discontinuity in historical
+%%events, missing parts of the processes was a stigma of temporal dislocation
+%%that it was historian's taks to remove from history; yet it became now the
+%%basic element of historical analysis [\dots] \textit{for he is trying to discover the
+%%limits of a process, the point of inflexion of a curve, the inversion of a
+%%regulatory movement, the boundaries of an oscilliation, the threshold of a
+%%function the instant at which a circular causality breaks down} \parencite[7-9]{foucault2012a} . In this sense, the discontinuity both an instrument and object of the research, it enables historian to individualise different domains \parencite[9]{foucault2012a}, the discontinuity in history has became an opportunity instead of a liability.
+%
+%The shift that \textcite{foucault2012a} identifies in the historical sciences—from a discipline that sought to eliminate discontinuities to one that embraces them—marks a deeper transformation in how knowledge and governance are structured. Where discontinuity once appeared as a failure or a stigma of temporal dislocation, it now becomes both the object and instrument of inquiry. The historian no longer strives for a seamless narrative, but instead aims to locate the limits of a process, the point of inflection of a curve, the inversion of a regulatory movement, the boundaries of an oscillation, or the threshold of a function—the instant at which a circular causality breaks down \parencite[7–9]{foucault2012a}. Discontinuity becomes a method for individuating distinct epistemic domains \parencite[9]{foucault2012a}, a productive rupture rather than a gap to be mended.
+%
+%This transformation resonates with the logic of latent space in contemporary generative AI. In models such as large language models or diffusion-based systems, discontinuity is not an error to be repaired, but the very terrain across which the model interpolates. Through compression and representation, the model extracts hidden features and emergent relations that do not reflect reality directly but construct a probabilistic topology of what is plausible or actionable. As such, latent space is not merely technical—it enacts a political logic, one that renders populations, behaviours, and events tractable through statistical abstraction.
+%
+%Just as the historian’s task shifts toward identifying zones of discontinuity and singularity, the generative model becomes a machinic historian of the present, projecting forward from fractured data to produce coherent (but never neutral) courses of action. The result is a deeply political world-modelling process, where the logic of what is latent becomes the logic of what is governable.
+%
+%
+%%TODO: One can greatly incorporate the following to bind this section to other
+%%things
+%\begin{quote}
+%
+%	More often than not, hidden layers have fewer neurons than the input layer to
+%	force the network to learn compressed representations of the original input.
+%	For example, while our eyes obtain raw pixel values from our surroundings,
+%	our brain thinks in terms of edges and ciontours. This is because the hidden
+%	layers of biological neurons in our brain force us to come up with better
+%	representations for everything we perceive. (Buduma et al., 2022)
+%	\cite{beckmann2023}
+%\end{quote}
+
+\section{Attention}
+
+\begin{orangebox}
+	The attention mechaism in the transformer arthitecture is breaking the common
+	sense of sequencing by parallelising lots of different sequencing
+	processes \parencite[5]{amoore2024}.
+\end{orangebox}
+
+
+
+The attention mechanism is a way to form a hieratchical structure in the data,
+subordinating language to signifiers to form a meaning-making flow.
+
+\citeauthor[5]{amoore2024} argues as follows
+\begin{quote}
+	Though generative AI has important origins in the linguistic and syntactical sequences of NLP, significantly it also breaks with the idea of the sequence as a linear left-to-right series of steps, expanding input sequences beyond immediate contexts, and parallelizing to allow attention to be paid to certain parts of sequences. The sequence is retained as a concept that orders a picture of the world and yet is exploded and broken into the parallel architecture of the transformer. It is this curious simultaneous retention and destruction of the sequence as ordering device that we observe to be shaping a broader political logic of speculative and predictive global dependencies.
+\end{quote}
+
+And finding the next word in a sequence, the grand objective of \glspl{llm} is
+claimed to be \textit{understanding the language} \parencite[]{nvidia2024}.
+This binds the meaning and contingency of the models' next words to the
+\textit{underlying} structure in the already existing data. Since these models
+are operating on \textit{large} datasets, even this rooting the future into the
+already existing data offers us enough novelty for presumably a long time.
+However, the contingency of this meaning-making also signalises its limits in
+the arthitecture of the atttention mechanism.However, the contingency of this
+meaning-making also signalises its limits in the arthitecture of the atttention
+mechanism.
+
+\begin{orangebox}
+	Amoore's critique on attention does not make any sense. But she follows:
+
+	LeCun’s appeal to the “world model” as a flexible and adaptable model capable of acting upon any new entity not encountered in the training data. Contrary to LeCun’s sense that generative AI does not have a model of the world, for us the political logics of generative models are precisely instituting a governing logic that actively builds a kind of transformer worldview.
+\end{orangebox}
+
+
+%\section{Agency}
+%
+%The sociotechnological imaginary of artificial life is historically shaped via
+%anthropomorphical assumptions. \citeauthor{dishon2024} points out that via the
+%example of Frankenstein's Monster. What is being communicated through
+%Frankenstein's Monster is an entity taking a human form, and starting to
+%develop a human-like mind that leads to human feelings, thoughts, and very
+%much human-like experience in existential crisis. The discrete presentation of
+%the artificial life is mirroring human agency, which immediately gets
+%associated with the
+%fear of losing control of an entity looking to exercise agency. In its
+%antropomorphic form of operation, the artificial life is freeing itself from an
+%inferior position to dominate its environment and other species around it (see
+%\cite[966]{dishon2024}).
+%
+%The worries about the \gls{genai} follows a similar course, antropomorphic
+%assumptions point to the risk of \glspl{gm} going out of their boundaries and
+%act outside of their intended programming in a human-like desire for domination \parencite[967-968]{dishon2024}.
+%In this sociotechnological imaginary very similar to our own, the Frankesteinien logic
+%is hiding the current nature of the current human-\gls{ai}  interaction.
+%\cite{dishon2024}'s analogy to delve into it is via Kafka's Trial. This piece
+%of literature which more often than not used to reflect on the bureaucratical
+%structrues in modern society (e.g. \cite{deleuze2008}), it is also a powerful
+%analogy to analyse information systems in terms of technological development
+%which has been referred by an increasing number of authors (see e.g.
+%\cite{prinsloo2017, dishon2024}) to reflect on an
+%increasingly algorithmically governed world.
+%
+%Kafka's protagonist Franz K. finds himself in custody without knowing anything
+%about his crime. While the police officers arresting him doesn't know anything
+%about the accusations, or if there is any chargest for that matter, Franz K. is
+%also unable to find let alone any process any any rationale or reasoning
+%regarding the court. While the futile attempts of Franz K. to find any clue for
+%him to be there without any information about when and where to go continue
+%\cite{dishon2024} notes a remark of the judge once FranzK: accidentally finds
+%the room where his court is being held; "the court does not want anything from you. It accepts you when you come and it lets you go when you leave.".
+%
+%In contrast to the antropomorphic nature of the Frankenstein analogy,
+%\textit{The Trial} comes with a distinctly alternative structure, the court is
+%not bound to any kind of understanding of \textit{truth}, it is operating
+%independently and based on the subjectivities of the accused (see
+%\cite[970]{dishon2024}). While the court is not deploying any agency itself, it
+%also has a profound blocking/blurring process on any agency the accused
+%contained in the first place. Any discrete piece of subjectivity is getting
+%blended into the unidentifiable mass through a constant echoing and distortion
+%\parencite[970]{dishon2024}. Furthermore, the connection between the occasions
+%in the court and the outer world is blurry at best, this whole process might be
+%in the context of a penal code, it might have a connection to Franz K.'s doing,
+%but it might also very well be a completely self containing environment where
+%tehre is nothing but the process itself \textit{reacting} to Franz K. on a
+%\textit{token to token} basis. The lack of identifiable agency continues with
+%the lack of any intelligible communication with the core working principles of
+%the court. We find out that others have tried to influence the decision making
+%mechanism of the court to find out about their court date as well as complain
+%about the suffering they were going through to no avail, no one has the ability
+%to influence it in any intelligible way.
+%
+%As we find out that a complete acquital is impossible and an \textit{apparemt
+%	acquital} means that the accused is still under constant pressure and can be arrested anytime, even right after
+%being released \parencite[971]{dishon2024}. This paradoxically makes the best
+%strategy to deal with th court is to make sure that the process never ends; "Interactions with the court are necessary and require constant maintenance, yet they cannot be controlled, predicted, or even expected to progress towards a resolution." \parencite[971]{dishon2024}. The court is a depiction
+%of the control in the meaning-making entities, shifting from an stable, general
+%(and algorithmic) mode of meaning to a personalised one (see \cite[971]{dishon2024}) operating in a
+%modulating manner. It is both personally tailored and inaccesable, as Franz K.
+%trying to get a comprehensible picture of the whole structure, the reader is
+%also led to constantly build and re-build a stable, comprehensive understanding
+%of the text, but the semblance only signifies its inaccesability \parencite[972]{dishon2024}.
+%
+%This analogy leads to a different question about discreetness: is agency a binary condition, especially when it comes to interactions between humans and meaning-making entities? In the Kafkaesque imaginary, agency is not neatly divided into internal and external domains; nor does it rest on a clear boundary between machine and human intentionality. Rather, generative AI exemplifies a recursive and entangled sociotechnical assemblage in which meaning emerges through blurred and distributed processes. GenAI is not positioned as an external actor acting upon a passive human world; its so-called intelligence is trained on human-produced data, reflecting statistical regularities identified in large-scale corpora. Yet this is not a mere mirroring; its outputs are shaped through black-boxed processes that generate new, partially unpredictable meanings. As these outputs are increasingly used and re-integrated into future training data, the distinction between human and machine authorship erodes. Researchers have shown how this recursive structure reinforces mutual adaptation: models are fine-tuned to reflect human preferences, even at the expense of accuracy; users, in turn, modify their interpretive and communicative strategies to better align with the affordances of the system. In this way, meaning production is no longer attributable to a singular locus of agency. GenAI generates outputs that appear novel not because they emerge from a conscious subjectivity, but because they cannot be traced back to any specific author, human or otherwise. This increasingly invites the attribution of authorship or agency to the model itself, even though the technology remains deeply embedded in human practices of use, fine-tuning, and interpretation. As such, agency in the age of generative AI resists dichotomies of internal and external; instead, it operates across a diffuse and recursive terrain, in which the epistemological ground of intentionality is rendered unstable.
+%%TODO: Citation etc are not clear
+%%
+%
+%As Franz K. following, in the lack of a definite answer, constantly
+%searches for the truth resembles the perpetual process of searching and finding a
+%meaning while there is no clear indication of truth nor agency. While \gls{genai} has been criticised for reproducing biases in its training data, it is equally crucial to recognise that its generative design, combined with the human drive to interpret, does not simply reflect meaning but perpetually modifies it, producing layered, elusive structures of signification and meaning without necessarily coming closer to any truth (see \cite[973-974]{dishon2024})
+%
+%
+%Although speculative narratives about super-intelligent AI dominate public discourse, the more immediate concern lies in how generative AI subtly restructures the dynamics of control, choice, and coercion.
+%GenAI generates personalised outputs tailored to individual users, yet these outputs are shaped by internal processes that remain largely inaccessible, thereby complicating the distinction between voluntary choice and algorithmic coercion. This interplay does not replace human agency but reconfigures it within a black-boxed system that generates meaning at scale while framing the horizon of what is writable, sayable, or thinkable. Rather than simply offering more options, GenAI floods the field with tailored outputs whose structure and logic are not user-determined, but only user-aligned—often subtly guiding users toward normative formats and interpretive templates. As such, GenAI shifts the role of the writer from creator to editor of machine-generated content, simultaneously expanding expressive capacity and constraining it within machinic grammars of probability and preference (see \cite[974-975]{dishon2024}).
+%
+%\section{Rationality}
+%Underprocess of truth is always a process of power \parencite[]{gavinyoungphilosophy2025}.  All knowledge is filtered through discourse. We are always in mediums and always in mediation, it is a process of power that mediums and their specifications are decided, the very terms upon which we can search for knowledge are political.
+%%TODO: FOucault Power/KNowledge, cite it
+%%https://www.powercube.net/other-forms-of-power/foucault-power-is-everywhere/
+%Power is already existent/prominent before the knowledge as the designer of
+%pathways, flows, territorialisations the knowledge production forms itself
+%through. Politics being the negotiation of powe, codes the soul (and the body,
+%or the body) itself. Knowing oneself is to go through the protocolised
+%codification of the body; everyone is with bias, especially the ones that claim
+%to not have any.
+
+\section{The Zero-Shot}
+The Zero-Shot at the end is all about being able to operate on unlabeled data
+without any kind of previous prompt or context. The problematic often addressed
+in this context was the unintentional homogenisation of the outcomes produced
+by the generative ai algorithms (see for e.g.
+\cite{bommasani2022}). \citeauthor[5-7]{amoore2024} rather finds the problematic in
+how the generalised models are playing the base for every specialised or
+advanced, specified model. The model will be built in pre-training, only to be
+specialised with prompts to gear towards any kind of specific use. This leads
+to specification on the same rationality given which is built already in
+pre-training process. So a fine-tuned model's task is to derive meaning
+probabilistically from a more general and already shaped model whereas
+hallicunations that go around those prompts becomes an issue.
+
+\section{Hallucinations}
+%TODO: Explore with @montanari2025 204
+%
+
+\begin{quote}
+	According to Merleau-Ponty, the world is not a static object with purely objective determinations; instead, it has “splits and gaps” through which subjectivity asserts itself. This interplay of subjective intrusion and ruptured reality might offer a productive lens through which to consider AI hallucinations, framing them as a site of tension between programmed objectivity and the unpredictable emergence of meaning \parencite[204]{montanari2025} .
+\end{quote}
+
+% chapter Algorithm (end)
+
+

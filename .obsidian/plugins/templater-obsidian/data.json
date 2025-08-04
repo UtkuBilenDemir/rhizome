@@ -1,0 +1,69 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "08_templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": true,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "08_templates",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "02_fleeting_notes",
+      "template": "08_templates/00_Zettelkasten_Template.md"
+    },
+    {
+      "folder": "06_projects",
+      "template": "08_templates/Project Note Template.md"
+    },
+    {
+      "folder": "06_projects/PRO",
+      "template": "08_templates/PROfessional note template.md"
+    },
+    {
+      "folder": "06_projects/UNI/POWI",
+      "template": "08_templates/UNI-POWI note template.md"
+    },
+    {
+      "folder": "06_projects/UNI/MATH",
+      "template": "08_templates/UNI-MATH note template.md"
+    },
+    {
+      "folder": "06_projects/PER",
+      "template": "08_templates/PERsonal note template.md"
+    },
+    {
+      "folder": "06_projects/UTI",
+      "template": "08_templates/UTIlity note template.md"
+    },
+    {
+      "folder": "06_projects/PER/FRP",
+      "template": "08_templates/DND note template.md"
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": true,
+  "enabled_templates_hotkeys": [
+    "08_templates/00_Zettelkasten_Template.md",
+    "08_templates/01_MOC_Template.md",
+    "08_templates/90_Format_Project_Note.md"
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "intellisense_render": 1,
+  "enable_ribbon_icon": false
+}

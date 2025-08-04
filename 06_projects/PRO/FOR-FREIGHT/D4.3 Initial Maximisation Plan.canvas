@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"710ff1314c02e128","x":-180,"y":-340,"width":250,"height":60,"type":"text","text":"# 3. Methodology"},
+		{"id":"e27cc4de32661b11","x":-180,"y":-240,"width":250,"height":60,"type":"text","text":"The introduction of the chapter"},
+		{"id":"8d3d0abee75a61a4","x":-182,"y":-84,"width":250,"height":60,"type":"text","text":"Desk Research explanation"},
+		{"id":"7a4aceb3028859dc","x":178,"y":-84,"width":250,"height":60,"type":"text","text":"Either remove or rephrase. We are talking too much without showing anyhting."},
+		{"id":"98585a8b13fe3c63","x":-180,"y":80,"width":250,"height":60,"type":"text","text":"Stakeholder Mapping"},
+		{"id":"0f25f791337dcbd5","x":-180,"y":0,"width":250,"height":60,"type":"text","text":"The goals of the desk research"},
+		{"id":"1b957413d6bbad7e","x":-182,"y":-160,"width":250,"height":60,"type":"text","text":"Main Process breakdown until the deliverable"},
+		{"id":"a35ffa6db3feff60","x":-182,"y":260,"width":250,"height":60,"type":"text","text":"# 4 Project solutions and the Environment"},
+		{"id":"7a65192a32faad24","type":"text","text":"The introduction of the chapter","x":-180,"y":340,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"e8651dad9bb2448c","fromNode":"8d3d0abee75a61a4","fromSide":"right","toNode":"7a4aceb3028859dc","toSide":"left"}
+	]
+}

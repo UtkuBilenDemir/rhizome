@@ -1,0 +1,11 @@
+prefix=/Users/ubd/Library/Mobile Documents/iCloud~md~obsidian/Documents/rhizome/06_projects/UNI/POWI/MA/Code/ma-code.env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/ubd/Library/Mobile Documents/iCloud~md~obsidian/Documents/rhizome/06_projects/UNI/POWI/MA/Code/ma-code.env/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.2
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

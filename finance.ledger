@@ -1,0 +1,107 @@
+alias a=Assets
+alias b=Assets:Banking
+alias c=Liabilities:Credit
+alias l=Liabilities
+alias e=Expenses
+alias i=Income
+
+; Lines starting with a semicolon are comments and will not be parsed.
+
+; This is an example of what a transaction looks like.
+; Every transaction must balance to 0 if you add up all the lines.
+; If the last line is left empty, it will automatically balance the transaction.
+; 
+; 2021-12-25 Starbucks Coffee
+;     e:Food:Treats     $5.25   ; To this account
+;     c:Chase                           ; From this account
+
+; Use this transaction to fill in the balances from your bank accounts.
+; This only needs to be done once, and enables you to reconcile your
+; Ledger file with your bank account statements.
+
+; I highly recommend reading through the Ledger documentation about the basics
+; of accounting with Ledger
+;     https://www.ledger-cli.org/3.0/doc/ledger3.html#Principles-of-Accounting-with-Ledger
+
+; Lots more information about this format can be found on the
+; Ledger CLI homepage. Please note however that not quite all
+; of the Ledger CLI functionality is supported by this plugin.
+;     https://www.ledger-cli.org
+
+; You can add transactions here easily using the "Add to Ledger"
+; Command in Obsidian. You can even make a shortcut to it on your
+; mobile phone homescreen. See the README for more information.
+
+; If you have questions, please use the Github discussions:
+;     https://github.com/tgrosinger/ledger-obsidian/discussions/landing
+; If you encounter issues, please search the existing Github issues,
+; and create a new one if your issue has not already been solved.
+;     https://github.com/tgrosinger/ledger-obsidian/issues
+
+2024/11/05 AMS Bildungskarenz
+    Assets:Bank:Checking    €505
+    Income:Salary:AMS_Bildungskarenz
+
+2024/11/06 Grocery Shopping - SPAR
+    Expenses:Food:Groceries    €38.02
+    Liabilities:CreditCard:Mastercard
+
+2024/11/06 Schutzenengel Apotheke
+    Expenses:Health:Pharmacy    €14.20
+    Liabilities:CreditCard:Mastercard
+
+2024/11/06 Kaffeefabrik
+    Expenses:Food:Coffee    €9.90
+    Liabilities:CreditCard:Mastercard
+
+2024/11/06 Im Werkzeug
+    Expenses:Entertainment:Dating    €28.00
+    Liabilities:CreditCard:Mastercard
+
+2024/11/07 Grocery Shopping - Hofer
+    Expenses:Food:Groceries    €19.77
+    Liabilities:CreditCard:Mastercard
+
+2024/11/07 Too Good To Go - Grocery Shopping
+    Expenses:Food:TooGoodToGo    €3.99
+    Liabilities:CreditCard:Mastercard
+
+2024/11/08 7Stern
+    Expenses:Entertainment:Friending    €19.00
+    Liabilities:CreditCard:Mastercard
+
+2024/11/08 Cash Withdrawal - Wien, Schadeckg. 2
+    Assets:Cash    €20.00
+    Liabilities:CreditCard:Mastercard
+
+2024/11/08 Radhaus Singer
+    Expenses:Transport:Bicycle    €3.00
+    Liabilities:CreditCard:Mastercard
+
+2024/11/09 Grocery Shopping - Spar
+    Expenses:Food:Groceries    €29.30
+    Liabilities:CreditCard:Mastercard
+
+2024/11/09 Jager Barbershop
+    Expenses:PersonalCare:Barbershop    €45.00
+    Liabilities:CreditCard:Mastercard
+
+2024/11/10 OKAY
+    Expenses:Food:Snacks    €2.00
+    Liabilities:CreditCard:Mastercard
+
+2024/11/10 Uka
+    Expenses:Food:Snacks    €4.00
+    Liabilities:CreditCard:Mastercard
+
+2024/11/11 Amazon Purchase
+    Expenses:Shopping:Online    €23.65
+    Liabilities:CreditCard:Mastercard
+
+2024/11/11 Grocery Shopping - Spar
+    Expenses:Food:Groceries    €32.94
+    Liabilities:CreditCard:Mastercard
+
+2024/11/11 Coffee
+    Expenses:Food:Coffee    €10.20
+    Liabilities:CreditCard:Mastercard

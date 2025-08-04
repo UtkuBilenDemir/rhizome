@@ -1,0 +1,15 @@
+---
+title: null
+tags:
+  - project_note 2025
+  - personal
+---
+|     Created      |  Last Modified   |       Exists Since        |
+|:----------------:|:----------------:|:----------------:|
+| `= this.file.ctime` | `= this.file.mtime` | `= date(now) - this.file.ctime`|
+
+# null
+<% tp.file.cursor() %>
+
+# References
+1. [[Caricature-Comic-Caps]]

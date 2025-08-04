@@ -1,0 +1,15 @@
+# tk pkg-config source file
+
+prefix=/Users/ubd/Library/Mobile Documents/iCloud~md~obsidian/Documents/rhizome/06_projects/UNI/POWI/MA/Code/ma-code.env
+exec_prefix=/Users/ubd/Library/Mobile Documents/iCloud~md~obsidian/Documents/rhizome/06_projects/UNI/POWI/MA/Code/ma-code.env
+libdir=/Users/ubd/Library/Mobile Documents/iCloud~md~obsidian/Documents/rhizome/06_projects/UNI/POWI/MA/Code/ma-code.env/lib
+includedir=${prefix}/include
+
+Name: The Tk Toolkit
+Description: Tk is a cross-platform graphical user interface toolkit, the standard GUI not only for Tcl, but for many other dynamic languages as well.
+URL: https://www.tcl-lang.org/
+Version: 8.6.13
+Requires: tcl >= 8.6
+Libs: -L${libdir} -ltk8.6 -ltkstub8.6
+Libs.private:  
+Cflags: -I${includedir}

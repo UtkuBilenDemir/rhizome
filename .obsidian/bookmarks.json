@@ -1,0 +1,21 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1731532810501,
+      "items": [
+        {
+          "type": "folder",
+          "ctime": 1731532805150,
+          "path": "06_projects/UNI/POWI/MA"
+        },
+        {
+          "type": "folder",
+          "ctime": 1731532626681,
+          "path": "06_projects/PRO/Proposal/Horizon_Europe"
+        }
+      ],
+      "title": "Main"
+    }
+  ]
+}

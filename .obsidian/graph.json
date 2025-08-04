@@ -1,0 +1,44 @@
+{
+  "collapse-filter": false,
+  "search": "path:-01_daily_notes path:-04_literature_note path:-09_wonderwall path:-08_templates path:-00_todo",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 10342625
+      }
+    },
+    {
+      "query": "tag: #project_main_note",
+      "color": {
+        "a": 1,
+        "rgb": 15045805
+      }
+    },
+    {
+      "query": "tag: #fleeting_note  ",
+      "color": {
+        "a": 1,
+        "rgb": 9754271
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": -0.5,
+  "nodeSizeMultiplier": 1.15413004557292,
+  "lineSizeMultiplier": 1.269970703125,
+  "collapse-forces": false,
+  "centerStrength": 0.442684766214178,
+  "repelStrength": 20,
+  "linkStrength": 0.500754147812971,
+  "linkDistance": 30,
+  "scale": 0.11686888683516443,
+  "close": false
+}

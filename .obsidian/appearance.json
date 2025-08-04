@@ -1,0 +1,18 @@
+{
+  "theme": "moonstone",
+  "cssTheme": "Minimal",
+  "baseFontSize": 18,
+  "accentColor": "",
+  "interfaceFontFamily": "",
+  "translucency": false,
+  "baseFontSizeAction": true,
+  "nativeMenus": true,
+  "showViewHeader": true,
+  "enabledCssSnippets": [
+    "S - Checkboxes",
+    "hidden line",
+    "supercharged-links-gen",
+    "weather"
+  ],
+  "showRibbon": true
+}

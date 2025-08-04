@@ -1,0 +1,166 @@
+{
+  "main": {
+    "id": "de3a327abf4f72f2",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a076bf3b2855e27",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cf2c8a1ac884799f",
+    "type": "split",
+    "children": [
+      {
+        "id": "c58c8798c10d6a79",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ae97fbd19bb65abe",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "b95f136354be7917",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#todo",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "39199e06f0a3543e",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9e5013c48ba6cca9",
+    "type": "split",
+    "children": [
+      {
+        "id": "7c1bd2ba90bf861d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6342f0f35800d121",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "b0516d2eca716047",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "06_projects/IntelComp/WP6 Meeting 20221022.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "20c22cc92bc4ee5a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "68572248f273a2a7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "06_projects/IntelComp/WP6 Meeting 20221022.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "floating": {
+    "id": "4729675133f74c4e",
+    "type": "floating",
+    "children": [
+      {
+        "id": "62dc4bee75149afe",
+        "type": "window",
+        "children": [
+          {
+            "id": "813bdd07cf1ad30b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06_projects/IntelComp/WP6 Meeting 20221022.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "direction": "vertical",
+        "x": 902,
+        "y": 48,
+        "width": 894,
+        "height": 1117,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "813bdd07cf1ad30b",
+  "lastOpenFiles": [
+    "06_projects/IntelComp/WP6 Meeting 20221022.md",
+    "06_projects/IntelComp/WP6 Meeting 20220623.md",
+    "06_projects/IntelComp/WP6 Meeting 20220630.md",
+    "00_todo/TODO MAIN.md",
+    "04_literature_notes/Benedict Anderson, Die Erfindung der Nation.md",
+    "00_todo/TODO Personal.md",
+    "07_references/Anderson2005.md",
+    "07_references/hossain2019.md",
+    "06_projects/CONSENSUS.md",
+    "06_projects/2022WS_M3-SE_-_Das_Imaginäre_in_der_Politik.md"
+  ]
+}

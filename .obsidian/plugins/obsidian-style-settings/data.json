@@ -1,0 +1,14 @@
+{
+  "Appearance-light@@card-layout-open-light": true,
+  "minimal-style@@active-line-on": true,
+  "minimal-style@@window-title-off": false,
+  "checkbox@@check-color": false,
+  "minimal-style@@h1-l": false,
+  "minimal-style@@h6-weight": 400,
+  "minimal-style@@h1-color@@light": "#B4637A",
+  "minimal-style@@h2-color@@light": "#56949F",
+  "minimal-style@@h3-color@@light": "#907AA9",
+  "minimal-style@@h5-color@@light": "#9893A5",
+  "minimal-style@@h4-color@@light": "#EA9D34",
+  "minimal-style@@h6-color@@light": "#D7827E"
+}

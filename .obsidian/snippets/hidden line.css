@@ -1,0 +1,8 @@
+ [data-task="#"] {
+filter: blur(8px);
+-webkit-filter: blur(8px);
+}
+[data-task="#"]:hover {
+filter: none;
+-webkit-filter: none;
+} 

@@ -1,0 +1,112 @@
+
+\documentclass{tufte-handout}
+
+\usepackage{fontawesome6}
+% Font settings similar to AwesomeCV
+\usepackage{fontspec}
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont{Helvetica Neue}[
+  Path = /System/Library/Fonts/,
+  Extension = .ttf,
+  UprightFont = *,
+  BoldFont = *,
+  ItalicFont = *,
+  BoldItalicFont = *
+]
+\setsansfont{Helvetica Neue}
+\newfontfamily\headerfont{Helvetica Neue}[LetterSpace=2.0]
+
+\usepackage{enumitem}
+\usepackage{marginnote}
+\usepackage{tikz}
+\usepackage{atbegshi}
+
+% Configure geometry tighter for margin notes
+\geometry{
+  a4paper,
+  left=1.4cm,
+  right=5.6cm,
+  top=2.3cm,
+  bottom=2.3cm,
+  marginparwidth=4.8cm,
+  marginparsep=0.2cm
+}
+
+% Margin note commands
+\newcommand{\sidenote}[1]{\marginnote{\footnotesize\itshape #1}}
+
+% Vertical rule between margin and text
+\AtBeginShipout{%
+  \AtBeginShipoutUpperLeft{%
+    \tikz[remember picture, overlay] \draw[line width=0.3pt, gray!70]
+      ([xshift=13.9cm,yshift=-1cm]current page.north west) -- ++(0,-\paperheight);
+  }%
+}
+
+% Redefine section commands to include full-width rules
+
+\renewcommand{\section}[1]{%
+  \par\vspace{1.5ex}%
+  \noindent\rule{\textwidth}{1pt}\par
+  \noindent{\Large\headerfont\scshape #1}%
+  \par\vspace{0.5ex}%
+}
+
+\renewcommand{\subsection}[1]{%
+  \par\vspace{1.2ex}%
+  \noindent\rule{\textwidth}{0.5pt}\par
+  \noindent{\large\headerfont\scshape #1}%
+  \par\vspace{0.5ex}%
+}
+%
+  \noindent\rule{\textwidth}{0.4pt}\par
+  \noindent\textbf{\large #1}%
+  \par\vspace{0.5ex}%
+}
+
+% Font and spacing tweaks
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\linespread{1.1}
+\setlist[itemize]{leftmargin=*, noitemsep, topsep=0pt}
+
+\title{}
+\author{}
+\date{}
+
+\begin{document}
+
+% Manual top block
+\begin{flushleft}
+	{\Huge\bfseries Utku Bilen Demir} \\[0.5em]
+	\faMapMarker*{} Vienna, Austria \\
+	\faEnvelope{} \href{mailto:mail@utkubilen.de}{mail@utkubilen.de} \quad
+	\faGithub{} \href{https://github.com/utku_bd}{utku\_bd}
+\end{flushleft}
+
+\vspace{1em}
+\noindent\rule{\textwidth}{0.5pt}
+\vspace{2em}
+
+\section{Education}
+
+\textbf{POSTECH – B.S. in Computer Science and Engineering} \\
+Pohang, South Korea (2010–2017) \\
+\sidenote{Chun Shin-Il Scholarship recipient}
+
+\section{Experience}
+
+\textbf{Founding Member & SRE Team Lead}, Danggeun Pay (2021–Present) \\
+Designed secure infrastructure on AWS for 3.6M users. \\
+\sidenote{Built GitOps CI/CD stack with ArgoCD + Kustomize}
+
+\textbf{Director of Infrastructure}, Kasa (2018–2021) \\
+Migrated systems to Kubernetes; managed multi-VPC AWS environment.
+
+\section{Skills}
+
+\textbf{DevOps:} AWS, Docker, Kubernetes, Terraform \\
+\textbf{Languages:} Python, Node.js, OCaml \\
+\textbf{Frontend:} React, Hugo, HTML5, LESS, SASS
+
+\end{document}

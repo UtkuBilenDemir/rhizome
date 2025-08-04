@@ -1,0 +1,169 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Define Article %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[nobib, openany, justified, a4paper, 14pt]{tufte-book}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Citations %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\usepackage[utf8]{inputenc}
+\usepackage[style=authoryear-icomp]{biblatex}
+%\usepackage[style=apa]{biblatex}
+\addbibresource{/Users/ubd/Bibliotheca/bib.bib}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Using Packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{newunicodechar}
+\newunicodechar{🦜}{[parrot]}
+\PassOptionsToPackage{prologue,dvipsnames}{xcolor}
+\sloppy  % globally
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{empheq}
+\usepackage{mdframed}
+\usepackage{booktabs}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{psfrag}
+\usepackage{pgfplots}
+\usepackage{bm}
+\usepackage{epigraph}
+\usepackage{titlesec}
+\usepackage{tcolorbox}
+\usepackage{csquotes}
+\usepackage{pifont}
+\usepackage{enumitem,amssymb}
+% \usepackage{spoton} % adds \todo functionality I hope
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Other Settings
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Page Setting %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Define some useful colors %%%%%%%%%%%%%%%%%%%%%%%%%%
+\definecolor{maroon}{RGB}{128,0,0} %hlred
+\definecolor{MAROON}{RGB}{128,0,0} %hlred
+\definecolor{deepBlue}{RGB}{61,124,222} %url-links
+\definecolor{deepGreen}{RGB}{26,111,0} %citations
+\definecolor{ocre}{RGB}{243,102,25}
+\definecolor{mygray}{RGB}{243,243,244}
+\definecolor{shallowGreen}{RGB}{235,255,255}
+\definecolor{shallowBlue}{RGB}{235,249,255}
+\definecolor{mediumpersianBlue}{rgb}{0.0, 0.4, 0.65}
+\definecolor{persianBlue}{rgb}{0.11, 0.22, 0.73}
+\definecolor{persianGreen}{rgb}{0.0, 0.65, 0.58}
+\definecolor{persianRed}{rgb}{0.8, 0.2, 0.2}
+\definecolor{debianRed}{rgb}{0.84, 0.04, 0.33}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Indentation Settings %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+% Paragraph indentation and separation for normal text
+\renewcommand{\@tufte@reset@par}{%
+	\setlength{\RaggedRightParindent}{0pc}%1.0
+	\setlength{\JustifyingParindent}{0pc}%1.0
+	\setlength{\parindent}{1pc}%1pc
+	\setlength{\parskip}{5pt}%0pt
+}
+\@tufte@reset@par
+
+% Paragraph indentation and separation for marginal text
+\renewcommand{\@tufte@margin@par}{%
+	\setlength{\RaggedRightParindent}{0pc}%0.5pc
+	\setlength{\JustifyingParindent}{0pc}%0.5pc
+	\setlength{\parindent}{0.5pc}%
+	\setlength{\parskip}{5pt}%0pt
+}
+\makeatother
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Define an orangebox command %%%%%%%%%%%%%%%%%%%%%%%%
+%o\usepackage[most]{tcolorbox}
+
+\newtcolorbox{orangebox}{
+	colframe=ocre,
+	colback=mygray,
+	boxrule=0.8pt,
+	arc=0pt,
+	left=2pt,
+	right=2pt,
+	width=\linewidth,
+	boxsep=4pt
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% English Environments %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newtheoremstyle{mytheoremstyle}{3pt}{3pt}{\normalfont}{0cm}{\rmfamily\bfseries}{}{1em}{{\color{black}\thmname{#1}~\thmnumber{#2}}\thmnote{\,--\,#3}}
+\newtheoremstyle{myproblemstyle}{3pt}{3pt}{\normalfont}{0cm}{\rmfamily\bfseries}{}{1em}{{\color{black}\thmname{#1}~\thmnumber{#2}}\thmnote{\,--\,#3}}
+\theoremstyle{mytheoremstyle}
+\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowGreen,linecolor=deepGreen,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt,]{theorem}{Theorem}[section]
+\theoremstyle{mytheoremstyle}
+\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowBlue,linecolor=deepBlue,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt,]{definition}{Definition}[section]
+\theoremstyle{myproblemstyle}
+\newmdtheoremenv[linecolor=black,leftmargin=0pt,innerleftmargin=10pt,innerrightmargin=10pt,]{problem}{Problem}[section]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Plotting Settings %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepgfplotslibrary{colorbrewer}
+\pgfplotsset{width=8cm,compat=1.9}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% MISC %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[acronym]{glossaries}
+\usepackage{hyperref} % Setup: https://www.overleaf.com/learn/latex/Hyperlinks
+\hypersetup{
+	colorlinks=true,
+	%citecolor=deepGreen,
+	citecolor=maroon,
+	linkcolor=persianBlue,
+	filecolor=persianGreen,
+	urlcolor=persianBlue,
+	pdfpagemode=FullScreen,
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setcounter{tocdepth}{2}
+\setcounter{secnumdepth}{2}
+
+\newcommand{\hlred}[1]{\textcolor{Maroon}{#1}} % Print text in maroon
+\newcommand{\hlgreen}[1]{\textcolor{persianGreen}{#1}} % Print text in green
+\newcommand{\hlocre}[1]{\textcolor{ocre}{#1}} % Print text in green
+
+\newenvironment{greenenv}{\color{Green}}{\ignorespacesafterend}  % Create green environment
+\newenvironment{commentenv}{\color{ocre}}{\ignorespacesafterend}  % Create comment environment
+
+
+\titleformat{\part}[display]
+{\filleft\fontsize{40}{40}\selectfont\scshape}
+{\fontsize{90}{90}\selectfont\thepart}
+{20pt}
+{\thispagestyle{epigraph}}
+
+\setlength\epigraphwidth{.6\textwidth}
+
+%\makeatletter
+%\epigraphhead
+%{\let\@evenfoot}
+%{\let\@oddfoot\@empty\let\@evenfoot}
+%{}{}
+%\makeatother
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%TODO LIST
+\newlist{todolist}{itemize}{2}
+\setlist[todolist]{label=$\square$}
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+\newcommand{\done}{\rlap{$\square$}{\raisebox{2pt}{\large\hspace{1pt}\cmark}}%
+	\hspace{-2.5pt}}
+\newcommand{\wontfix}{\rlap{$\square$}{\large\hspace{1pt}\xmark}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\greensquare}{\marginnote{\fcolorbox{green}{green}{\rule{0pt}{3mm}\rule{3mm}{0pt}}\quad}}
+\newcommand{\yellowsquare}{\marginnote{\fcolorbox{yellow}{yellow}{\rule{0pt}{3mm}\rule{3mm}{0pt}}\quad}}
+\newcommand{\redsquare}{\marginnote{\fcolorbox{red}{red}{\rule{0pt}{3mm}\rule{3mm}{0pt}}\quad}}
+
+

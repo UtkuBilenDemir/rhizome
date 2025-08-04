@@ -1,0 +1,108 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Define Article %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[nobib]{tufte-book}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Citations %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[style=authoryear-icomp]{biblatex}
+\addbibresource{/Users/ubd/Bibliotheca/bib.bib}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Using Packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{empheq}
+\usepackage{mdframed}
+\usepackage{booktabs}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{psfrag}
+\usepackage{pgfplots}
+\usepackage{bm}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Other Settings
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Page Setting %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\geometry{a4paper}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Define some useful colors %%%%%%%%%%%%%%%%%%%%%%%%%%
+\definecolor{maroon}{RGB}{128,0,0} %hlred
+\definecolor{deepBlue}{RGB}{61,124,222} %url-links
+\definecolor{deepGreen}{RGB}{26,111,0} %citations
+\definecolor{ocre}{RGB}{243,102,25}
+\definecolor{mygray}{RGB}{243,243,244}
+\definecolor{shallowGreen}{RGB}{235,255,255}
+\definecolor{shallowBlue}{RGB}{235,249,255}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Define an orangebox command %%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand\orangebox[1]{\fcolorbox{ocre}{mygray}{\hspace{1em}#1\hspace{1em}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% English Environments %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newtheoremstyle{mytheoremstyle}{3pt}{3pt}{\normalfont}{0cm}{\rmfamily\bfseries}{}{1em}{{\color{black}\thmname{#1}~\thmnumber{#2}}\thmnote{\,--\,#3}}
+\newtheoremstyle{myproblemstyle}{3pt}{3pt}{\normalfont}{0cm}{\rmfamily\bfseries}{}{1em}{{\color{black}\thmname{#1}~\thmnumber{#2}}\thmnote{\,--\,#3}}
+\theoremstyle{mytheoremstyle}
+\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowGreen,linecolor=deepGreen,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt,]{theorem}{Theorem}[section]
+\theoremstyle{mytheoremstyle}
+\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowBlue,linecolor=deepBlue,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt,]{definition}{Definition}[section]
+\theoremstyle{myproblemstyle}
+\newmdtheoremenv[linecolor=black,leftmargin=0pt,innerleftmargin=10pt,innerrightmargin=10pt,]{problem}{Problem}[section]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Plotting Settings %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepgfplotslibrary{colorbrewer}
+\pgfplotsset{width=8cm,compat=1.9}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% MISC %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{hyperref} % Setup: https://www.overleaf.com/learn/latex/Hyperlinks
+\hypersetup{
+    colorlinks=true,
+    citecolor=deepGreen,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=deepBlue,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Essay Proposal \\ 
+\large 2024S 180114-1 Democracy and Artifical Intelligence}
+\author{Utku B. Demir | 0848242}
+\makeatletter
+\let\runauthor\@author
+\let\runtitle\@title
+\makeatother
+\rhead{\runtitle}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+    \maketitle
+
+\section{Prologue}
+The implications of the contemporary advancements regarding artificial intelligence (AI) force us to rethink the vital aspects of democracy regarding its definition, its current machinery, and its vulnerabilities. However, a transformation in our current democratic structures is not only a necessity to counter potential threats caused/likely to be caused by AI, but it is also vital to democracy's evolution, especially considering AI has mostly worsened already existing issues in our democracies. Making democracy resilient in this context also means structuring democracy to live up to its whole potential by enriching it with its core values that prevailed in the process of enlightenment, through the revolution that gave republican values substance, like public deliberation, social communication, and (more) participation \parencite{coeckelbergh2024}.
+
+Before delving into the potential threats of AI implementations, demos were already facing a counter threat regarding the non-electoral aspects of democracy. Following Foucault's analysis of neoliberal governmentality (see \cite{foucault2008a, Foucault1995}), Wendy Brown \parencite{brown2015} addresses how the neoliberal transformation of the demos by turning the public sphere into market-like structures not only threatens the participative necessities of democracy, but also creates a specific kind of self-interest-oriented \textit{homo economicus} in opposition to \textit{homo politicus}. While the critique of \textit{homo economicus} needs a broader debate, the participative aspects or the effort for public deliberation inherent to democracy are not concepts that are immediately attractive on a market-like public surface or necessarily related directly to anyone's self-interest.
+
+Even before the introduction of generative AI models, algorithmic governance of information, by profiling and content relevance association, was forming echo chambers on the internet (see e.g., \cite{Cheney2011, Otterlo2013, Just2017}). While it is a matter of discussion if there is always a malign intent in the background of grouping people according to their interests, these algorithms at the very least are not geared towards participation and engagement in the demos. These epistemic bubbles have been a threat to necessary exchanges between cleavages in society. Now, with the acceleration and capabilities generative AI models bring, we have algorithmic entities that can engage in the demos, act as individuals, and potentially influence/shape the discourse, as well as blur the truth itself via possible misinformation. While there are many opportunities AI advancements have brought, this course threatens to turn subjectivities shaped in such a public sphere to be less fit/untrained for democratic praxis.
+
+AI algorithms are power-deploying entities; their capabilities can help demos improve itself hopefully as much as they can harm. The potentially beneficial uses of AI algorithms have been discussed on a broad spectrum of topics ranging from education-related topics to anti-discriminatory applications, etc. One of the prominent ideas developed by Zarkadakis \parencite*{zarkadakes2020} about how to train and improve demos is going back to Norbert Wiener's concept of Cybernetics \parencite{Wiener1948}. Cybernetics, in a broad sense, is about self-regulation, adaptation, and evolution in communication-based networks through feedback loops. This communication can be subject to humans, machines, animals, or any other capable entity. Democracy itself is a cybernetic system where citizens are both subjects and objects of deliberation, adapting and evolving in response to new challenges. According to Zarkadakis \cite*{zarkadakes2020}, the strategic involvement of AI algorithms both as conversational agents that will bring the discourse into a more productive shape or as analyzing agents that will bring different nodes on the communication network together to introduce agonistic exchanges, or by doing the exact opposite of the epistemic bubbles by exposing individuals to a variety of content. While this opens another debate about whether this approach is any less vulnerable to totalitarian intent, Zarkadakis argues a decentralized cybernetic democracy could be empowering for the demos.
+
+The essay aims to delve into the cybernetic use of AI algorithms to improve democracy through Zarkadakis' analysis by turning back to Gilles Deleuze and Felix Guattari's (see \cite*{deleuze1983, deleuze1987}) theory of Rhizome, and Deleuze's concept of Control Society which he briefly outlined in his Post Script on Societies of Control \parencite{deleuze1992a}. The idea of rhizome offers a non-hierarchical, non-sovereign type of network organization which is inherent to many aspects of human legacy. Furthermore, Deleuze and Guattari also allocate a substantial part of their theory to how one could go outside of hegemonial power by exposing themselves by building unlikely connections through a desire-production process they argue through building schizophrenic-like connections. Furthermore, the socially nomadic life they detail may be an important tool against epistemic bubbles. Inclusion of a specific type of AI may allow people to expose themselves to other content/exchanges/thinking and potentially make them more engaging, also on a broader level making public deliberation more likely. Also, Deleuze's Control Society concept, which he claims followed Foucault's Disciplinary society, is a way to analyze the current challenges in our democracies. Coming back to the problems mentioned by Brown in the neoliberal transformation in the demos, this approach could potentially make democratic praxis more likely. A research question regarding this exploration would be:
+
+\textbf{RQ:} \textit{How can AI models be utilized to foster Enlightenment values in democracies, such as participation and public deliberation, through the implementation of cybernetic and rhizomatic principles?}
+
+
+\printbibliography
+\end{document}
+

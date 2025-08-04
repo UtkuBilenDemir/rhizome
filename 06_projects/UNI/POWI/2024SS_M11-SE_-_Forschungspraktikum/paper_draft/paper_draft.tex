@@ -1,0 +1,151 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Define Article %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[nobib]{tufte-book}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Citations %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[style=authoryear-icomp]{biblatex}
+\addbibresource{/Users/ubd/Bibliotheca/library.bib}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Using Packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{empheq}
+\usepackage{mdframed}
+\usepackage{booktabs}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{psfrag}
+\usepackage{pgfplots}
+\usepackage{bm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Other Settings
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Page Setting %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\geometry{a4paper}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Define some useful colors %%%%%%%%%%%%%%%%%%%%%%%%%%
+\definecolor{maroon}{RGB}{128,0,0} %hlred
+\definecolor{deepBlue}{RGB}{61,124,222} %url-links
+\definecolor{deepGreen}{RGB}{26,111,0} %citations
+\definecolor{ocre}{RGB}{243,102,25}
+\definecolor{mygray}{RGB}{243,243,244}
+\definecolor{shallowGreen}{RGB}{235,255,255}
+\definecolor{shallowBlue}{RGB}{235,249,255}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Define an orangebox command %%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand\orangebox[1]{\fcolorbox{ocre}{mygray}{\hspace{1em}#1\hspace{1em}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% English Environments %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newtheoremstyle{mytheoremstyle}{3pt}{3pt}{\normalfont}{0cm}{\rmfamily\bfseries}{}{1em}{{\color{black}\thmname{#1}~\thmnumber{#2}}\thmnote{\,--\,#3}}
+\newtheoremstyle{myproblemstyle}{3pt}{3pt}{\normalfont}{0cm}{\rmfamily\bfseries}{}{1em}{{\color{black}\thmname{#1}~\thmnumber{#2}}\thmnote{\,--\,#3}}
+\theoremstyle{mytheoremstyle}
+\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowGreen,linecolor=deepGreen,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt,]{theorem}{Theorem}[section]
+\theoremstyle{mytheoremstyle}
+\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowBlue,linecolor=deepBlue,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt,]{definition}{Definition}[section]
+\theoremstyle{myproblemstyle}
+\newmdtheoremenv[linecolor=black,leftmargin=0pt,innerleftmargin=10pt,innerrightmargin=10pt,]{problem}{Problem}[section]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Plotting Settings %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepgfplotslibrary{colorbrewer}
+\pgfplotsset{width=8cm,compat=1.9}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% MISC %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{hyperref} % Setup: https://www.overleaf.com/learn/latex/Hyperlinks
+\hypersetup{
+    colorlinks=true,
+    citecolor=deepGreen,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=deepBlue,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Paper Draft}
+\author{Utku B. Demir}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+    \maketitle
+%TODO: Title
+Political representation is in its overly simplified form, involves a principal-agent 
+relationship where representatives stand for and act on behalf of the represented, 
+usually on a territorial basis. It is a specific operationalisation 
+of the power deployment. Risking loss of generality by oversimplification, the political 
+representation has been defined as the delegation of the authority from a
+specific group to a political entity, either a representant or an
+organisation in the fundamental literature about representation. As any utilisation of power, 
+the representation immediately immediately relates to the question of
+legitimacy. In its most classical understanding in the context
+of electoral democracy, the legitimacy of the representation is \textit{established} by a 
+strictly defined authorisation process and a framework of accountability
+\parencite{pitkin1967}. Yet, even in this seemingly unidirectional transfer 
+of power from constituency to representative,  still, the authorisation,
+the legitimacy of the source of the power, 
+and the question of the responsibilities of the one to exercise the power
+to the source of the power (both in terms of constituency, and the whole
+society) is a subject to a broad discussion \parencite[see e.g.;][]{kelsen2017,
+pitkin1967}. 
+%TODO: Maybe remove the last couple of sentences?
+
+
+However, elective representation does not exhaust all forms of democratic
+representation \parencite{saward2009}, nor does a unidirectional authorisation
+process adequately explain the nature of the relationship between
+representatives and their constituencies. \hlred{The constructivist turn}
+\parencite{disch2019} in the theory of the political representation reminds us
+the dynamic and fluid nature of political representation, contrary to the view it as a static and predetermined and delegational relationship between representatives and the represented. In constructivist perspective, representation is an active, ongoing process of creation and negotiation. Representatives do not merely act on behalf of pre-existing groups with established interests and identities; rather, they play a crucial role in shaping and defining those interests and identities through their representational activities (ibid. 21ff). Although the discussion around the constructivist turn is often not unified in its definition, it is generally agreed that the identity, interests, or preferences of the represented are not predetermined but are shaped\sidenote{Alternatively, \textit{extracted}.} by the representatives. 
+
+Representation is deployed in a much broader landscape than just the electoral realm, which necessitates a significant demystification process; this has been precipitated by the large-scale transformations that democracies have undergone \parencite[278f]{wolkenstein2024}.
+ %TODO: Of course this means that the constituency in itself also fluid and
+%forming itself representation-wise.
+
+
+The constructivist turn, however, is not merely an observation of a shift in political representation. It represents a discovery that the manifestation of power is itself subject to ongoing negotiation and contestation, continually reshaped by both discursive and non-discursive practices. It is claimed that the constructivist element in representation is never absent. The constructivist perspective initiates a discussion about the operation of power in representation and builds a new theoretical framework to examine contemporary movements. Using the terms of Foucault's Power/Knowledge nexus, in the social realm, power is never completely concentrated in a specific point, nor is it ever a unidirectional process \parencite{Foucault1980}. 
+%TODO: What lacks is the connection to the non-electoral movements
+
+% Power is everywhere and emanates from everywhere; it is diffused throughout the structures of society (see ibid.), and the manifestation of power is merely an instance of the signifier chain in society rather than a solid entity. As post-structuralist theory particularly focuses on the nature of power, questioning the subject, individuality, agency, and presence, the examination and critique of the constructivist perspective finds fertile ground here\dots
+
+Helene Landemore's \parencite{landemore2020} main critique of the liberal
+democracy addresses the systemic discrimination caused by the electoral
+processes.
+%TODO: Find the page
+
+Following Wolkenstein's \parencite{wolkenstein2024} critique on Landemore's theory stands on foremost the functions of political parties in electoral processes. Political parties are still leading the construction and signification of the primary conflict lines in society
+%TODO: Find the page
+
+Hardt and Negri's \parencite{hardt2017} focus especially lies on the question
+"if a non-sovereign (construction of) representation" is possible. 
+%TODO: Meaningful, practical?
+
+\section{Gezi Protests}
+
+\textbf{RQ:} \textit{How is the representative institutionalisation (or the lack thereof) in Gezi Movement \sidenote{The case to analyse is currently the Gezi Protests, however this element can be expanded or changed if other/more adequate research objects emerge.} to be understood in the context of public deliberation?}
+
+Why Gezi?
+\begin{itemize}
+  \item Relatively spontaneous formation
+  \item Pluralist participation
+  \item Defence of a *public thing*
+\item Heavy involvement of riot police
+\item No clear collective representation (unless the committee selected by the government)
+\item Unrepresentative claims
+\item Anti-representative claims
+\item Non-partisan claim
+\item Different forms of action
+\item Collapsed movement
+\item Arguably living *public things* launched during the protests
+\end{itemize}
+
+\printbibliography
+\end{document}

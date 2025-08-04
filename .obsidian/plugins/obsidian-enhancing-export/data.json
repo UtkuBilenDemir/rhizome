@@ -1,0 +1,72 @@
+{
+  "items": [
+    {
+      "name": "Markdown",
+      "arguments": "-f ${fromFormat} --resource-path=\"${currentDir}\" --resource-path=\"/Users/ubd/Library/Mobile Documents/iCloud~md~obsidian/Documents/rhizome/99_attachments\" --lua-filter=\"${luaDir}/markdown.lua\" -s -o \"${outputPath}\" -t commonmark_x-attributes"
+    },
+    {
+      "name": "Markdown (Hugo)",
+      "arguments": "-f ${fromFormat} --resource-path=\"${currentDir}\" --resource-path=\"/Users/ubd/Library/Mobile Documents/iCloud~md~obsidian/Documents/rhizome/99_attachments\" --lua-filter=\"${luaDir}/markdown+hugo.lua\" -s -o \"${outputPath}\" -t commonmark_x-attributes"
+    },
+    {
+      "name": "Html",
+      "arguments": "-f ${fromFormat} --resource-path=\"${currentDir}\" --resource-path=\"/Users/ubd/Library/Mobile Documents/iCloud~md~obsidian/Documents/rhizome/99_attachments\" --lua-filter=\"${luaDir}/math_block.lua\" --embed-resources --standalone --metadata title=\"${currentFileName}\" -s -o \"${outputPath}\" -t html"
+    },
+    {
+      "name": "TextBundle"
+    },
+    {
+      "name": "Typst"
+    },
+    {
+      "name": "PDF",
+      "arguments": "-f ${fromFormat} --resource-path=\"${currentDir}\" --resource-path=\"/Users/ubd/Library/Mobile Documents/iCloud~md~obsidian/Documents/rhizome/99_attachments\" --lua-filter=\"${luaDir}/pdf.lua\" ${ options.textemplate ? `--resource-path=\"${pluginDir}/textemplate\" --template=\"${options.textemplate}\"` : ` ` } -s -o \"${outputPath}\" -t pdf"
+    },
+    {
+      "name": "Word (.docx)",
+      "arguments": "-f ${fromFormat} --resource-path=\"${currentDir}\" --resource-path=\"/Users/ubd/Library/Mobile Documents/iCloud~md~obsidian/Documents/rhizome/99_attachments\" -s -o \"${outputPath}\" -t docx"
+    },
+    {
+      "name": "OpenOffice",
+      "arguments": "-f ${fromFormat} --resource-path=\"${currentDir}\" --resource-path=\"/Users/ubd/Library/Mobile Documents/iCloud~md~obsidian/Documents/rhizome/99_attachments\" -s -o \"${outputPath}\" -t odt"
+    },
+    {
+      "name": "RTF"
+    },
+    {
+      "name": "Epub",
+      "arguments": "-f ${fromFormat} --resource-path=\"${currentDir}\" --resource-path=\"/Users/ubd/Library/Mobile Documents/iCloud~md~obsidian/Documents/rhizome/99_attachments\" -s -o \"${outputPath}\" -t epub"
+    },
+    {
+      "name": "Latex",
+      "arguments": "-f ${fromFormat} --resource-path=\"${currentDir}\" --resource-path=\"/Users/ubd/Library/Mobile Documents/iCloud~md~obsidian/Documents/rhizome/99_attachments\" ${ options.textemplate ? `--resource-path=\"${pluginDir}/textemplate\" --template=\"${options.textemplate}\"` : ` ` } --extract-media=\"${outputDir}\" -s -o \"${outputPath}\" -t latex"
+    },
+    {
+      "name": "Media Wiki"
+    },
+    {
+      "name": "reStructuredText"
+    },
+    {
+      "name": "Textile"
+    },
+    {
+      "name": "OPML"
+    },
+    {
+      "name": "Bibliography"
+    }
+  ],
+  "defaultExportDirectoryMode": "Custom",
+  "openExportedFile": true,
+  "env": {},
+  "showExportProgressBar": true,
+  "customDefaultExportDirectory": {
+    "darwin": "/Users/ubd/Bibliotheca/02_outputs"
+  },
+  "lastEditName": "Epub",
+  "lastExportDirectory": {
+    "darwin": "/Users/ubd/Downloads"
+  },
+  "lastExportType": "Word (.docx)"
+}

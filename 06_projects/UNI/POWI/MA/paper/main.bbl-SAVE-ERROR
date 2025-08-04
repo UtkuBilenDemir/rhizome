@@ -1,0 +1,1105 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{amoore2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=4b3488aaa126f9ef741ea766698b9f28}{%
+           family={Amoore},
+           familyi={A\bibinitperiod},
+           given={Louise},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b0d8377110cbb0b111de5b9c3412e161}{%
+           family={Campolo},
+           familyi={C\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bb690fb6568c7c62c092a0cbeb285989}{%
+           family={Jacobsen},
+           familyi={J\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ebaae8ff3582f21b4c115485025afb18}{%
+           family={Rella},
+           familyi={R\bibinitperiod},
+           given={Ludovico},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{30bd0b7f33656377f22c1e77c2bdeee0}
+      \strng{fullhash}{3c5863749dd1ebf55a3b18d84d5b76c2}
+      \strng{fullhashraw}{3c5863749dd1ebf55a3b18d84d5b76c2}
+      \strng{bibnamehash}{30bd0b7f33656377f22c1e77c2bdeee0}
+      \strng{authorbibnamehash}{30bd0b7f33656377f22c1e77c2bdeee0}
+      \strng{authornamehash}{30bd0b7f33656377f22c1e77c2bdeee0}
+      \strng{authorfullhash}{3c5863749dd1ebf55a3b18d84d5b76c2}
+      \strng{authorfullhashraw}{3c5863749dd1ebf55a3b18d84d5b76c2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{09626298}
+      \field{journaltitle}{Political Geography}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{shorttitle}{A World Model}
+      \field{title}{A World Model: {{On}} the Political Logics of Generative {{AI}}}
+      \field{urlday}{4}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{volume}{113}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{103134}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.polgeo.2024.103134
+      \endverb
+      \verb{file}
+      \verb /Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Amoore et al._2024_A world model On the political logics of generative AI.pdf
+      \endverb
+    \endentry
+    \entry{bender2021b}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=e579c650beb31c286389278140fadd63}{%
+           family={Bender},
+           familyi={B\bibinitperiod},
+           given={Emily\bibnamedelima M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2b0ffb56c5d1e4220c16c0258e02eae}{%
+           family={Gebru},
+           familyi={G\bibinitperiod},
+           given={Timnit},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=698aa56654e49949b5a9ea038d23587e}{%
+           family={{McMillan-Major}},
+           familyi={M\bibinitperiod},
+           given={Angelina},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c3721cea1e5538fe0b83526d8333dbab}{%
+           family={Shmitchell},
+           familyi={S\bibinitperiod},
+           given={Shmargaret},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Virtual Event Canada}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{c73d9460425aeddbb561b189551a3a98}
+      \strng{fullhash}{c4b1a296df1a50ba514ab947970f1784}
+      \strng{fullhashraw}{c4b1a296df1a50ba514ab947970f1784}
+      \strng{bibnamehash}{c73d9460425aeddbb561b189551a3a98}
+      \strng{authorbibnamehash}{c73d9460425aeddbb561b189551a3a98}
+      \strng{authornamehash}{c73d9460425aeddbb561b189551a3a98}
+      \strng{authorfullhash}{c4b1a296df1a50ba514ab947970f1784}
+      \strng{authorfullhashraw}{c4b1a296df1a50ba514ab947970f1784}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Proceedings of the 2021 {{ACM Conference}} on {{Fairness}}, {{Accountability}}, and {{Transparency}}}
+      \field{isbn}{978-1-4503-8309-7}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{shorttitle}{On the {{Dangers}} of {{Stochastic Parrots}}}
+      \field{title}{On the {{Dangers}} of {{Stochastic Parrots}}: {{Can Language Models Be Too Big}}?}
+      \field{urlday}{14}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{610\bibrangedash 623}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1145/3442188.3445922
+      \endverb
+      \verb{file}
+      \verb /Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Bender_et_al_2021_2.pdf
+      \endverb
+      \keyw{,algo}
+    \endentry
+    \entry{berggrueninstitute2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5a9169074caf5343b48c8d7295a9a4ac}{%
+           family={{Berggruen Institute}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{5a9169074caf5343b48c8d7295a9a4ac}
+      \strng{fullhash}{5a9169074caf5343b48c8d7295a9a4ac}
+      \strng{fullhashraw}{5a9169074caf5343b48c8d7295a9a4ac}
+      \strng{bibnamehash}{5a9169074caf5343b48c8d7295a9a4ac}
+      \strng{authorbibnamehash}{5a9169074caf5343b48c8d7295a9a4ac}
+      \strng{authornamehash}{5a9169074caf5343b48c8d7295a9a4ac}
+      \strng{authorfullhash}{5a9169074caf5343b48c8d7295a9a4ac}
+      \strng{authorfullhashraw}{5a9169074caf5343b48c8d7295a9a4ac}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The Berggruen Institute Europe welcomed Professor Slavoj Žižek at Casa dei Tre Oci to deliver a lecture on the need for a quantum theory of history.~ What does it mean? Why should a new theory of history and transformation be operationalized as the basis of a new politics?}
+      \field{month}{4}
+      \field{shorttitle}{Europe's Role in the Current Planetary Politics}
+      \field{title}{Europe's Role in the Current Planetary Politics: {{Slavoj Žižek}}}
+      \field{urlday}{22}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+    \endentry
+    \entry{brusseau2020}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b6034ab50d40975e72264b5057fc7ef8}{%
+           family={Brusseau},
+           familyi={B\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b6034ab50d40975e72264b5057fc7ef8}
+      \strng{fullhash}{b6034ab50d40975e72264b5057fc7ef8}
+      \strng{fullhashraw}{b6034ab50d40975e72264b5057fc7ef8}
+      \strng{bibnamehash}{b6034ab50d40975e72264b5057fc7ef8}
+      \strng{authorbibnamehash}{b6034ab50d40975e72264b5057fc7ef8}
+      \strng{authornamehash}{b6034ab50d40975e72264b5057fc7ef8}
+      \strng{authorfullhash}{b6034ab50d40975e72264b5057fc7ef8}
+      \strng{authorfullhashraw}{b6034ab50d40975e72264b5057fc7ef8}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In 1990, Gilles Deleuze published Postscript on the Societies of Control , an introduction to the potentially suffocating reality of the nascent control society. This thirty-year update details how Deleuze's conception has developed from a broad speculative vision into specific economic mechanisms clustering around personal information, big data, predictive analytics, and marketing. The central claim is that today's advancing control society coerces without prohibitions, and through incentives that are not grim but enjoyable, even euphoric because they compel individuals to obey their own personal information. The article concludes by delineating two strategies for living that are as unexplored as control society itself because they are revealed and then enabled by the particular method of oppression that is control.}
+      \field{issn}{0040-5817, 1558-5816}
+      \field{journaltitle}{Theoria}
+      \field{month}{9}
+      \field{number}{164}
+      \field{shorttitle}{Deleuze's {{{\emph{Postscript}}}}{\emph{ on the }}{{{\emph{Societies}}}}{\emph{ of }}{{{\emph{Control}}}} {{Updated}} for {{Big Data}} and {{Predictive Analytics}}}
+      \field{title}{Deleuze's {{{\emph{Postscript}}}}{\emph{ on the }}{{{\emph{Societies}}}}{\emph{ of }}{{{\emph{Control}}}} {{Updated}} for {{Big Data}} and {{Predictive Analytics}}:}
+      \field{urlday}{8}
+      \field{urlmonth}{10}
+      \field{urlyear}{2024}
+      \field{volume}{67}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 25}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.3167/th.2020.6716401
+      \endverb
+      \verb{file}
+      \verb /Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Brusseau_2020_Deleuze’s Postscript on the Societies of Control Updated for Big Data and Predictive Analytic.pdf
+      \endverb
+      \keyw{,not related}
+    \endentry
+    \entry{Cheney2011}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0531281fb30c64dc5a782934a5c20450}{%
+           family={{Cheney-Lippold}},
+           familyi={C\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0531281fb30c64dc5a782934a5c20450}
+      \strng{fullhash}{0531281fb30c64dc5a782934a5c20450}
+      \strng{fullhashraw}{0531281fb30c64dc5a782934a5c20450}
+      \strng{bibnamehash}{0531281fb30c64dc5a782934a5c20450}
+      \strng{authorbibnamehash}{0531281fb30c64dc5a782934a5c20450}
+      \strng{authornamehash}{0531281fb30c64dc5a782934a5c20450}
+      \strng{authorfullhash}{0531281fb30c64dc5a782934a5c20450}
+      \strng{authorfullhashraw}{0531281fb30c64dc5a782934a5c20450}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Marketing and web analytic companies have implemented sophisticated algorithms to observe, analyze, and identify users through large surveillance networks online. These computer algorithms have the capacity to infer categories of identity upon users based largely on their web-surfing habits. In this article I will first discuss the conceptual and theoretical work around code, outlining its use in an analysis of online categorization practices. The article will then approach the function of code at the level of the category, arguing that an analysis of coded computer algorithms enables a supplement to Foucauldian thinking around biopolitics and biopower, of what I call soft biopower and soft biopolitics. These new conceptual devices allow us to better understand the workings of biopower at the level of the category, of using computer code, statistics and surveillance to construct categories within populations according to users? surveilled internet history. Finally, the article will think through the nuanced ways that algorithmic inference works as a mode of control, of processes of identification that structure and regulate our lives online within the context of online marketing and algorithmic categorization.}
+      \field{issn}{0263-2764}
+      \field{journaltitle}{Theory, Culture \& Society}
+      \field{month}{11}
+      \field{number}{6}
+      \field{title}{A {{New Algorithmic Identity}}: {{Soft Biopolitics}} and the {{Modulation}} of {{Control}}}
+      \field{urlday}{23}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{volume}{28}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \field{pages}{164\bibrangedash 181}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1177/0263276411424420
+      \endverb
+      \verb{file}
+      \verb /Users/ubd/Zotero/storage/9G8WRDEW/Cheney-Lippold_2011_A New Algorithmic Identity.pdf
+      \endverb
+      \keyw{,algo,Deleuze}
+    \endentry
+    \entry{chomsky2023}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=28167c0b3800bc5cfb686676277005b0}{%
+           family={Chomsky},
+           familyi={C\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d85f49701b4560c2ff187dcda8c5e39c}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f6a43bc4d28dc20e92e215dde029be4}{%
+           family={Watumull},
+           familyi={W\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ba06b6d42cacdf743fb7802292ab0b50}
+      \strng{fullhash}{ba06b6d42cacdf743fb7802292ab0b50}
+      \strng{fullhashraw}{ba06b6d42cacdf743fb7802292ab0b50}
+      \strng{bibnamehash}{ba06b6d42cacdf743fb7802292ab0b50}
+      \strng{authorbibnamehash}{ba06b6d42cacdf743fb7802292ab0b50}
+      \strng{authornamehash}{ba06b6d42cacdf743fb7802292ab0b50}
+      \strng{authorfullhash}{ba06b6d42cacdf743fb7802292ab0b50}
+      \strng{authorfullhashraw}{ba06b6d42cacdf743fb7802292ab0b50}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The most prominent strain of A.I. encodes a flawed conception of language and knowledge.}
+      \field{chapter}{Opinion}
+      \field{issn}{0362-4331}
+      \field{journaltitle}{The New York Times}
+      \field{langid}{american}
+      \field{month}{3}
+      \field{shorttitle}{Opinion {|} {{Noam Chomsky}}}
+      \field{title}{Opinion {|} {{Noam Chomsky}}: {{The False Promise}} of {{ChatGPT}}}
+      \field{urlday}{27}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/ubd/Zotero/storage/D7DNKPDB/noam-chomsky-chatgpt-ai.html
+      \endverb
+      \keyw{Artificial Intelligence,ChatGPT,Computers and the Internet,Ethics (Personal),Language and Languages,Philosophy}
+    \endentry
+    \entry{coeckelbergh2024}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=cfd4ef5d8e7e582d15ecead767493fc1}{%
+           family={Coeckelbergh},
+           familyi={C\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f10bb8c92304eb48cc0e9eb1e7a52c31}{%
+           family={Gunkel},
+           familyi={G\bibinitperiod},
+           given={David\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science and Business Media LLC}%
+      }
+      \strng{namehash}{0a3b9571d5d68989dc19913f254a5950}
+      \strng{fullhash}{0a3b9571d5d68989dc19913f254a5950}
+      \strng{fullhashraw}{0a3b9571d5d68989dc19913f254a5950}
+      \strng{bibnamehash}{0a3b9571d5d68989dc19913f254a5950}
+      \strng{authorbibnamehash}{0a3b9571d5d68989dc19913f254a5950}
+      \strng{authornamehash}{0a3b9571d5d68989dc19913f254a5950}
+      \strng{authorfullhash}{0a3b9571d5d68989dc19913f254a5950}
+      \strng{authorfullhashraw}{0a3b9571d5d68989dc19913f254a5950}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{AbstractLarge language models such as ChatGPT enable users to automatically produce text but also raise ethical concerns, for example about authorship and deception. This paper analyses and discusses some key philosophical assumptions in these debates, in particular assumptions about authorship and language and---our focus---the use of the appearance/reality distinction. We show that there are alternative views of what goes on with ChatGPT that do not rely on this distinction. For this purpose, we deploy the two phased approach of deconstruction and relate our finds to questions regarding authorship and language in the humanities. We also identify and respond to two common counter-objections in order to show the ethical appeal and practical use of our proposal.}
+      \field{issn}{0951-5666, 1435-5655}
+      \field{journaltitle}{AI \& SOCIETY}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{5}
+      \field{shorttitle}{{{ChatGPT}}}
+      \field{title}{{{ChatGPT}}: Deconstructing the Debate and Moving It Forward}
+      \field{urlday}{23}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{volume}{39}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{2221\bibrangedash 2231}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1007/s00146-023-01710-4
+      \endverb
+      \verb{file}
+      \verb /Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Coeckelbergh and Gunkel_2024_ChatGPT deconstructing the debate and moving it forward.pdf
+      \endverb
+    \endentry
+    \entry{creativephilosophy2023}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5b05d991cce5e383b33c150f56fa0ea0}{%
+           family={{Creative Philosophy}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{5b05d991cce5e383b33c150f56fa0ea0}
+      \strng{fullhash}{5b05d991cce5e383b33c150f56fa0ea0}
+      \strng{fullhashraw}{5b05d991cce5e383b33c150f56fa0ea0}
+      \strng{bibnamehash}{5b05d991cce5e383b33c150f56fa0ea0}
+      \strng{authorbibnamehash}{5b05d991cce5e383b33c150f56fa0ea0}
+      \strng{authornamehash}{5b05d991cce5e383b33c150f56fa0ea0}
+      \strng{authorfullhash}{5b05d991cce5e383b33c150f56fa0ea0}
+      \strng{authorfullhashraw}{5b05d991cce5e383b33c150f56fa0ea0}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{I'm again reading Deleuze \& Guattari's Anti-Oedipus in preparation for our next session of `Envelopes'. The book has nothing direct to say about Artificial Intelligence, but I have A.I. on the brain, so it spurred me to write some thoughts and offer them to you. Envelopes 3, a discussion of this text's first chapter, should be up in a week or so. ENVELOPES is a series of discussions on the intersections of philosophy, creativity, and politics by James Batcho and Jonathan Bennett-Bonilla. Our aim: Rather than explaining a text, we read a text as a means of thinking through what its concepts may offer toward the possibilities of creative expression and transformation. \#deleuze \#deleuzeandguattari \#antioedipus \#ai \#artificialintelligence {©}2023 James Batcho}
+      \field{month}{6}
+      \field{title}{A.{{I}}. and {{Desire}} - {{Deleuze}} \& {{Guattari Preview}}}
+      \field{urlday}{14}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+    \endentry
+    \entry{deleuze1983}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=01e8c4f353d8f2d65f9f05ee78f50c8c}{%
+           family={Deleuze},
+           familyi={D\bibinitperiod},
+           given={Gilles},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=09227aa5125b82e2704c6045d0494a01}{%
+           family={Guattari},
+           familyi={G\bibinitperiod},
+           given={Félix},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Minneapolis}%
+      }
+      \list{publisher}{1}{%
+        {University of Minnesota Press}%
+      }
+      \strng{namehash}{b9f3f28d00d4532cd9d12160a6b70b90}
+      \strng{fullhash}{b9f3f28d00d4532cd9d12160a6b70b90}
+      \strng{fullhashraw}{b9f3f28d00d4532cd9d12160a6b70b90}
+      \strng{bibnamehash}{b9f3f28d00d4532cd9d12160a6b70b90}
+      \strng{authorbibnamehash}{b9f3f28d00d4532cd9d12160a6b70b90}
+      \strng{authornamehash}{b9f3f28d00d4532cd9d12160a6b70b90}
+      \strng{authorfullhash}{b9f3f28d00d4532cd9d12160a6b70b90}
+      \strng{authorfullhashraw}{b9f3f28d00d4532cd9d12160a6b70b90}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-0-8166-1225-3}
+      \field{langid}{english}
+      \field{shorttitle}{Anti-{{Oedipus}}}
+      \field{title}{Anti-{{Oedipus}}: Capitalism and Schizophrenia}
+      \field{year}{1983}
+      \verb{file}
+      \verb /Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Deleuze and Guattari_1983_Anti-Oedipus capitalism and schizophrenia 1.pdf;/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Deleuze and Guattari_1983_Anti-Oedipus capitalism and schizophrenia.epub;/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Deleuze and Guattari_1983_Anti-Oedipus capitalism and schizophrenia.pdf
+      \endverb
+      \keyw{Capitalism,Oedipus complex,Psychoanalysis,Schizophrenia,Social aspects,Social psychiatry}
+    \endentry
+    \entry{dishon2024}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8d97d70e01aaec328e2b5d5890370edb}{%
+           family={Dishon},
+           familyi={D\bibinitperiod},
+           given={Gideon},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8d97d70e01aaec328e2b5d5890370edb}
+      \strng{fullhash}{8d97d70e01aaec328e2b5d5890370edb}
+      \strng{fullhashraw}{8d97d70e01aaec328e2b5d5890370edb}
+      \strng{bibnamehash}{8d97d70e01aaec328e2b5d5890370edb}
+      \strng{authorbibnamehash}{8d97d70e01aaec328e2b5d5890370edb}
+      \strng{authornamehash}{8d97d70e01aaec328e2b5d5890370edb}
+      \strng{authorfullhash}{8d97d70e01aaec328e2b5d5890370edb}
+      \strng{authorfullhashraw}{8d97d70e01aaec328e2b5d5890370edb}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract The emergence of ChatGPT and other Generative AI tools (GenAI) capable of producing human-like texts sparked debates concerning whether we are at the dawn of a new age of writing and meaning-making. Rather than weighing in on the potential impact of GenAI, this paper engages with the implicit sociotechnical imaginaries underpinning reactions to GenAI. One particularly evocative source for sociotechnical imaginaries are fictional texts, which can shape our shared imagination of possible and probable futures. Accordingly, I analyze two seminal works of fiction: Mary Shelley's Frankenstein (Planet eBooks, 1818) and Franz Kafka's The Trial (Echo Library, 1925). Frankenstein is regarded as an enduring myth that has shaped perceptions of artificial life. This paper sets out to explore the limitations of the `Frankensteinian sociotechnical imaginary' by unpacking AI's assumed modes of meaning-making along three axes: (1) agency, (2) relations, and (3) control. Within the Frankensteinian sociotechnical imaginary, AI is approached in anthropomorphic terms, emphasizing the struggle over control of meaning-making without reshaping its overarching logic. The Trial, in contrast, offers a lens that challenges common dichotomies underpinning the Frankenstein model: (1) highlighting the entanglement between AI and human intentionality in processes of meaning-making, (2) exploring human-AI relations as recursively shaped through the complementary tendency of humans and GenAI to generate and infer meaning, and (3) shifting the notion of control from a struggle over domination to an emphasis on how GenAI concurrently expands the available choices while limiting humans' influence over patterns of meaning-making.}
+      \field{issn}{2524-485X, 2524-4868}
+      \field{journaltitle}{Postdigital Science and Education}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{3}
+      \field{shorttitle}{From {{Monsters}} to {{Mazes}}}
+      \field{title}{From {{Monsters}} to {{Mazes}}: {{Sociotechnical Imaginaries}} of {{AI Between Frankenstein}} and {{Kafka}}}
+      \field{urlday}{19}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{volume}{6}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{962\bibrangedash 977}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/s42438-024-00482-4
+      \endverb
+      \verb{file}
+      \verb /Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Dishon_2024_From Monsters to Mazes Sociotechnical Imaginaries of AI Between Frankenstein and Kafka.pdf
+      \endverb
+    \endentry
+    \entry{gillespie2024}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ce36d4965a00d6cc54683c17c8f2101e}{%
+           family={Gillespie},
+           familyi={G\bibinitperiod},
+           given={Tarleton},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ce36d4965a00d6cc54683c17c8f2101e}
+      \strng{fullhash}{ce36d4965a00d6cc54683c17c8f2101e}
+      \strng{fullhashraw}{ce36d4965a00d6cc54683c17c8f2101e}
+      \strng{bibnamehash}{ce36d4965a00d6cc54683c17c8f2101e}
+      \strng{authorbibnamehash}{ce36d4965a00d6cc54683c17c8f2101e}
+      \strng{authornamehash}{ce36d4965a00d6cc54683c17c8f2101e}
+      \strng{authorfullhash}{ce36d4965a00d6cc54683c17c8f2101e}
+      \strng{authorfullhashraw}{ce36d4965a00d6cc54683c17c8f2101e}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Proponents of generative AI tools claim they will supplement, even replace, the work of cultural production. This raises questions about the politics of visibility: what kinds of stories do these tools tend to generate, and what do they generally not? Do these tools match the kind of diversity of representation that marginalized populations and non-normative communities have fought to secure in publishing and broadcast media? I tested three widely available generative AI tools with prompts designed to reveal these normative assumptions; I prompted the tools multiple times with each, to track the diversity of the outputs to the same query. I demonstrate that, as currently designed and trained, generative AI tools tend to reproduce normative identities and narratives, rarely representing less common arrangements and perspectives. When they do generate variety, it is often narrow, maintaining deeper normative assumptions in what remains absent.}
+      \field{issn}{2053-9517, 2053-9517}
+      \field{journaltitle}{Big Data \& Society}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{2}
+      \field{title}{Generative {{AI}} and the Politics of Visibility}
+      \field{urlday}{3}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{volume}{11}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{20539517241252131}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1177/20539517241252131
+      \endverb
+      \verb{file}
+      \verb /Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Gillespie_2024_Generative AI and the politics of visibility.pdf
+      \endverb
+    \endentry
+    \entry{Haggerty2000}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=56d004f2a9744c8829de2d3f58c6a4f3}{%
+           family={Haggerty},
+           familyi={H\bibinitperiod},
+           given={Kevin\bibnamedelima D},
+           giveni={K\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d623e45da8c348f7a80c6d4867ac4ac2}{%
+           family={Ericson},
+           familyi={E\bibinitperiod},
+           given={Richard\bibnamedelima V},
+           giveni={R\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0bc5a17d393f87a9206c39dddd08deeb}
+      \strng{fullhash}{0bc5a17d393f87a9206c39dddd08deeb}
+      \strng{fullhashraw}{0bc5a17d393f87a9206c39dddd08deeb}
+      \strng{bibnamehash}{0bc5a17d393f87a9206c39dddd08deeb}
+      \strng{authorbibnamehash}{0bc5a17d393f87a9206c39dddd08deeb}
+      \strng{authornamehash}{0bc5a17d393f87a9206c39dddd08deeb}
+      \strng{authorfullhash}{0bc5a17d393f87a9206c39dddd08deeb}
+      \strng{authorfullhashraw}{0bc5a17d393f87a9206c39dddd08deeb}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0007-1315}
+      \field{journaltitle}{The British journal of sociology}
+      \field{number}{4}
+      \field{title}{The Surveillant Assemblage}
+      \field{volume}{51}
+      \field{year}{2000}
+      \field{pages}{605\bibrangedash 622}
+      \range{pages}{18}
+      \verb{file}
+      \verb /Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Haggerty_Ericson_2000_.pdf
+      \endverb
+    \endentry
+    \entry{hui2015}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ab016c48f6527b264c70ee550f3088ed}{%
+           family={Hui},
+           familyi={H\bibinitperiod},
+           given={Yuk},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ab016c48f6527b264c70ee550f3088ed}
+      \strng{fullhash}{ab016c48f6527b264c70ee550f3088ed}
+      \strng{fullhashraw}{ab016c48f6527b264c70ee550f3088ed}
+      \strng{bibnamehash}{ab016c48f6527b264c70ee550f3088ed}
+      \strng{authorbibnamehash}{ab016c48f6527b264c70ee550f3088ed}
+      \strng{authornamehash}{ab016c48f6527b264c70ee550f3088ed}
+      \strng{authorfullhash}{ab016c48f6527b264c70ee550f3088ed}
+      \strng{authorfullhashraw}{ab016c48f6527b264c70ee550f3088ed}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0950-2378}
+      \field{journaltitle}{New Formations}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{84}
+      \field{title}{Modulation after {{Control}}}
+      \field{urlday}{3}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{volume}{84}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{74\bibrangedash 91}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.3898/NewF:84/85.04.2015
+      \endverb
+      \verb{file}
+      \verb /Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Hui_2015_Modulation after Control.pdf
+      \endverb
+      \keyw{,disindividuation}
+    \endentry
+    \entry{joyce1975}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=305632e5c5f2ee46ef136f27dbd92b26}{%
+           family={Joyce},
+           familyi={J\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Faber and Faber}%
+      }
+      \strng{namehash}{305632e5c5f2ee46ef136f27dbd92b26}
+      \strng{fullhash}{305632e5c5f2ee46ef136f27dbd92b26}
+      \strng{fullhashraw}{305632e5c5f2ee46ef136f27dbd92b26}
+      \strng{bibnamehash}{305632e5c5f2ee46ef136f27dbd92b26}
+      \strng{authorbibnamehash}{305632e5c5f2ee46ef136f27dbd92b26}
+      \strng{authornamehash}{305632e5c5f2ee46ef136f27dbd92b26}
+      \strng{authorfullhash}{305632e5c5f2ee46ef136f27dbd92b26}
+      \strng{authorfullhashraw}{305632e5c5f2ee46ef136f27dbd92b26}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1. publ}
+      \field{isbn}{978-0-571-21735-9 978-0-571-10807-7}
+      \field{langid}{english}
+      \field{title}{Finnegans Wake}
+      \field{year}{1975}
+    \endentry
+    \entry{konik2015}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2382f1351578814effdb6e86bf6a56e5}{%
+           family={Konik},
+           familyi={K\bibinitperiod},
+           given={Adrian},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2382f1351578814effdb6e86bf6a56e5}
+      \strng{fullhash}{2382f1351578814effdb6e86bf6a56e5}
+      \strng{fullhashraw}{2382f1351578814effdb6e86bf6a56e5}
+      \strng{bibnamehash}{2382f1351578814effdb6e86bf6a56e5}
+      \strng{authorbibnamehash}{2382f1351578814effdb6e86bf6a56e5}
+      \strng{authornamehash}{2382f1351578814effdb6e86bf6a56e5}
+      \strng{authorfullhash}{2382f1351578814effdb6e86bf6a56e5}
+      \strng{authorfullhashraw}{2382f1351578814effdb6e86bf6a56e5}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0258-0136, 2073-4867}
+      \field{journaltitle}{South African Journal of Philosophy}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shorttitle}{The Politics of Time}
+      \field{title}{The Politics of Time: {{Deleuze}}, {\emph{Duration}} and Alter-Globalisation}
+      \field{urlday}{3}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{volume}{34}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{107\bibrangedash 127}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1080/02580136.2014.992157
+      \endverb
+      \verb{file}
+      \verb /Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Konik_2015_The politics of time Deleuze, duration and alter-globalisation.pdf
+      \endverb
+    \endentry
+    \entry{mackenzie2021}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=281b617ac4b0e544c0a55030bc4dab4c}{%
+           family={MacKenzie},
+           familyi={M\bibinitperiod},
+           given={Iain},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2717ab63c74249c89dadedb97b855daa}{%
+           family={Porter},
+           familyi={P\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d02432da3ebbf51de23b0a4cdd240863}
+      \strng{fullhash}{d02432da3ebbf51de23b0a4cdd240863}
+      \strng{fullhashraw}{d02432da3ebbf51de23b0a4cdd240863}
+      \strng{bibnamehash}{d02432da3ebbf51de23b0a4cdd240863}
+      \strng{authorbibnamehash}{d02432da3ebbf51de23b0a4cdd240863}
+      \strng{authornamehash}{d02432da3ebbf51de23b0a4cdd240863}
+      \strng{authorfullhash}{d02432da3ebbf51de23b0a4cdd240863}
+      \strng{authorfullhashraw}{d02432da3ebbf51de23b0a4cdd240863}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1470-8914, 1476-9336}
+      \field{journaltitle}{Contemporary Political Theory}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{2}
+      \field{title}{Totalizing Institutions, Critique and Resistance}
+      \field{urlday}{8}
+      \field{urlmonth}{10}
+      \field{urlyear}{2024}
+      \field{volume}{20}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{233\bibrangedash 249}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1057/s41296-019-00336-w
+      \endverb
+      \verb{file}
+      \verb /Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/MacKenzie and Porter_2021_Totalizing institutions, critique and resistance.pdf
+      \endverb
+    \endentry
+    \entry{mcquillan2019}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=073efaf80a8e361fa3066607b3af0da9}{%
+           family={McQuillan},
+           familyi={M\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{073efaf80a8e361fa3066607b3af0da9}
+      \strng{fullhash}{073efaf80a8e361fa3066607b3af0da9}
+      \strng{fullhashraw}{073efaf80a8e361fa3066607b3af0da9}
+      \strng{bibnamehash}{073efaf80a8e361fa3066607b3af0da9}
+      \strng{authorbibnamehash}{073efaf80a8e361fa3066607b3af0da9}
+      \strng{authornamehash}{073efaf80a8e361fa3066607b3af0da9}
+      \strng{authorfullhash}{073efaf80a8e361fa3066607b3af0da9}
+      \strng{authorfullhashraw}{073efaf80a8e361fa3066607b3af0da9}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We already know the destructive consequences on the individual and collective psyche of poverty, racism and systemic neglect. We don't need AI as targeting but as something that helps raise up whole populations.}
+      \field{howpublished}{https://www.opendemocracy.net/en/digitaliberties/towards-anti-fascist-ai/}
+      \field{journaltitle}{openDemocracy}
+      \field{langid}{english}
+      \field{title}{Towards an Anti-Fascist {{AI}}}
+      \field{urlday}{30}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/ubd/Zotero/storage/DRDUZ5NC/towards-anti-fascist-ai.html
+      \endverb
+    \endentry
+    \entry{montanari2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=eb7a0dda6dab2fba71c7205b483929c9}{%
+           family={Montanari},
+           familyi={M\bibinitperiod},
+           given={Federico},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{eb7a0dda6dab2fba71c7205b483929c9}
+      \strng{fullhash}{eb7a0dda6dab2fba71c7205b483929c9}
+      \strng{fullhashraw}{eb7a0dda6dab2fba71c7205b483929c9}
+      \strng{bibnamehash}{eb7a0dda6dab2fba71c7205b483929c9}
+      \strng{authorbibnamehash}{eb7a0dda6dab2fba71c7205b483929c9}
+      \strng{authornamehash}{eb7a0dda6dab2fba71c7205b483929c9}
+      \strng{authorfullhash}{eb7a0dda6dab2fba71c7205b483929c9}
+      \strng{authorfullhashraw}{eb7a0dda6dab2fba71c7205b483929c9}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract The aim of this article is, on the one hand, to take up and discuss some key categories and concepts in semiotics, in an attempt to analyze the mechanisms underlying current artificial intelligence (AI) models, with a focus on ChatGPT. Although many of these concepts are already being debated, they remain crucial in relation to semiotic and sociosemiotic categories. Concepts such as generativity, perception, textuality, and the effects of meaning, as well as the notion of language itself, require a new semiotic evaluation, including in relation to a cultural history of~AI, and the metaphors associated with it. In addition, this article aims to propose~more of a general observation and review of some theoretical problems and sociosemiotic issues related to the advent of AIs with some correlated examples, such as in the field of political communication and conflict.}
+      \field{issn}{0037-1998, 1613-3692}
+      \field{journaltitle}{Semiotica}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{262}
+      \field{shorttitle}{{{ChatGPT}} and the Others}
+      \field{title}{{{ChatGPT}} and the Others: Artificial Intelligence, Social Actors, and Political Communication. {{A}} Tentative Sociosemiotic Glance}
+      \field{urlday}{27}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{volume}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \field{pages}{189\bibrangedash 212}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1515/sem-2024-0210
+      \endverb
+      \verb{file}
+      \verb /Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Montanari_2025_ChatGPT and the others artificial intelligence, social actors, and political communication. A tenta.pdf
+      \endverb
+    \endentry
+    \entry{pasquinelli2023}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fdd1f8c21d64d058841fdd4eae05cf96}{%
+           family={Pasquinelli},
+           familyi={P\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London New York}%
+      }
+      \list{publisher}{1}{%
+        {Verso}%
+      }
+      \strng{namehash}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{fullhash}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{fullhashraw}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{bibnamehash}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{authorbibnamehash}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{authornamehash}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{authorfullhash}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{authorfullhashraw}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{"A social history that reveals the roots of AI in the spatial computation of industrial factories and the surveillance of collective behaviour"--}
+      \field{isbn}{978-1-78873-006-8 978-1-78873-008-2 978-1-78873-007-5}
+      \field{langid}{english}
+      \field{shorttitle}{The Eye of the Master}
+      \field{title}{The Eye of the Master: A Social History of Artificial Intelligence}
+      \field{year}{2023}
+    \endentry
+    \entry{poster2010}{book}{}{}
+      \name{editor}{3}{}{%
+        {{un=0,uniquepart=base,hash=f8673b522c092539334c3929d757f34e}{%
+           family={Poster},
+           familyi={P\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a45ee74e1b0eee47f99ffec11411440c}{%
+           family={Savat},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=01e8c4f353d8f2d65f9f05ee78f50c8c}{%
+           family={Deleuze},
+           familyi={D\bibinitperiod},
+           given={Gilles},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Edinburgh}%
+      }
+      \list{publisher}{1}{%
+        {Edinburgh Univ. Press}%
+      }
+      \strng{namehash}{7914329581be194c62f7b12b30fd466a}
+      \strng{fullhash}{7914329581be194c62f7b12b30fd466a}
+      \strng{fullhashraw}{7914329581be194c62f7b12b30fd466a}
+      \strng{bibnamehash}{7914329581be194c62f7b12b30fd466a}
+      \strng{editorbibnamehash}{7914329581be194c62f7b12b30fd466a}
+      \strng{editornamehash}{7914329581be194c62f7b12b30fd466a}
+      \strng{editorfullhash}{7914329581be194c62f7b12b30fd466a}
+      \strng{editorfullhashraw}{7914329581be194c62f7b12b30fd466a}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{edition}{reprinted}
+      \field{isbn}{978-0-7486-3336-4 978-0-7486-3338-8}
+      \field{langid}{english}
+      \field{series}{Deleuze Connections}
+      \field{title}{Deleuze and New Technology}
+      \field{year}{2010}
+      \verb{file}
+      \verb /Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Poster et al._2010_Deleuze and new technology.pdf
+      \endverb
+    \endentry
+    \entry{rouvroy}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=99725afd9ad3d57611ba018cd5e3e372}{%
+           family={Rouvroy},
+           familyi={R\bibinitperiod},
+           given={Antoinette},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{99725afd9ad3d57611ba018cd5e3e372}
+      \strng{fullhash}{99725afd9ad3d57611ba018cd5e3e372}
+      \strng{fullhashraw}{99725afd9ad3d57611ba018cd5e3e372}
+      \strng{bibnamehash}{99725afd9ad3d57611ba018cd5e3e372}
+      \strng{authorbibnamehash}{99725afd9ad3d57611ba018cd5e3e372}
+      \strng{authornamehash}{99725afd9ad3d57611ba018cd5e3e372}
+      \strng{authorfullhash}{99725afd9ad3d57611ba018cd5e3e372}
+      \strng{authorfullhashraw}{99725afd9ad3d57611ba018cd5e3e372}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{The End(s) of Critique : Data-Behaviourism vs. Due-Process.}
+      \verb{file}
+      \verb /Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Rouvroy_The end(s) of critique data-behaviourism vs. due-process..pdf
+      \endverb
+    \endentry
+    \entry{Otterlo2013}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=da06a7e464ce6ca0971f7b94c39cfeb9}{%
+           family={Van\bibnamedelima Otterlo},
+           familyi={V\bibinitperiod\bibinitdelim O\bibinitperiod},
+           given={Martijn},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=7e8abe8370cee2294c885c9afaef365d}{%
+           family={Hildebrandt},
+           familyi={H\bibinitperiod},
+           given={Mireille},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2327bd6ff52f2eb5b1ba1ede6d409bef}{%
+           family={De\bibnamedelima Vries},
+           familyi={D\bibinitperiod\bibinitdelim V\bibinitperiod},
+           given={Katja},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{da06a7e464ce6ca0971f7b94c39cfeb9}
+      \strng{fullhash}{da06a7e464ce6ca0971f7b94c39cfeb9}
+      \strng{fullhashraw}{da06a7e464ce6ca0971f7b94c39cfeb9}
+      \strng{bibnamehash}{da06a7e464ce6ca0971f7b94c39cfeb9}
+      \strng{authorbibnamehash}{da06a7e464ce6ca0971f7b94c39cfeb9}
+      \strng{authornamehash}{da06a7e464ce6ca0971f7b94c39cfeb9}
+      \strng{authorfullhash}{da06a7e464ce6ca0971f7b94c39cfeb9}
+      \strng{authorfullhashraw}{da06a7e464ce6ca0971f7b94c39cfeb9}
+      \strng{editorbibnamehash}{6b2f16d58196291852d369a54799a783}
+      \strng{editornamehash}{6b2f16d58196291852d369a54799a783}
+      \strng{editorfullhash}{6b2f16d58196291852d369a54799a783}
+      \strng{editorfullhashraw}{6b2f16d58196291852d369a54799a783}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Privacy, {{Due Process}} and the {{Computational Turn}}}
+      \field{month}{1}
+      \field{title}{A {{Machine Learning View}} on {{Profiling}}}
+      \field{year}{2013}
+      \verb{doi}
+      \verb 10.4324/9780203427644
+      \endverb
+      \verb{file}
+      \verb /Users/ubd/Zotero/storage/UWYXL6EY/Van Otterlo_2013_A Machine Learning View on Profiling.pdf
+      \endverb
+    \endentry
+    \entry{zarkadakes2020}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=329b8433275e71f56e230ff962f27b1f}{%
+           family={Zarkadakēs},
+           familyi={Z\bibinitperiod},
+           given={Giōrgos},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=73f6d11b42536dfd598560c86939477f}{%
+           family={Tapscott},
+           familyi={T\bibinitperiod},
+           given={Don},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, Massachussets London, England}%
+      }
+      \list{publisher}{1}{%
+        {The MIT Press}%
+      }
+      \strng{namehash}{9efe96940350443f62175af00061e4cd}
+      \strng{fullhash}{9efe96940350443f62175af00061e4cd}
+      \strng{fullhashraw}{9efe96940350443f62175af00061e4cd}
+      \strng{bibnamehash}{9efe96940350443f62175af00061e4cd}
+      \strng{authorbibnamehash}{9efe96940350443f62175af00061e4cd}
+      \strng{authornamehash}{9efe96940350443f62175af00061e4cd}
+      \strng{authorfullhash}{9efe96940350443f62175af00061e4cd}
+      \strng{authorfullhashraw}{9efe96940350443f62175af00061e4cd}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{"Cyber Republic presents a radical framework for rethinking politics and business in a post-work age of human-machine collaboration. It offers an optimistic and democratic roadmap for the future"--}
+      \field{isbn}{978-0-262-54272-2 978-0-262-04431-8}
+      \field{langid}{english}
+      \field{shorttitle}{Cyber Republic}
+      \field{title}{Cyber Republic: Reinventing Democracy in the Age of Intelligent Machines}
+      \field{year}{2020}
+      \verb{file}
+      \verb /Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Zarkadakēs_Tapscott_2020_.epub;/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Zarkadakēs_Tapscott_2020_.pdf;/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Zarkadakēs_Tapscott_2020_2.epub
+      \endverb
+    \endentry
+    \entry{zuboff2019}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=19b83c33a232c9892502d941e4cfcf56}{%
+           family={Zuboff},
+           familyi={Z\bibinitperiod},
+           given={Shoshana},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Profile books}%
+      }
+      \strng{namehash}{19b83c33a232c9892502d941e4cfcf56}
+      \strng{fullhash}{19b83c33a232c9892502d941e4cfcf56}
+      \strng{fullhashraw}{19b83c33a232c9892502d941e4cfcf56}
+      \strng{bibnamehash}{19b83c33a232c9892502d941e4cfcf56}
+      \strng{authorbibnamehash}{19b83c33a232c9892502d941e4cfcf56}
+      \strng{authornamehash}{19b83c33a232c9892502d941e4cfcf56}
+      \strng{authorfullhash}{19b83c33a232c9892502d941e4cfcf56}
+      \strng{authorfullhashraw}{19b83c33a232c9892502d941e4cfcf56}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-1-78125-684-8 978-1-78125-685-5}
+      \field{langid}{english}
+      \field{shorttitle}{The Age of Surveillance Capitalism}
+      \field{title}{The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power}
+      \field{year}{2019}
+      \verb{file}
+      \verb /Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Zuboff_2019_.pdf
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{dignum2020}
+  \missing{mischke2021c}
+  \missing{vaswani}
+\endrefsection
+\endinput
+

@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"be98e1835ffc547e","x":-393,"y":-457,"width":250,"height":60,"type":"text","text":"Decision Support"},
+		{"id":"424317a7637a2473","type":"text","text":"Real-time door to door","x":-60,"y":-457,"width":250,"height":60},
+		{"id":"b306e0a305d4649d","type":"text","text":"Increased Resilience","x":-393,"y":-360,"width":250,"height":60},
+		{"id":"115371d32d735981","type":"text","text":"Increased Sustainability","x":-60,"y":-360,"width":250,"height":60},
+		{"id":"1cb9a89b4cf7a0cc","x":-393,"y":-100,"width":250,"height":50,"type":"text","text":""}
+	],
+	"edges":[]
+}

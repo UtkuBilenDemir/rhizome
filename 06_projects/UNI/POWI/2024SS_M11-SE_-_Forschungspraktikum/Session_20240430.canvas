@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"2d0181900f64a22c","type":"file","file":"04_literature_notes/@saward2010.md","x":-343,"y":-223,"width":400,"height":400},
+		{"id":"a6e4c9c9e8255064","type":"file","file":"04_literature_notes/@saward2009.md","x":317,"y":167,"width":723,"height":673},
+		{"id":"167ea82ac809d7a4","type":"file","file":"04_literature_notes/@kuyper2016.md","x":600,"y":-340,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"08ba93b6f2f7b647","fromNode":"2d0181900f64a22c","fromSide":"right","toNode":"a6e4c9c9e8255064","toSide":"left"},
+		{"id":"8c251b679a183bf7","fromNode":"2d0181900f64a22c","fromSide":"right","toNode":"167ea82ac809d7a4","toSide":"left"}
+	]
+}

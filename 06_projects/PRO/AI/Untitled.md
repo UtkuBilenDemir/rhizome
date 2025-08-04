@@ -1,0 +1,2 @@
+- [# Decentralized AI | Ben Goertzel | TEDxBerkeley](https://www.youtube.com/watch?v=r4manxX5U-0)
+	- [ ] #_to_read [opencog](https://opencog.org/)
