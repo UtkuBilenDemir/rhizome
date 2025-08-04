@@ -330,5 +330,13 @@ Here’s a revised macro-structure that matches your intuition:
     - GenAI and capitalist realism (Kazakov, Fisher).
 
 6. **Conclusion & Outlook**
+
+
+# A new reading list
+
+#todo/read #ma [@moore2007], important work about Burroughs an Control
+
+
+
 # References
 1. [[paper2]]
