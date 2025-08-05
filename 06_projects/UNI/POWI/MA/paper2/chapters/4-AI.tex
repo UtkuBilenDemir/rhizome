@@ -400,13 +400,7 @@ mechanism for computing contextual representations. In a single operation, every
 weighted combinations of contextually relevant elements \parencite[4]{vaswani2017a}.
 This structure integrates global information without distance penalties and
 lends itself to massive parallelization, a property foundational to
-contemporary \glspl{llm}. Conceptually, the Transformer establishes a \emph{global field of relation},
-where each token is encoded not in isolation or rigid sequence, but through its
-distributed relevance to all others. The architecture affords a form of
-synchronic awareness: the presence of every other word is embedded within the
-representation of each word. This reconfiguration of relationality underpins the
-efficiency, scalability, and generative fluency that define modern \gls{genai}
-systems.
+contemporary \glspl{llm}.
 
 \marginnote{\textbf{TODO}:
 	\begin{todolist}
@@ -417,9 +411,15 @@ systems.
 }
 
 
-
-To improve the interaction between input and output, \emph{attention mechanisms}
-were introduced between the encoder and decoder layers, allowing the model to
+Conceptually, the Transformer establishes a \emph{global field of relation},
+where each token is encoded not in isolation or rigid sequence, but through its
+distributed relevance to all others. The architecture affords a form of
+synchronic awareness: the presence of every other word is embedded within the
+representation of each word. This reconfiguration of relationality underpins the
+efficiency, scalability, and generative fluency that define modern \gls{genai}
+systems.
+\emph{Attention mechanisms} is mainly there to improve the interaction between
+input and output allowing the model to
 dynamically focus on the most relevant parts of the input sequence while
 generating each \gls{token}. Attention computes a set of weights over the input
 representations, effectively answering the question:
@@ -457,6 +457,14 @@ and meaningful.
 	\caption{The Transformer Architecture with built-in Multi-Head Attention Mechanism in Encoder and Decoder Processes (cf. \cite[3]{vaswani2017a}) }
 	\label{fig:attention}
 \end{marginfigure}
+
+\marginnote{\textbf{TODO}:
+	\begin{todolist}
+		\item too much redundancy
+
+	\end{todolist}
+}
+
 
 
 In their groundbreaking paper \citetitle{vaswani2017a}, \textcite{vaswani2017a} proposed a new architecture that preserved the encoder–decoder structure but eliminated reliance on recurrence and convolution. Instead, the Transformer model relied entirely on attention mechanisms, not as a supplementary feature, but as the foundation of both the encoder and the decoder (\cite[1–2]{vaswani2017a}; see Figure~\ref{fig:attention} for an illustration). This architectural shift allowed for highly parallelized computation, better modelling of long-range dependencies, and significant improvements in scalability. The Transformer has since become the cornerstone of contemporary \gls{genai}, enabling many of the recent breakthroughs in large-scale language modelling and generative systems. The architecture is built from stacked encoder and decoder layers, each composed of multi-head self-attention and pointwise feed-forward networks. These attention heads act as differentiated channels through which the model modulates its internal representations, integrating multiple semantic and syntactic perspectives concurrently. Instead of treating \glspl{token} as isolated or sequential entities, attention turns the entire sequence into a site of mutual interaction, each token is redefined in relation to all others.
