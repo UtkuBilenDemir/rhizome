@@ -443,7 +443,8 @@ input and output allowing the model to
 dynamically focus on the most relevant parts of the input sequence while
 generating each \gls{token}. Attention computes a set of weights over the input
 representations, effectively answering the question:
-\emph{“Which parts of the input matter most for predicting the next output?”}
+\emph{“Which parts of the input matter most for predicting the next output?”}.
+Technically, self-attention calculates relationships between \glspl{token} by projecting them into \emph{query}, \emph{key}, and \emph{value} vectors. These are used to compute attention weights through dot-product similarity and softmax normalization. Each token's final representation is thus a weighted blend of all other tokens, adjusted by their contextual relevance. Through multiple stacked layers and attention heads, the Transformer builds increasingly abstract representations, capturing both syntactic structure and semantic context. \sidenote{\textbf{NOTE:}This seems out of place}
 Probabilistic modeling then governs how the network moves through these spaces
 to predict the next output \parencite[198]{montanari2025}. In this framework,
 meaning emerges through probability distributions, as the
@@ -550,13 +551,11 @@ and the cultural implications of the \glspl{llm}:
 
 
 
-Technically, self-attention calculates relationships between \glspl{token} by projecting them into \emph{query}, \emph{key}, and \emph{value} vectors. These are used to compute attention weights through dot-product similarity and softmax normalization. Each token's final representation is thus a weighted blend of all other tokens, modulated by their contextual relevance. Through multiple stacked layers and attention heads, the Transformer builds increasingly abstract representations, capturing both syntactic structure and semantic context.
-
 %This shift is not merely technical. It marks a transformation in how \gls{ai} systems model the world. Rather than operating through sequential representation, the Transformer operates through a form of constant \emph{distributed modulation}. Transformers make it possible for every element on the network entangled 
 
 
 
-this architectural shift can be understood through the logic of \textbf{double articulation} (see \cite{ai-inquiry2025a}). The Transformer operates simultaneously on two strata: a molecular level of local attention scores and parameter updates, and a molar level of structured linguistic understanding. Each \gls{token}’s representation is formed through dynamic micro-adjustments, distributed flows of relevance, not unlike the first articulation of matter into expressive form. This is then consolidated across layers into coherent linguistic function, the second articulation of those forms into stable semantic structures. The Transformer thus embodies the double articulation of machinic sense-making.
+This architectural establishment can be read through the logic of \textbf{double articulation} (see \cite{ai-inquiry2025a}). The Transformer operates simultaneously on two strata: a molecular level of local attention scores and parameter updates, and a molar level of structured linguistic understanding. Each \gls{token}’s representation is formed through dynamic micro-adjustments, distributed flows of relevance, not unlike the first articulation of matter into expressive form. This is then consolidated across layers into coherent linguistic function, the second articulation of those forms into stable semantic structures. The Transformer thus embodies the double articulation of machinic sense-making.
 
 Attention mechanisms enact selective intensities across this field. Rather than representing fixed symbols, the Transformer’s architecture instantiates meaning as a function of weighted relationality. These differential proximities constitute a \emph{diagrammatic space}, where meaning emerges not from rules but from patterns of modulation. It is here that Deleuze and Guattari’s distinction between molar and molecular formations becomes productive: the Transformer is not a symbolic machine but a machinic assemblage that captures both distributed flows and structured outputs simultaneously (see \cite{ai-inquiry2025a}).
 
