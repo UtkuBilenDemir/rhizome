@@ -616,7 +616,7 @@ The productive tension between constraint and openness mirrors Deleuze’s view 
 
 In this machinic ecology, the model’s performance is not a reflection of truth but a transduction of tendencies. Each learned representation emerges from a field of intensities shaped by loss functions, training regimes, and architectural constraints—what Deleuze and Guattari might call a stratified yet deformable plane. Overfitting marks a closure of this plane; dropout reopens it.
 
-\subsection{Gradient Descent: Sinking into the Manifold}
+\subsection{Gradient Descent: Sinking into the Manifold}\label{gradient_descent}
 
 Gradient descent is a fundamental optimization algorithm used to train neural networks by iteratively updating model parameters in the direction that reduces the loss function. This process can be interpreted as a movement through the high-dimensional loss manifold, gradually approaching minima where the model performs optimally on a given task. In the architecture of \gls{dl} , gradient descent operates not merely as a tool of optimisation, but as a process of traversal across a manifold shaped by error surfaces and loss functions. Each step taken by the model through its parameter space is a micromovement within this multidimensional topography, adjusting internal configurations in relation to perceived error, or deviation from the desired output. This movement is neither deterministic nor purely reactive; it is a dynamic rearticulation of relations within the network, guided by the flow of gradients.
 
@@ -686,7 +686,7 @@ A trained model that appears to “know” an image of a tree, for instance, has
 %\end{orangebox}
 
 
-\subsection{Back Propagation}
+\subsection{Back Propagation}\label{back_propagation}
 In early forms of symbolic artificial intelligence, often referred to as \gls{gofai}, the process of inference followed a rigid \textit{forward propagation} model. Logical rules, handcrafted by programmers, operated on symbolically encoded inputs to produce outputs through a chain of deductive reasoning steps. While this framework could simulate intelligent behavior in constrained environments, it lacked scalability and adaptability. The system could not revise its internal structure based on errors or feedback; any misclassification required manual rule modification.
 
 The limitations of GOFAI became increasingly apparent in tasks involving ambiguity, noise, or vast data spaces, domains where human cognition thrives not by rule-following but by plastic, adaptive learning. To address this shortcoming, neural network researchers introduced \textit{backpropagation} as a general algorithmic solution that allows networks to \emph{learn} from error. Rather than only pushing activations forward, as in GOFAI, backpropagation pushes \emph{errors backward} through the network to update internal parameters and improve future predictions.
