@@ -357,21 +357,52 @@ At first glance, these early \gls{nn}-driven platforms already align with the in
 
 
 %WARNING:CCC
-On the front of the \gls{genai} development, over the past decade, many influential neural network architectures for sequence
-modeling, especially in machine translation and \gls{nlp}, were based on
-\glspl{rnn} or \glspl{cnn}. These models typically followed an
-encoder–decoder design, where the encoder processed the input sequence into a
-continuous representation, and the decoder used this representation to
-generate the output sequence\sidenote{In its simplest form, the encoder
-	takes an input sequence of symbols \( (x_1, \dots, x_n) \) and transforms them
-	into a sequence of continuous vector representations
-	\( \mathbf{z} = (z_1, \dots, z_n) \). These vectors encode the relevant
-	information from the input. The decoder then generates an output sequence
-	\( (y_1, \dots, y_m) \) one step at a time. It is \emph{auto-regressive},
-	meaning it uses previously generated outputs (e.g. \( y_1, y_2, \dots \)) as
-	input when generating the next \gls{token}. This setup allows the model to generate
-	coherent and context-sensitive output, building each element of the sequence
-	in a structured, history-aware manner \parencite[2]{vaswani2017a}.}.
+%%%On the front of the \gls{genai} development, over the past decade, many influential neural network architectures for sequence
+%%%modeling, especially in machine translation and \gls{nlp}, were based on
+%%%\glspl{rnn} or \glspl{cnn}. These models typically followed an
+%%%encoder–decoder design, where the encoder processed the input sequence into a
+%%%continuous representation, and the decoder used this representation to
+%%%generate the output sequence\sidenote{In its simplest form, the encoder
+%%%	takes an input sequence of symbols \( (x_1, \dots, x_n) \) and transforms them
+%%%	into a sequence of continuous vector representations
+%%%	\( \mathbf{z} = (z_1, \dots, z_n) \). These vectors encode the relevant
+%%%	information from the input. The decoder then generates an output sequence
+%%%	\( (y_1, \dots, y_m) \) one step at a time. It is \emph{auto-regressive},
+%%%	meaning it uses previously generated outputs (e.g. \( y_1, y_2, \dots \)) as
+%%%	input when generating the next \gls{token}. This setup allows the model to generate
+%%%	coherent and context-sensitive output, building each element of the sequence
+%%%	in a structured, history-aware manner \parencite[2]{vaswani2017a}.}.
+
+Over the past decade, many influential neural network architectures for
+sequence modeling, particularly in machine translation and \gls{nlp}, were built
+on \glspl{rnn} and \glspl{cnn}. These models typically followed an
+encoder–decoder paradigm: the encoder transformed an input sequence
+\( (x_1, \dots, x_n) \) into a series of continuous vector representations
+\( \mathbf{z} = (z_1, \dots, z_n) \), which encoded the relevant information from
+the input. The decoder then generated an output sequence
+\( (y_1, \dots, y_m) \) step by step, conditioning on previously produced tokens
+to ensure coherence and context-sensitivity\sidenote{This is the classic
+	auto-regressive design, where the decoder relies on past outputs as part of its
+	input \parencite[2]{vaswani2017a}.}. Despite their successes, these architectures faced a fundamental limitation:
+\textbf{locality}. \glspl{rnn} processed tokens sequentially, passing information
+through hidden states that decayed over distance, which made capturing
+long-range dependencies difficult. \glspl{cnn}, while more parallelizable, were
+constrained by \gls{kernel} sizes and fixed receptive fields. Both designs
+struggled with tasks requiring global relational awareness of a sequence. The Transformer architecture \parencite{vaswani2017a} emerged as a decisive
+break from these sequential bottlenecks. Dispensing with recurrence and
+localized convolution, it introduced \emph{self-attention} as the central
+mechanism for computing contextual representations. In a single operation, every
+\gls{token} in the input sequence attends to all others, producing
+weighted combinations of contextually relevant elements \parencite[4]{vaswani2017a}.
+This structure integrates global information without distance penalties and
+lends itself to massive parallelization, a property foundational to
+contemporary \glspl{llm}. Conceptually, the Transformer establishes a \emph{global field of relation},
+where each token is encoded not in isolation or rigid sequence, but through its
+distributed relevance to all others. The architecture affords a form of
+synchronic awareness: the presence of every other word is embedded within the
+representation of each word. This reconfiguration of relationality underpins the
+efficiency, scalability, and generative fluency that define modern \gls{genai}
+systems.
 
 To improve the interaction between input and output, \emph{attention mechanisms}
 were introduced between the encoder and decoder layers, allowing the model to
@@ -444,9 +475,6 @@ These properties form the \emph{technical substrate} upon which modern
 
 
 
-\subsection{From Recurrent Bottlenecks to Attention-Based Modulation}
-\label{subsec:transformer_modulation}
-
 \marginnote{\textbf{TODO}: Title
 	\begin{todolist}
 		\item Fit this in:
@@ -462,8 +490,8 @@ These properties form the \emph{technical substrate} upon which modern
 
 
 
-\yellowsquare
-The Transformer architecture emerged as a break from the sequential bottlenecks of earlier neural models such as \glspl{rnn} and \glspl{cnn}. Both of these relied on \textbf{locality}: \glspl{rnn} processed input tokens one at a time, with each step depending on the hidden state of the previous one. Convolutional networks, while parallelizable, were constrained by \gls{kernel} sizes and fixed receptive fields. As a result, both architectures struggled to model long-range dependencies effectively, especially in complex natural language tasks \parencite[1-2]{vaswani2017a}. In contrast, the Transformer dispensed with recurrence altogether. Instead, it introduced \emph{self-attention} as the central mechanism for computing representations. Self-attention allows every token in a sequence to attend to every other token simultaneously, computing a weighted sum of contextually relevant elements regardless of their position \parencite[4]{vaswani2017a}. This design eliminates the need for stepwise memory and enables models to integrate global information in a single layer, with no distance penalty. The result is a structure that lends itself to massive parallelization and scalability, two features foundational to contemporary \glspl{llm}. Unlike \glspl{rnn} or \glspl{cnn}, Transformer Networks do not rely on recursive feedback or localized convolutional loops. They do not recycle the output of a unit back into itself over time, nor do they constrain operations to spatially bounded kernels. Instead, through the mechanism of self-attention, each \gls{token} in the input sequence is made immediately available to every other token, establishing a \emph{global field of relation} across the entire sequence. This architecture affords a form of synchronic awareness: the model encodes each element not in isolation or temporal sequence, but through its distributed relevance to all others. In contrast to the iterative, memory-laden structure of \glspl{rnn}, or the fixed, spatial hierarchies of \glspl{cnn}, the Transformer’s design embeds the presence of every other word within the representation of each word.
+%%%\yellowsquare
+%%%The Transformer architecture emerged as a break from the sequential bottlenecks of earlier neural models such as \glspl{rnn} and \glspl{cnn}. Both of these relied on \textbf{locality}: \glspl{rnn} processed input tokens one at a time, with each step depending on the hidden state of the previous one. Convolutional networks, while parallelizable, were constrained by \gls{kernel} sizes and fixed receptive fields. As a result, both architectures struggled to model long-range dependencies effectively, especially in complex natural language tasks \parencite[1-2]{vaswani2017a}. In contrast, the Transformer dispensed with recurrence altogether. Instead, it introduced \emph{self-attention} as the central mechanism for computing representations. Self-attention allows every token in a sequence to attend to every other token simultaneously, computing a weighted sum of contextually relevant elements regardless of their position \parencite[4]{vaswani2017a}. This design eliminates the need for stepwise memory and enables models to integrate global information in a single layer, with no distance penalty. The result is a structure that lends itself to massive parallelization and scalability, two features foundational to contemporary \glspl{llm}. Unlike \glspl{rnn} or \glspl{cnn}, Transformer Networks do not rely on recursive feedback or localized convolutional loops. They do not recycle the output of a unit back into itself over time, nor do they constrain operations to spatially bounded kernels. Instead, through the mechanism of self-attention, each \gls{token} in the input sequence is made immediately available to every other token, establishing a \emph{global field of relation} across the entire sequence. This architecture affords a form of synchronic awareness: the model encodes each element not in isolation or temporal sequence, but through its distributed relevance to all others. In contrast to the iterative, memory-laden structure of \glspl{rnn}, or the fixed, spatial hierarchies of \glspl{cnn}, the Transformer’s design embeds the presence of every other word within the representation of each word.
 
 \yellowsquare
 Maas \parencite*{maas2023} associates the novel operation structure of the transformer architecture with Derrida's concept of \textit{trace} (see e.g. \cite[26]{derrida1998}). Derrida's concept is an advancement on Ferdinand Saussure's linguistic theory operating on \textit{signifiers} and \textit{signifieds} (see e.g. \cite*{saussure2007})  through his own concept of \textit{différance} whereas the emphasis shifts rather onto the context-dependency between words and the differention between each other. For instance, the color \textit{red} is rather defined through its differentiation from \textit{green} and \textit{blue} without having an actual substance on its own \parencite[9]{maas2023}. \textit{The sign has no component that belongs to itself only; it is merely a collection of the traces of every other sign running through it} \parencite[44]{cilliers2002}, all sings are in continuous relationship with other signs where the position of the word and the current network of all the connected signs, their differences\sidenote{In terms of word-embeddings in the \glspl{llm}, we can interpret these differences as distances since distances on the network is the model's own way of representing differences between concepts.} to that specific sign establish its substance. Yet, the substance or \textit{the meaning} of the sign has temporal dependency because the specific arrangement of words, as well as the differentiation between them, is in constant flux, \textit{in a dynamic process of combination and referencing} \parencite[44]{cilliers2002} dependent on the current context\sidenote{I'll be referencing this temporal formation as an \textit{instance} from now on, since the context dependency of the network narrows the meaning into one instance of the connectional structure.}. Similarly in the operation of the \glspl{llm} , this spectral interdependence, where tokens are mutually inscribed into one another, suggests a structure in which meaning is always already haunted by the rest of the utterance (see \cite[12]{maas2023}) in the sense of Derrida's \textit{trace}. The \textit{meaning} of the words in the \glspl{llm} is defined by the instance of different distributions; the distribution in the sentence, the distribution of the language in the model rendered through the whole dataset, and other dynamic mechanism regulated by the transformer core.
