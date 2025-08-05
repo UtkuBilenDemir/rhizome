@@ -38,6 +38,7 @@ Icon?
 *.toc
 *-blx.bib
 *.synctex(busy)
+*.tex~
 
 # --- Editors / Swap / Temp ---
 *.swp
