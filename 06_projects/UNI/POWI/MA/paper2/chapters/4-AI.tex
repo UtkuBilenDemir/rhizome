@@ -420,9 +420,18 @@ These properties form the \emph{technical substrate} upon which modern
 
 Conceptually, the Transformer establishes a \emph{global field of relation},
 where each token is encoded not in isolation or rigid sequence, but through its
-distributed relevance to all others. The architecture affords a form of
+distributed relevance to all others. Tokens are getting embedded
+into high-dimensional \emph{vector spaces}, where semantic and syntactic
+relationships are captured as measurable distances and directions. The architecture affords a form of
 synchronic awareness: the presence of every other word is embedded within the
-representation of each word. This reconfiguration of relationality underpins the
+representation of each word. The high-dimensional \textit{feature space} acquired from this
+operation is storing every token with speicific distances from each other,
+where \textit{relevant}\sidenote{Whichever association the model is building
+	between different words. For example, often \textit{king} and \textit{man}, as well as, \textit{queen} and \textit{woman} are distance-wise relatively \textit{close to each other.}} tokens where calculations like \( king-man+woman=queen\) are roughly possible \parencite[]{ai-inquiry2025} .
+
+Particularly interesting is the "feature space" formed by AI. For example, word relationships learned by AI are represented in multidimensional space, enabling calculations like "king-man+woman=queen." This can be viewed as a space where concepts are "folded."
+
+This reconfiguration of relationality underpins the
 efficiency, scalability, and generative fluency that define modern \gls{genai}
 systems.
 \emph{Attention mechanisms} is mainly there to improve the interaction between
@@ -431,10 +440,6 @@ dynamically focus on the most relevant parts of the input sequence while
 generating each \gls{token}. Attention computes a set of weights over the input
 representations, effectively answering the question:
 \emph{“Which parts of the input matter most for predicting the next output?”}
-This innovation not only enhanced performance in tasks like translation but
-also paved the way for architectures entirely built around self-attention. From a conceptual perspective, these mechanisms operate by embedding tokens
-into high-dimensional \emph{vector spaces}, where semantic and syntactic
-relationships are captured as measurable distances and directions.
 Probabilistic modeling then governs how the network moves through these spaces
 to predict the next output \parencite[198]{montanari2025}. In this framework,
 meaning emerges through probability distributions, as the
