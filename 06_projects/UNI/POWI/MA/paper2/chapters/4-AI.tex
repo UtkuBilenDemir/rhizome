@@ -410,6 +410,15 @@ contemporary \glspl{llm}.
 	\end{todolist}
 }
 
+In their groundbreaking paper \citetitle{vaswani2017a}, \textcite{vaswani2017a} proposed a new architecture that preserved the encoder–decoder structure but eliminated reliance on recurrence and convolution. Instead, the Transformer model relied entirely on attention mechanisms, not as a supplementary feature, but as the foundation of both the encoder and the decoder (\cite[1–2]{vaswani2017a}; see Figure~\ref{fig:attention} for an illustration). This architectural shift allowed for highly parallelized computation, better modelling of long-range dependencies, and significant improvements in scalability. The Transformer has since become the cornerstone of contemporary \gls{genai}, enabling many of the recent breakthroughs in large-scale language modelling and generative systems. The architecture is built from stacked encoder and decoder layers, each composed of multi-head self-attention and pointwise feed-forward networks. These attention heads act as differentiated channels through which the model modulates its internal representations, integrating multiple semantic and syntactic perspectives concurrently. Instead of treating \glspl{token} as isolated or sequential entities, attention turns the entire sequence into a site of mutual interaction, each token is redefined in relation to all others.
+
+By eliminating recurrence and convolution in favor of attention, the Transformer
+achieved two decisive outcomes: first, it enabled highly parallelized training
+on vast datasets; second, it allowed the model to capture long-range
+dependencies and complex contextual relations with unprecedented efficiency.
+These properties form the \emph{technical substrate} upon which modern
+\gls{genai} and \glspl{llm} are built.
+
 
 Conceptually, the Transformer establishes a \emph{global field of relation},
 where each token is encoded not in isolation or rigid sequence, but through its
@@ -466,15 +475,6 @@ and meaningful.
 }
 
 
-
-In their groundbreaking paper \citetitle{vaswani2017a}, \textcite{vaswani2017a} proposed a new architecture that preserved the encoder–decoder structure but eliminated reliance on recurrence and convolution. Instead, the Transformer model relied entirely on attention mechanisms, not as a supplementary feature, but as the foundation of both the encoder and the decoder (\cite[1–2]{vaswani2017a}; see Figure~\ref{fig:attention} for an illustration). This architectural shift allowed for highly parallelized computation, better modelling of long-range dependencies, and significant improvements in scalability. The Transformer has since become the cornerstone of contemporary \gls{genai}, enabling many of the recent breakthroughs in large-scale language modelling and generative systems. The architecture is built from stacked encoder and decoder layers, each composed of multi-head self-attention and pointwise feed-forward networks. These attention heads act as differentiated channels through which the model modulates its internal representations, integrating multiple semantic and syntactic perspectives concurrently. Instead of treating \glspl{token} as isolated or sequential entities, attention turns the entire sequence into a site of mutual interaction, each token is redefined in relation to all others.
-
-By eliminating recurrence and convolution in favor of attention, the Transformer
-achieved two decisive outcomes: first, it enabled highly parallelized training
-on vast datasets; second, it allowed the model to capture long-range
-dependencies and complex contextual relations with unprecedented efficiency.
-These properties form the \emph{technical substrate} upon which modern
-\gls{genai} and \glspl{llm} are built.
 
 
 %WARNING:CCCEND
