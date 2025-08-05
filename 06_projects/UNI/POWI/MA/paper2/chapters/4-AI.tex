@@ -100,7 +100,7 @@ Although, the real transformation originally began in the early 2000s, the first
 	\end{todolist}
 }
 
-One of the most significant turning points was around 2018 with the succesful implementation of \gls{ssl} approach. \Gls{ssl} constitutes a special case of the \gls{ul} which not only makes the models identify underlying structures in the data but also enables them to create their own training exercises through the prediction challenges they are subjected to \parencite[129]{manning2022a}. This includes masking specific words in the text to try to predict correct or most fitting tokens, or try to guess the next word in an abruptly cut text, \gls{ssl} models learn by predicting missing elements from within the input itself. This method allowed models to learn linguistic regularities from massive unlabeled corpora, and it gave rise to pre-trained \glspl{genai} \parencite{maas2023}. The architecture that enabled this leap was the \textit{transformer architecture}. Its core mechanism, self-attention, computes weighted dependencies between all tokens in a sequence, allowing the model to capture long-range relations independent of word order. This innovation enabled massive parallelization and scalability \parencite{maas2023}. Availability of vast data and the unique novelty of transformer architecture that was powered by a huge amount of reinforcement capability through repetition has been crucial operating on \gls{ssl} methodology to parse and accumulate huge amounts of unlabeled human language data. The transformer architecture is fundamental for the meaning-making capability of the \gls{genai} models, the following sections is therefore dedicated to focus on this specific innovation.
+One of the most significant turning points was around 2018 with the succesful implementation of \gls{ssl} approach. \Gls{ssl} constitutes a special case of the \gls{ul} which not only makes the models identify underlying structures in the data but also enables them to create their own training exercises through the prediction challenges they are subjected to \parencite[129]{manning2022a}. This includes masking specific words in the text to try to predict correct or most fitting \gls{tokens}, or try to guess the next word in an abruptly cut text, \gls{ssl} models learn by predicting missing elements from within the input itself. This method allowed models to learn linguistic regularities from massive unlabeled corpora, and it gave rise to pre-trained \glspl{genai} \parencite{maas2023}. The architecture that enabled this leap was the \textit{transformer architecture}. Its core mechanism, self-attention, computes weighted dependencies between all tokens in a sequence, allowing the model to capture long-range relations independent of word order. This innovation enabled massive parallelization and scalability \parencite{maas2023}. Availability of vast data and the unique novelty of transformer architecture that was powered by a huge amount of reinforcement capability through repetition has been crucial operating on \gls{ssl} methodology to parse and accumulate huge amounts of unlabeled human language data. The transformer architecture is fundamental for the meaning-making capability of the \gls{genai} models, the following sections is therefore dedicated to focus on this specific innovation.
 
 
 \sidenote{\textbf{TODO:} There needs to be a section about supervised ->
@@ -333,7 +333,8 @@ At first glance, these early \gls{nn}-driven platforms already align with the in
 
 
 
-\section{\Gls{genai} and the Transformer Architecture: Infrastructure of Modulation}\label{transformer}
+%\section{\Gls{genai} and the Transformer Architecture: Infrastructure of Modulation}\label{transformer}
+\section{Transforming Attention: Infrastructure of Modulation in \gls{genai} Models}\label{transformer}
 
 \begin{orangebox}
 	TBD, a general case of the development of transformers (e.g. \cite{vaswani2017a})
@@ -368,14 +369,14 @@ generate the output sequence\sidenote{In its simplest form, the encoder
 	information from the input. The decoder then generates an output sequence
 	\( (y_1, \dots, y_m) \) one step at a time. It is \emph{auto-regressive},
 	meaning it uses previously generated outputs (e.g. \( y_1, y_2, \dots \)) as
-	input when generating the next token. This setup allows the model to generate
+	input when generating the next \gls{token}. This setup allows the model to generate
 	coherent and context-sensitive output, building each element of the sequence
 	in a structured, history-aware manner \parencite[2]{vaswani2017a}.}.
 
 To improve the interaction between input and output, \emph{attention mechanisms}
 were introduced between the encoder and decoder layers, allowing the model to
 dynamically focus on the most relevant parts of the input sequence while
-generating each token. Attention computes a set of weights over the input
+generating each \gls{token}. Attention computes a set of weights over the input
 representations, effectively answering the question:
 \emph{“Which parts of the input matter most for predicting the next output?”}
 This innovation not only enhanced performance in tasks like translation but
@@ -498,7 +499,7 @@ Technically, self-attention calculates relationships between \glspl{token} by pr
 
 
 
-this architectural shift can be understood through the logic of \textbf{double articulation} (see \cite{ai-inquiry2025a}). The Transformer operates simultaneously on two strata: a molecular level of local attention scores and parameter updates, and a molar level of structured linguistic understanding. Each token’s representation is formed through dynamic micro-adjustments, distributed flows of relevance, not unlike the first articulation of matter into expressive form. This is then consolidated across layers into coherent linguistic function, the second articulation of those forms into stable semantic structures. The Transformer thus embodies the double articulation of machinic sense-making.
+this architectural shift can be understood through the logic of \textbf{double articulation} (see \cite{ai-inquiry2025a}). The Transformer operates simultaneously on two strata: a molecular level of local attention scores and parameter updates, and a molar level of structured linguistic understanding. Each \gls{token}’s representation is formed through dynamic micro-adjustments, distributed flows of relevance, not unlike the first articulation of matter into expressive form. This is then consolidated across layers into coherent linguistic function, the second articulation of those forms into stable semantic structures. The Transformer thus embodies the double articulation of machinic sense-making.
 
 Attention mechanisms enact selective intensities across this field. Rather than representing fixed symbols, the Transformer’s architecture instantiates meaning as a function of weighted relationality. These differential proximities constitute a \emph{diagrammatic space}, where meaning emerges not from rules but from patterns of modulation. It is here that Deleuze and Guattari’s distinction between molar and molecular formations becomes productive: the Transformer is not a symbolic machine but a machinic assemblage that captures both distributed flows and structured outputs simultaneously (see \cite{ai-inquiry2025a}).
 
@@ -717,7 +718,7 @@ While, backpropagation reconfigures the architecture of learning itself: not as 
 
 Contemporary \glspl{llm} are trained through a bifurcated process: pre-training followed by fine-tuning. This division is more than procedural, it indexes a shift in epistemological orientation, from general pattern discovery to context-sensitive modulation. As \textcite[964]{dishon2024} notes, these two phases form the backbone of \gls{genai} development and its increasingly situated capabilities.
 
-During pre-training, the model is exposed to enormous corpora of unlabeled text. This phase is governed by self-supervised learning, where the model predicts masked or subsequent tokens within sequences, gradually building statistical representations of language, syntax, and world-knowledge. Pre-training does not assume fixed semantic targets. Instead, it generates vast, opaque vector spaces structured by correlation, not comprehension. The model's representational capacity emerges not through symbolic grounding but through distributional regularity, a probabilistic resonance of patterns over linguistic terrain.
+During pre-training, the model is exposed to enormous corpora of unlabeled text. This phase is governed by self-supervised learning, where the model predicts masked or subsequent \gls{tokens} within sequences, gradually building statistical representations of language, syntax, and world-knowledge. Pre-training does not assume fixed semantic targets. Instead, it generates vast, opaque vector spaces structured by correlation, not comprehension. The model's representational capacity emerges not through symbolic grounding but through distributional regularity, a probabilistic resonance of patterns over linguistic terrain.
 
 Fine-tuning operates differently. Here, the pretrained model is constrained and directed, often via Reinforcement Learning from Human Feedback (RLHF). This phase involves targeted adjustments to align the model's outputs with human-defined norms, tasks, or values. The goal is not to re-train from scratch, but to selectively amplify certain behaviors and suppress others, effectively sculpting the model’s general capacities into usable forms. As \textcite[964]{dishon2024} emphasizes, fine-tuning introduces a more deliberate epistemic framing, transforming the model into a more predictable and legible actor within specific sociotechnical domains.
 
