@@ -348,6 +348,11 @@ At first glance, these early \gls{nn}-driven platforms already align with the in
 		(\cite{bommasani2022a, openai2024}, a general account maybe
 		(bommasani2022a, openai2024)
 
+
+		\item Explain the layers in \gls{dl} and how the transformer relates to
+		these layers. You could also introduce the concept of \textit{Folds} by
+		Deleuze
+
 	\end{todolist}
 }
 %%%Over the past decade, many influential neural network architectures for sequence modeling, especially in machine translation and \gls{nlp} were based on \glspl{rnn}  or  \glspl{cnn}.  These models typically followed an encoder–decoder design, where the encoder processed the input sequence into a continuous representation, and the decoder used this representation to generate the output sequence\sidenote{In its simplest form; the encoder takes an input sequence of symbols \( (x_1, \dots, x_n) \), and transforms them into a sequence of continuous vector representations \( \mathbf{z} = (z_1, \dots, z_n) \). These vectors encode the relevant information from the input. The decoder then generates an output sequence \( (y_1, \dots, y_m) \) one step at a time. It is \emph{auto-regressive}, meaning it uses previously generated outputs (e.g. \( y_1, y_2, \dots \)) as input when generating the next token. This setup allows the model to generate coherent and context-sensitive output, building each element of the sequence in a structured, history-aware manner \parencite[2]{vaswani2017a} .}. To improve the interaction between input and output, attention mechanisms were introduced between the encoder and decoder layers, allowing the model to dynamically focus on relevant parts of the input during generation.
