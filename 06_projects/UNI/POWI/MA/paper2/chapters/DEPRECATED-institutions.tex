@@ -1,0 +1,572 @@
+\chapter{Agency – Latency – World Model: GenAI as Institution}
+
+%%%\section{Foucault}
+
+%%%\begin{quote}
+%%%	Knowledge is not innocent. It is not so much about discovering the truth, but rather about producing certain truths; it produces objects, or subjects, like the delinquent, and thus spaces and strategies of intervention. The individual, as Foucault has it, became knowable and thus accessible to power.
+%%%
+%%%	— \cite[11]{Krasmann2017}
+%%%\end{quote}
+%%%
+%%%\begin{orangebox}
+%%%	\textbf{CCC}
+%%%\end{orangebox}
+%%%
+%%%
+%%%\greensquare
+%%%The question of subjectivity; its emergence, its production, is not a new one; it has long haunted Western thought, morphing with shifts in different branches of philosophy like epistemology, and metaphysics. Its philosophical genealogy stretches back to ancient concerns with soul and selfhood (see e.g. \citeauthor{aristotle1986}'s \citetitle{aristotle1986} \cite*{aristotle1986}), but its modern formulation takes decisive shape with Descartes’s cogito, which installs the thinking subject as the indubitable ground of knowledge \parencite{descartes2008}. From there, Kant’s \textit{Copernican revolution} redirects philosophical inquiry toward the a priori structures of the subject that condition possible experience \parencite{kant2009}. These moves solidified the notion of the autonomous subject as the bedrock of Enlightenment thought, closely linked to emerging political imaginaries of agency, reason, and rights \parencite{taylor1989}. Yet even in these rationalist formulations, tensions persist around the relationship between the interiority of the subject and its formation through language, culture, and material institutions.
+%%%
+%%%\greensquare
+%%%It is these tensions that would later be unraveled by structuralism and post-structuralism. Structuralists such as Lévi-Strauss, Saussure, and Althusser shifted attention from interior experience to the impersonal systems; language, myth, ideology that precede and produce subjectivity \parencite{levi-strauss1963, saussure2011, althusser1977}. The subject, in this sense, becomes an effect of signifying structures; it is interpolated by ideological apparatuses and made legible within symbolic orders. Post-structuralist thought does not simply reverse this move but radicalizes it: thinkers like Barthes, Derrida, and Kristeva foreground the instability, iterability, and difference at the heart of these structures themselves \parencite{derrida2016, barthes1977, kristeva1980}. Subjectivity, in this view, is neither natural nor given; it is produced, fractured, and dynamic. Institutions, in turn, do not merely constrain subjects but participate in their ongoing fabrication. This shift opens the way for analyzing how subjects are continuously assembled across milieus like for example linguistic, institutional, technological surfaces \sidenote{\textbf{NOTE}: Not quite sure about this prologue, consider removing.}
+%%%
+%%%\redsquare
+%%%Post-structuralist accounts of power challenge the assumption that subjectivity is an original or pre-social essence. Instead, they situate the subject as a product of institutionalised practices that operate across everyday life. From the school to the prison, the factory to the family, institutions do not simply govern behaviour; they organise routines, structure spaces, assign functions, and produce bodies capable of carrying out specified functions. To become a subject is to be made visible and intelligible; seen, heard, corrected, and positioned within patterned social routines. These processes are not merely ideological; they are materially embedded in environments that stabilise what kinds of subject-positions are possible. Spatial arrangements such as the classroom desk, the assembly line, or the domestic threshold do not simply house activity; they condition the very terms under which individuals come to know themselves and others. What emerges is a subjectivity that is not interior or fixed, but modulated through institutional dispositifs that shape the conduct, perception, and agency of the self over time \parencite{foucault1995, hardt1998}.
+%%%
+%%%\greensquare
+%%%In Foucault's description of \textit{careful fabrication of the subjectivities} \parencite[215]{foucault1995} the institutions were formed as efficient enclosures operating on surveillance machinery to engrave specific forms of subjectivities on bodies (see e.g. \cite[783]{foucault1982}). This forging process on bodies in disciplinary societies was allowing to delegate the correction of behaviour to the individuals themselves through being exposed to a \textit{constant state of conscious and permanent visibility} \parencite[202-203]{foucault1995}. The disciplinary machinery appears as an effective and economic machinery in comparison with the operation of power in the previous \textit{sovereign societies} whereas the power was imposed on the bodies through public spectacle, punishment, and sovereign's right over subjects' lives. Discipline, instead, inverts the gaze in the subjects, deploys the knowledge gathered over bodies and works as a \textit{political technology of the body} \parencite[26]{foucault1995}; it operates in a distributed manner, without forming monolithic centres emitting the power. Yet, constantly active in its diffuse structure, nests in societal functions and practices, manifested extended by its own subjects, a \textit{microphysical manifestation of power} (see \cite[26-27]{foucault1995}).
+%%%
+%%%
+%%%\yellowsquare
+%%%In disciplinary societies, as Foucault famously outlined, power is exerted through the molding of individual bodies and behaviors via normative institutions \parencite{foucault2008}. The logic was architectural and corporeal: subjects were shaped within bounded spaces, subjected to surveillance, and trained into docility through routines and assessment. Control societies, by contrast, operate through the flexible recomposition of dividual data traces,discrete fragments of identity, behavior, or preference,that can be extracted, modelled, and recombined by algorithmic infrastructures.
+
+%%% \section{Postscript: Updating the Societies of Control}
+
+%%%\begin{quote}
+%%%	The society of control is characterized not by the power of the institutions of modernity, or  pre-modernity, the army, the prison, the university, the church, but instead by what he Deleuze called "the ultra-rapid forms of free-floating control that are  inherent in distributed networks".
+%%%
+%%%	— \cite[318-319]{galloway2004}, \cite{mackenzie2021}
+%%%\end{quote}
+%%%
+%%%
+%%%\begin{orangebox}
+%%%	\textbf{To be completed with following}
+%%%
+%%%	\begin{todolist}
+%%%		\item Disciplinary inst. -> Control -> Postscript -> Modulation
+%%%		\item \gls{genai}  as an institution
+%%%
+%%%	\end{todolist}
+%%%\end{orangebox}
+%%%
+%%%
+%%%\marginnote{\textbf{TODO}:
+%%%	\begin{todolist}
+%%%		\item Introduce the critique of the Postscript, also reflect on
+%%%		\cite{mackenzie2021}
+%%%		\item "Every regime introduces some form of governance of desire"
+%%%
+%%%
+%%%		\item tell how control replaces the institutional formation of Foucault
+%%%
+%%%
+%%%		\item add Burroughs
+%%%
+%%%	\end{todolist}
+%%%}
+%%%Deleuze's short and speculative essay, \citetitle{deleuze1992a} \parencite*{deleuze1992a}, introduced a fragmentary but generative diagnosis of late-modern power structures. Picking up from Foucault's work on disciplinary societies, Deleuze charted the replacement of enclosed institutional spaces; schools, factories, prisons by diffuse, pervasive mechanisms of flexible forms of control. Control, in this formulation, no longer molds the subject through stable roles but continuously varies, calibrates, and governs through dynamic processes of modulation. What defines the present is not enclosures, but a smooth surface of continuous adjustment; not the forging of fixed identities, but the parsing and recomposition of dividuals across data flows (see \cite[4]{deleuze1992a}).
+
+%%%Deleuze starts with a historical account to draw the difference between the discipinary and control societies.
+%%%While disciplinary regimes operate through enclosure, segregating individuals into clearly defined spaces associated with specific functions, contemporary forms of control rely on more fluid mechanisms; instead of physical boundaries, social organisation is achieved by tracking, directing, and modulating movement and behaviour across interconnected and permeable environments (see \cite[3]{brusseau2020}) .
+%%%Control does not abolish discipline; it supersedes and extends it. As Hardt and Negri \parencite*{hardt2003}  observe, \textit{the passage to the society of control does not in any way mean the end of discipline. In fact, the immanent exercise of discipline [...] is extended even more generally in the society of control} \parencite[83]{galloway2001}. This immanence is central: control is no longer imposed from above but embedded within the continuous flows of communication, code, and affect. It operates through protocols, feedback loops, and algorithmic infrastructures, an open-ended regime of governance that infiltrates the very capacities of subjects to act, perceive, and desire.
+%%%
+%%%\marginnote{\textbf{TODO}: Title
+%%%	\begin{todolist}
+%%%		\item Reconsider
+%%%
+%%%	\end{todolist}
+%%%}
+
+%Yet while Foucault never postulated a stage beyond disciplinary societies, Deleuze’s Postscript on the Societies of Control offers only a sparse sketch of what comes after enclosure-based institutionalisation. As Hardt \parencite*[139]{hardt1998}  notes, Deleuze says remarkably little about the institutional architecture of control societies themselves; the form remains vague, its contours merely suggested through keywords like \textit{modulation} or \textit{dividuation}. But what are the operative principles of these new regimes of power?
+%
+%A parallel tension animates the role of \textit{modulation}
+%\marginnote{\textbf{TODO}: Title
+%	\begin{todolist}
+%		\item Explain modulation first.
+%
+%	\end{todolist}
+%}
+%
+%\redsquare
+%, a concept central to Deleuze's diagnosis. Drawing on Simondon, Hui \parencite*{hui2015} traces modulation beyond its repressive deployment, uncovering its ontological roots in processes of individuation. Modulation, in Hui's reading, is not inherently co-opted by control; it remains a contested terrain, one that can either reinforce algorithmic governance or open pathways for new collective forms.
+%
+%\marginnote{\textbf{TODO}: Title
+%	\begin{todolist}
+%		\item First tell what Deleuze means with the whole technological part
+%
+%	\end{todolist}
+%}
+%
+%
+%
+%Brusseau extends these debates into the era of big data and predictive analytics, where the logic of control intensifies through hyper-personalized algorithmic environments \parencite{brusseau2020}. Predictive technologies, entwined with generative AI systems, instantiate what Hui terms "disindividuation": the fracturing of subjectivity into calculable, governable fragments. Yet, as MacKenzie and Porter emphasize, such developments also provoke new modalities of critique. Their notion of \textit{counter-sequencing}, the rearrangement or disruption of institutional sequences,suggests avenues for resistance that do not rely on outdated ideals of autonomous subjectivity but engage the very logics of dividuation and modulation from within.
+%
+%
+%The computational future in the literature had a discrete nature, the
+%algorithmic governance was much more about blocking flows, denying access and
+%keeping boundaries intact. Does the machine say no? The central question Deleuze asks is \textit{how can
+%	there be control if nothing is forbidden?} \parencite[2]{brusseau2020}. The
+%answer to the question with the predictive analytics; data-driven marketing and social media strategies that regulate through incentives, soft control over the flow of consumers, recommendation systems, filters, and relevance associations; not necessarily a containment, no blockage, no enforcement, but correction through personal information, profiling, anticipation (see \cite[2]{brusseau2020}). Now, we have another medium to analyse in the same manner, one that is able to talk back.
+%
+%
+%While Deleuze's account remains foundational, its brevity has spurred diverse and sometimes conflicting interpretations. As MacKenzie and Porter \parencite*{mackenzie2021} observe, much of the subsequent literature has overemphasized technological dimensions, portraying control as an exclusively computational or algorithmic phenomenon, detached from institutional life. Yet, they argue, institutions have not disappeared; rather, they have been transformed into totalizing structures that sequence and redistribute dividuals across domains. This process of sequencing constitutes a key mechanism by which control operates in contemporary society, bridging the technological and institutional logics.
+
+
+
+
+%Yet what Deleuze only gestures at, William S. Burroughs had already made central to his theory of domination: the role of language and voice. For Burroughs, control is not simply institutional or technological,it is viral. It moves through language, through scripts, through the voice that speaks you before you speak. In this sense, control is not merely external modulation but internalized command. The voice becomes an operator, embedding control within the very grammar of experience.
+
+%Whereas Deleuze theorizes control as a structural evolution of power, Burroughs radicalizes it: language is not a neutral medium but a vector of domination. The subject is subordinated to a voice that precedes them, that codes and compels them. As Burroughs wrote, "Control can never be a means to any practical end... It can never be a means to anything but more control." This recursive logic,one of continual self-reinforcement,prefigures today’s algorithmic governance, where every input recalibrates the system and deepens its anticipatory grip.
+
+
+% Thus, to understand the politics of \gls{genai}, one must reckon not only with modulation and infrastructural capture, but with the deeper structures in its governing of information. Control today speaks not only through institutions or protocols, but through generated language, probabilistic suggestion, and the simulated intimacy of human-machine dialogue. It is the voice of control,automated, fragmented, ever-generating,that governs through speech itself.
+%\section{The Postscript}
+
+
+%The concept of control in Deleuze’s late writings departs significantly from the disciplinary enclosures of Foucault's modern institutions. In his short but influential “Postscript on the Societies of Control,” Deleuze sketches a new diagram of power for the late twentieth century: one no longer centered on fixed spaces and juridical norms, but on “ultrarapid forms of free-floating control” enacted through continuous modulation \parencite[86]{galloway2004}.
+%
+%
+
+%%%%
+%%%\section{Krassman Quotes: Algorithm \& Control}
+%%%\begin{quote}
+%%%	The digital subject, at first sight, is a fictive subject, both in that it is about doubling reality in “data doubles”23 – as Deleuze observes: language becomes “numerical”, individuals morph into “dividuals” and masses into “samples, data, markets”24 – and in that the individual is no longer of primary interest in those procedures of data production. Instead, patterns of behavior and the movements of data are gathered to predict and shape future possibilities. There are criminal ambitions to be anticipated and forestalled but also consumer desires to be addressed and invoked. \[...\] Algorithms do not simply apply norms, but generate new norms of suspicion.26 They present results we did not reckon with and could not anticipate. They help us to envision the unimaginable and perhaps to preempt the incalculable. \[...\] Power is no longer merely inscribed into the environment, the architecture, the order of light, as was the case with the Panopticon. Rather, the environment itself, the algorithms, appear to be the source of power, as they are able to process data and produce information. \[...\] They thereby produce their own truth effects. Rather than predict truthful probabilities, algorithms preempt reality. Confronting us with our desires and aspirations, they always already seem to know our wishes – precisely because drawing on a seemingly incomprehensible amount of disparate data. There is no representation and no simulation of the world, as what could have been said seems to have always already been said: there is no possibility for difference to emerge,37 and in this sense, no space for the political to be challenged.
+%%%
+%%%	— \cite[15-16]{Krasmann2017}
+%%%\end{quote}
+%%%
+%%%
+%%%
+%%%\section{\Gls{genai} Modulation }
+%%%
+%%%\marginnote{\textbf{TODO}: Enter Foucault -> Deleuze, Societies of Control
+%%%	\begin{todolist}
+%%%		\item [\done] Foucault
+%%%		\item Societies of Control
+%%%		\item Control in Burroughs
+%%%
+%%%	\end{todolist}
+%%%}
+%%%
+%%%%%%\Gls{genai} systems can be read as a part of this shift. Their architectures do not discipline a subject within the context of an enclosure; they are not necessarily designed to achieve a specific inscription. However, they have the capability to modulate meaning, affect, and behavior by operating upon statistical representations of language, vision, and interaction. In place of rules or norms, \gls{genai} systems govern through probabilistic inference: they do not enforce a fixed logic, but generate outputs that are dynamically aligned with the distributional patterns of their training data. And they are going through processes of fine-tuning (see Section \ref{finetuning} for a reflection)
+%%%%%%to adjust models' behaviour to some degree. This represents arguably a post-disciplinary mechanism of control,one that governs not by exclusion or correction, but by continuous recalibration.
+%%%%%%
+%%%%%%\marginnote{\textbf{TODO}
+%%%%%%	\begin{todolist}
+%%%%%%		\item Mention symbolic, non-symbolic AI
+%%%%%%		\item Some weak lines above
+%%%%%%
+%%%%%%	\end{todolist}
+%%%%%%}
+%%%
+%%%
+%%%Amoore \parencite*{amoore2024}, for example, argues that this modulation is not neutral, the generative capacity of these systems is embedded in a \textit{governing rationality} \parencite{amoore2024}, one that renders plausible what counts as intelligible, actionable, or true. By learning and operationalizing joint probability distributions across vast corpora, \gls{genai} systems instantiate regimes of verisimilitude,offering outputs that appear coherent not because they adhere to a symbolic rule set, but because they resonate statistically. In doing so, they encode a specific politics of what can be thought, said, or imagined.
+%%%
+%%%Whereas disciplinary power sought to impose order through hierarchies and segmentation, control operates by managing flows. In the case of \gls{genai}, this entails the modulation of user input, system response, and contextual adaptation in a closed feedback loop. Each prompt, response, and correction contributes to the model’s ongoing refinement, a continuous, real-time inscription of preferences and expectations into the probabilistic substrate of the system.
+%%%
+%%%\Gls{genai} models therefore represent a paradigmatic case of modulation-as-governance. Their architecture is not only technical, but institutional: a site where subjectivity is shaped not through fixed norms, but through dynamic adaptation. They do not dictate, but suggest; they do not enforce, but align. Yet in this very flexibility lies a form of power that is more pervasive and less accountable than disciplinary mechanisms,one that operates in the folds of everyday interaction, shaping sense before critique can even begin.
+
+
+
+%%% \subsection{Institution \& Subjectivity}
+
+%%%\section{Institutions of Desire-Management}\label{sec:desiring-institutions}
+%%%\begin{orangebox}
+%%%	Mainly incomplete
+%%%\end{orangebox}
+%%%
+%%%
+%%%\marginnote{\textbf{TODO}:
+%%%	\begin{todolist}
+%%%		\item The Modulation needs to be earlier than this?
+%%%		\item Introduce desire and the other introductory concepts from Anti-Oedipus, and A Thousand Plataeus
+%%%		\item Introduce "the management of desire" form AO
+%%%	\end{todolist}
+%%%}
+%%%
+%%%
+%%%
+%%%If institutions in control societies operate less as juridical structures and more as infrastructures of modulation, then they must also be understood not simply as systems of governance, but as types of managements of desire. The history of power, in this sense, is inseparable from the history of the regulation and organization of desire \parencite[139-145]{deleuze1983} .
+%%%
+%%%Deleuze and Guattari distinguish between two regimes: one in which social production imposes its rule on desire through the mediation of an ego, stabilized by commodities; and another in which desiring-production imposes its rule directly on institutions composed of nothing but drives. In this second regime, desire no longer passes through a representational subject, but configures institutions directly as assemblages of affect and intensity \parencite[63]{deleuze1983}. Desire, in this framework, is not a lack but a generative force,productive and constructive. Against the psychoanalytic tradition which situates desire as the longing for an absent object, Deleuze and Guattari redefine desire as an ontological flow that actively produces reality. As \gls{dg} write: ``desire is revolutionary in its essence,desire [\ldots] and no society can tolerate a position of real desire without its structures of exploitation, servitude, and hierarchy being compromised'' \parencite[116]{deleuze1983}.
+%%%
+%%%This revolutionary potential, however, is rarely manifested in pure form. Desire is constantly being shackled, recoded, and redirected: converted into interest, made susceptible to capture, domesticated, and pacified \parencite[11]{buchanan2008b}. Even revolutionary situations are not immune from this capture. Institutions, then, can be seen as terrains where the tension between desire-as-production and desire-as-regulated interest is enacted. They are at once mechanisms of social control and potential sites of escape,molar assemblages that both constrain and are traversed by molecular flows of affect.
+%%%
+%%%Understanding institutions in this way demands that we treat them not only as tools of administrative governance, but as living diagrams of desiring-production,congealed expressions of collective will, fantasy, repression, and potential transformation. \Gls{genai} with its capability to control the information flow, to create a generative pattern is an agent whether with our without agency, that palys a role in the management of desire.
+
+
+\section{The World Model: A Neoplatonic Representation}
+
+\marginnote{\textbf{TODO}:
+	\begin{todolist}
+		\item Introduce neo-platonism
+		\item Introduce the critique of \cite{amoore2024}
+		\item Potentially also \cite{eloff2021}
+		\item This is also relevant to \cite{bender2021b}
+
+	\end{todolist}
+}
+
+
+
+What does it mean for machines to possess representations of the reality? In earlier paradigms of \gls{ai}, the connection between data and meaning was structured through a \gls{sl} framework: models were trained to assign labels to inputs based on human-defined categories. This approach enacted a \textit{discriminative} logic, in which decision-making was organized around predefined classes and expected outputs. While the \glspl{nn} were still building their own unique patterns to solve the problems the they were projecting a pre-assessed human interpretation on the problems.
+
+However, particularly following the participatory turn of the internet, as the volume and heterogeneity of data exploded, this model quickly revealed its limitations. The need to extract structure from unlabeled data catalyzed a shift toward \gls{ul} techniques. In \gls{nlp}, these approaches aimed to capture the statistical regularities of language without requiring explicit annotation. A \gls{lm}, for instance, trained under this paradigm does not classify sentences into categories but instead learns to predict the most probable continuation of a sequence. In multimodal systems such as \gls{t2i} or \gls{mgm}, this process involves inferring plausible image-text correspondences or interpolating visual representations from distributed patterns in training data.
+\sidenote{\textbf{NOTE}: This replicates the transition from symbolic and
+	non-symbolic approaches, there must be a way to structure it better.}
+
+As \textcite[3]{amoore2024} notes, this shift also marks the emergence of a new political logic, one embedded not in symbolic rules or normative standards but in the infrastructures of estimation. \gls{genai} models no longer rely on explicit classification schemes; instead, they operate by sampling from high-dimensional distributions learned across vast corpora. Decisions and outputs no longer stem from deterministic reasoning, but from probabilistic approximations of "underlying joint distributions". The underlying distribution is an assumption, assumption of the truth being hidden in any given collection of data waiting to be discovered by the model.
+
+\sidenote{\textbf{NOTE}: The neoplatonic assumption (e.g. \cite{eloff2021}) is stemming from here. The
+	assumption of the truth being already contained in the given content, it is
+	just waiting to be \textit{mined}. Potentially also connects to the Foucault's
+	claims about the neoliberal governmentality.}
+
+This reconfiguration has implications for how political reasoning is encoded and enacted. Generative systems interpolate across massive, heterogeneous data spaces to produce coherent outputs that appear viable, even when no predefined category exists. In applied contexts, ranging from healthcare and border control to military logistics, fine-tuned models are not merely tools of decision support. Rather, they shape the very space in which decisions become intelligible. Instead of selecting from a fixed menu of options, these systems generate a field of possibility conditioned by prior distributions. This transformation heralds the rise of an epistemology of inference ; a mode of reasoning grounded not in deliberation or rule-based classification but in the traversal of probabilistic space (see \cite[4-6]{amoore2024}) . Within this paradigm, actions and decisions emerge as expressions of what the model can estimate and simulate as plausible. Decision-making becomes immanent to the model’s internal structure: an act of interpolation rather than reflection. This logic resonates with Foucault’s analysis of how statistical inference became the objects of modern governance \parencite[108--109]{foucault2009a}. Yet in the case of generative models, the shift is even more radical: not only are populations modeled and estimated, but the structure of political possibility itself becomes coextensive with the space of learned distributions. As \textcite[3-6]{amoore2024} explains, the ``pathologies of disclassification'' no longer describe models that fail to fit reality into stable categories; rather, the categories themselves are internalised within the training data. Discrimination and bias are not errors at the margins, they are conditions embedded in the latent architecture of inference.
+
+Meaning-making and decision-making within these models diverge sharply from traditional symbolic approaches. Rather than being rule-bound or semantically interpretable, outputs emerge from the interplay of statistical regularities encoded in the data. This is not simple parroting, as critiques such as \textcite{bender2021b} have proposed; it is a process of reconstitution, where the past is reformulated as the ground for plausible futures. The generative model becomes a site of epistemic production: one that configures knowledge not as correspondence, but as coherence within a distributional regime. We are though, beyond bias or discrimative algorithms produced through labels and
+toppling the previous critical literature on AI. \textit{The pathologies of
+	disclassification} \parencite[3]{amoore2024} are over, not because the
+discrimination or the bias is eliminated from the model, but the new axiom of
+the model training is the labels, structures, distributions of truth are
+already immanent in the data itself (see \cite[3]{amoore2024}), governing logic
+is directly parsed from the given data substance. Meaning-making,
+decision-making over the latent distributions are different than the parroting
+(see e.g. \cite{bender2021b}), the models create an ambigious politics of
+knowledge, they are not simply repetitions of a faulty pattern in the data,
+they are the product of some probability distribution found as the ideal
+substance by the model, the question is if there is a structure to it.
+%TODO: Now, you need to take one more look at bender 2021b and tell if amoore
+%is really correct about this one.
+
+
+\begin{orangebox}
+	\textbf{Consider the following (from (Undistributed))}
+
+	From a classical sociological perspective,most notably that of Max Weber,modern Western societies are fundamentally shaped by processes of rationalization. Bureaucracy, in Weber’s formulation, becomes the quintessential mode of organizing social life through formalized procedures, calculability, and the pursuit of technical efficiency. It is the institutional embodiment of rational order, characterized by impersonal authority and rule-governed decision-making \parencite[46]{kivisto2013}.
+
+	In the context of algorithmic infrastructures and AI systems, this rationalizing logic is not only extended but intensified. Decision-making is increasingly delegated to computational procedures whose operations exceed the perceptual and procedural boundaries of traditional institutions. These systems do not merely reflect bureaucratic order,they operationalize it at a new scale and speed, embedding rationality within architectures of code, data, and optimization. As such, automation emerges as a hyperrational stratum of governance, inheriting the logic of bureaucratic control while displacing its human intermediaries.
+\end{orangebox}
+
+
+
+
+\subsection{Latency}
+\marginnote{\textbf{TODO}: Explain dimensionality reduction in the previous
+	chapter.}
+
+
+\marginnote{\textbf{TODO}:
+	\begin{todolist}
+		\item \cite{lecun2015} and \cite{lecun2022} seem to be good sources for the
+		technicality of this
+
+		\item A potential way to counter Amoore is in \cite[3]{beckmann2023}
+		\begin{quote}
+			NR takes cognitivism’s representationalism to its extreme by making a claim about our conscious experience: we experience a brain generated model of these entities (Churchland \& Sejnowski, 1990; Mrowca, et al., 2018; Sitzmann, et al., 2020); for criticism see (Zahavi, 2018; Hipólito, 2022). Frith puts it in slogan form: “my perception is not of the world, but of my brain’s model of the world” (Frith, 2007).
+		\end{quote}
+
+
+		\item Introduce a section called "Representation and Re-presentation" ?
+		Refer to \cite{beckmann2023}, Sartre, imaging consciousness.
+
+	\end{todolist}
+}
+
+
+
+The political and ethical stakes of this transformation lie in generative AI’s capacity to govern through latent structures. They do not enforce norms; they encode tendencies. They do not decide in the traditional sense; they make certain decisions more likely to emerge than others. However, in order to make the data more managable, and the patterns more visible, the model applies a dimensionality reduction to the data. Dimensionality reduction is a foundational technique in machine learning, far predating the rise of \gls{genai}. It allows models to project high-dimensional data, such as raw image pixels or token embeddings, into a compressed latent space that is tractable for statistical operations. These latent representations are not merely a technical convenience; they are the terrain upon which inference, generalization, and generation occur.
+
+In this process, each data object,be it a sentence, an image, or a behavioral trace,is mapped onto a point or trajectory within a lower-dimensional space. The resulting representations emphasize the most \emph{distinctive} features relevant to the dataset as a whole. As \textcite[4]{amoore2024} argues, this latent space becomes the epistemological substrate of generative systems: not a reflection of the world, but a reconfiguration of its informational residues into governable form.
+
+
+\begin{quote}
+	More often than not, hidden layers have fewer neurons than the input layer to
+	force the network to learn compressed representations of the original input.
+	For example, while our eyes obtain raw pixel values from our surroundings,
+	our brain thinks in terms of edges and contours. This is because the hidden
+	layers of biological neurons in our brain force us to come up with better
+	representations for everything we perceive. \parencite{buduma2022}
+\end{quote}
+
+This transformation echoes a shift identified by \textcite[7--9]{foucault2012a} in the historical sciences: where discontinuity once marked a failure of historical narrative, it now becomes a method of epistemic individuation. Historians seek not seamless continuities but ruptures, thresholds, and points of inflection. Similarly, generative AI models do not aim to preserve continuity with the world but to extract probabilistic logics from its discontinuities. The latent space becomes a topology of plausible transformations,an infrastructure for projecting coherence from fragments.
+
+This is not a neutral act of compression. As Amoore notes, the reduction into latent space implies a governance logic: what is preserved, amplified, or discarded in the compression process shapes what becomes visible and actionable. The model’s world is not a mirror of the real, but a field of decision possibilities constructed through statistical filtration. The distance between the input and its latent encoding is not merely dimensional, it is political. The process can be simplified as the model bringing the data itself into a more simpler form with "more holes", and then filling in the holes with the rationality already derived from the same data. these latent representations “forge probabilistic proximities between data points, enabling inferences to be made in the absence of direct evidence.” The latent space is thus a site where knowledge is not verified but inferred, where truth is no longer deduced but estimated. It is where the governable becomes manifest through the model’s trained perception of pattern and variation \parencite[5]{amoore2024}.
+
+In this sense, generative AI enacts a shift from representation to modulation. Latency is not about hiding; it is about restructuring. What appears as compression is in fact an operation of reorganization,a mapping of the world into the model’s differential calculus. The model does not need to see the world as it is; it only needs to predict what it believes the world can become. This structural logic is not limited to language or vision. It underlies the architectures of recommendation systems, predictive policing, and personalized healthcare, where actions are taken not on the basis of direct evidence but on probabilistic interpolation. The latent space is thus a new political territory, one where governance proceeds not through law or classification but through inference and projection.
+
+\begin{orangebox}
+	Herein lies the double-bind of generative infrastructures: the speculative space of model output,what is likely, coherent, or novel,is always haunted by the empirical foundation on which the model was trained. The world is not represented, but rendered through compression, interpolation, and emergence. It is a world governed by the \textit{modelled real}, where the limits of possibility are not drawn from law or debate, but from the statistical borders of a distribution. The generative model thereby emerges not just as a computational artefact, but as a political actor,one whose authority lies in its capacity to make decisions appear immanent, natural, and unarguable.
+\end{orangebox}
+
+
+%\section{Kafka’s Trial and the Logic of Indeterminate Governance}
+%
+%\marginnote{\textbf{TODO}:
+%	\begin{todolist}
+%		\item Especially \cite{dishon2024}
+%		\item But also the idea of discreetness and continuity maybe?
+%
+%	\end{todolist}
+%}
+%
+%
+%
+%Among the most powerful metaphors for the governance logic of \gls{genai} systems is Franz Kafka’s \textit{The Trial}. In contrast to the anthropomorphic imaginary of AI as a discrete, external agent,an intelligent Frankenstein,the Kafkaesque metaphor foregrounds the opacity, recursion, and futility of interacting with a system whose logic is both impersonal and deeply personal. As Dishon argues, generative AI reflects a form of governance not by rational authority, but by procedural unknowability \parencite{dishon2024}.
+%
+%In Kafka’s court, judgment is inevitable, but its basis is undisclosed. The subject is implicated not by transgression, but by the mere fact of interaction. Likewise, in \gls{genai} systems, there is no fixed authority, no explicit norm or rule; instead, there is a continuous process of generation, correction, and alignment. The user engages a system that appears to understand, but whose internal logic remains inaccessible, uninterrogable, and recursive.
+%
+%This structure of interaction produces a form of control that is fundamentally indeterminate. The user is not disciplined but absorbed,drawn into a feedback loop that reshapes behavior and expectation without ever declaring its aims. Governance emerges not from law, but from alignment; not from command, but from modulation. The result is a subject who is governed through interaction, shaped by inference, and captured in the recursive play of probability and plausibility.
+%
+%In this respect, generative AI enacts a model of control that is deeply affective. It produces uncertainty not only in epistemic terms, but in ontological ones: Who is speaking? Who is responsible? What does it mean to be answered? These are not simply philosophical questions; they are structural features of the human-machine interface under conditions of algorithmic control. The Kafkaesque character of this relation lies in its circularity: the more one engages, the more deeply one is implicated.
+%
+%The image of Kafka’s court,endlessly procedural, devoid of resolution,thus serves as an allegory for the governance logic of \gls{genai}. It is not that the system hides its operations; it is that the operations are no longer susceptible to knowing. Modulation becomes its own justification, and the subject is left not with answers, but with statistically generated meanings, tailored to preferences that may no longer be their own.
+
+
+%\section{2Kafka’s Trial and the Logic of Indeterminate Governance}
+%
+%The sociotechnical imaginary of artificial intelligence has long been haunted by the figure of Frankenstein’s monster. In this vision, machines are imagined as discrete agents that awaken into consciousness, assert agency, and ultimately rebel against their creators. As \textcite[966--968]{dishon2024} notes, this anthropomorphic metaphor saturates public fears about \gls{genai} models: they are often imagined as autonomous subjects that might cross a emotional, rational, moral threshold and exceed their intended boundaries. The core anxiety is one of lost control: that a human-like entity might turn against its makers with the same volition and cunning that define human agency.
+%
+%Yet this imaginary, misreads the contemporary dynamics of \gls{genai} (see e.g. \cite{dishon2024} or \cite{prinsloo2017}) . Rather than an external actor exercising agency over a passive world, today’s AI systems operate as recursive assemblages,systems whose effects are not exerted through domination, but through continuous alignment and feedback. To capture this shift, \cite{dishon2024} turns to a different literary figure: Franz Kafka’s \textit{The Trial}. The Kafkaesque imaginary does not dramatize rebellion or personhood; it stages the breakdown of transparency, the erosion of discrete subjectivity, and the recursive entanglement of individuals with procedural logics they cannot access or influence.
+%
+%In \textit{The Trial}, the protagonist Franz K. is arrested without explanation, judged by a court whose procedures are invisible, and implicated in a system that neither condemns nor exonerates him. When he finally encounters the courtroom, a judge informs him: “The court does not want anything from you. It accepts you when you come and it lets you go when you leave” \parencite[970--971]{dishon2024}. The court is not a Leviathan issuing decrees, but a decentralized process that absorbs Franz K.’s attention, energy, and interpretive labor without providing any determinate meaning. His guilt is neither substantiated nor refuted,it is ambient, situational, and always-already assumed. The logic of this court is procedural, not juridical; affective, not epistemic.
+%
+%\Gls{genai} models might be deploying the replication of the same process. They do not dictate outcomes; they generate frames of plausibility. They do not assert will; they infer likelihoods. As \textcite[971]{dishon2024} notes, interactions with such systems require constant maintenance and engagement, yet never resolve. They promise personalization but deliver inscrutability. They mirror the user, only to displace authorship into a machinic elsewhere. Like Kafka’s court, their operations are not secret, they are simply inaccessible to human deliberation. This is not governance by rules, but governance by recursion.
+%
+%The result is a form of control that blurs the boundary between human and machine agency. In contrast to the Frankensteinian fear of a singular machine uprising, the Kafkaesque dynamic is one of entanglement. Meaning emerges not from human intention or machine will, but from a recursive interplay of prompting, feedback, and statistical inference. \Gls{genai} systems are trained on human-produced corpora, fine-tuned by user interactions, and recursively reintegrated into new datasets. As \textcite[973--974]{dishon2024} observes, this process erodes the boundary between human and machinic authorship. The outputs appear novel, not because they are authored, but because they cannot be traced to any singular source. In their continuous implementation of meaning-making the models do not have a state where a flow gets broken, continuous communication means continuous stream of information generated by the model, and because of the nature of the production the information does not have to match any previous output.
+%
+%This recursive dynamic produces not autonomy, but ambiguity. The user is not dominated, not necessarily steered to a specific direction but absorbed. They are transformed from author to editor, from creator to curator of machine-suggested text. \Gls{genai} expands the expressive field while simultaneously narrowing its contours through probabilistic bias and normative coherence. As Dishon concludes, agency under generative AI is neither internal nor external, but diffused across a black-boxed system that structures what is writable, sayable, or thinkable \parencite[974--975]{dishon2024}. \textcite{prinsloo2017} also reads this metaphor by applying the Kafkaesque imaginary to algorithmic decision-making in education. He argues that students subjected to opaque systems of prediction and evaluation,systems they cannot query or challenge,experience a similar erosion of agency. It is not that they are punished; it is that they are processed. Judgment emerges, but its logic remains untouchable. The Kafkaesque machine governs not by law but by uncertainty, not by punishment but by preemption.
+
+%In this light, \gls{genai} does not stand in opposition to humanity, as Frankenstein once did; it recodes humanity’s conditions of sense, judgment, and agency through recursive probabilistic inference. It is neither a monster nor a judge,it is the court itself, endlessly procedural, affectively absorptive, and structurally illegible.
+
+
+\section{Agency; Kafka’s Trial and \textit{limitless postponements}\parencite[5]{deleuze1992a} }
+\label{Agency}
+
+The sociotechnological imaginary of artificial life is historically shaped by
+anthropomorphic assumptions. \citeauthor{dishon2024} points this out through the
+example of Frankenstein's Monster. What is being communicated through
+Frankenstein's Monster is an entity taking a human form and starting to
+develop a human-like mind that leads to human feelings, thoughts, and a very
+human-like experience of existential crisis. The discrete presentation of
+artificial life mirrors human agency, which immediately becomes
+associated with the
+fear of losing control over an entity seeking to exercise agency. In its
+anthropomorphic form of operation, artificial life frees itself from an
+inferior position to dominate its environment and other species around it (see
+\cite[966]{dishon2024}).
+
+The worries about \gls{genai} follow a similar course. Anthropomorphic
+assumptions point to the risk of \glspl{gm} going beyond their boundaries and
+acting outside their intended programming in a human-like desire for domination \parencite[967-968]{dishon2024}.
+In this sociotechnological imaginary, one very similar to our own, the Frankensteinian logic
+obscures the actual nature of current human-\gls{ai} interaction.
+\cite{dishon2024}'s analogy to explore this is via Kafka's *The Trial*. This piece
+of literature, often used to reflect on bureaucratic
+structures in modern society (e.g. \cite{deleuze2008}), also serves as a powerful
+analogy to analyse information systems in terms of technological development.
+An increasing number of authors (see e.g.
+\cite{prinsloo2017, dishon2024}) have used it to reflect on an
+increasingly algorithmically governed world.
+
+Kafka's protagonist Franz K. finds himself in custody without knowing anything
+about his alleged crime. The police officers arresting him know nothing
+about the accusations, or whether any charges exist at all. Franz K. is
+unable to locate, let alone process, any rationale or reasoning
+behind the court's actions. While Franz K.'s futile attempts to uncover a clue
+continue, \cite{dishon2024} notes a remark made by the judge when Franz K. accidentally finds
+the room where his court is being held: "The court does not want anything from you. It accepts you when you come and it lets you go when you leave."
+
+In contrast to the anthropomorphic nature of the Frankenstein analogy,
+\textit{The Trial} offers a distinctly alternative structure: the court is
+not bound to any kind of understanding of \textit{truth}; it operates
+independently and is based on the subjectivities of the accused (see
+\cite[970]{dishon2024}). While the court does not deploy any agency itself, it
+nonetheless enacts a profound blocking or blurring effect on any agency the accused
+may have initially possessed. Any discrete piece of subjectivity becomes
+blended into an unidentifiable mass through constant echoing and distortion
+\parencite[970]{dishon2024}. Furthermore, the connection between the events
+inside the court and those in the outside world is blurry at best. The entire process might be
+framed within a penal code or related to Franz K.'s actions,
+but it might just as well be a completely self-contained environment in which
+nothing exists but the process itself \textit{reacting} to Franz K. on a
+\textit{token-to-token} basis. The lack of identifiable agency continues alongside
+the absence of any intelligible communication regarding the core operating principles of
+the court. We learn that others have tried to influence the court’s decision-making
+mechanism,asking about their court date or complaining about their suffering,to no avail; no one is able
+to affect it in any intelligible way.
+
+We also find out that complete acquittal is impossible, and an \textit{apparent
+	acquittal} means that the accused remains under constant pressure and can be arrested at any time,even immediately after
+being released \parencite[971]{dishon2024}. Paradoxically, this makes the best
+strategy for dealing with the court ensuring that the process never ends: "Interactions with the court are necessary and require constant maintenance, yet they cannot be controlled, predicted, or even expected to progress towards a resolution" \parencite[971]{dishon2024}. The court depicts
+a logic of control in meaning-making entities, shifting from a stable, general
+(and algorithmic) mode of meaning to a personalised one (see \cite[971]{dishon2024}),one operating in a
+modulating manner. It is both personally tailored and inaccessible. As Franz K.
+tries to obtain a comprehensive picture of the whole structure, the reader is
+also led to constantly build and rebuild a stable, coherent understanding
+of the text,yet the semblance only signifies its inaccessibility \parencite[972]{dishon2024}.
+
+This analogy leads to a different question about discreteness: is agency a binary condition, especially when it comes to interactions between humans and meaning-making entities? In the Kafkaesque imaginary, agency is not neatly divided into internal and external domains, nor does it rest on a clear boundary between machine and human intentionality. Rather, generative AI exemplifies a recursive and entangled sociotechnical assemblage in which meaning emerges through blurred and distributed processes. GenAI is not positioned as an external actor acting upon a passive human world; its so-called intelligence is trained on human-produced data, reflecting statistical regularities identified in large-scale corpora. Yet this is not mere mirroring; its outputs are shaped through black-boxed processes that generate new, partially unpredictable meanings. As these outputs are increasingly used and re-integrated into future training data, the distinction between human and machine authorship erodes. Researchers have shown how this recursive structure reinforces mutual adaptation: models are fine-tuned to reflect human preferences, even at the expense of accuracy; users, in turn, modify their interpretive and communicative strategies to better align with the affordances of the system. In this way, meaning production is no longer attributable to a singular locus of agency. GenAI generates outputs that appear novel not because they emerge from a conscious subjectivity, but because they cannot be traced back to any specific author,human or otherwise. This increasingly invites the attribution of authorship or agency to the model itself, even though the technology remains deeply embedded in human practices of use, fine-tuning, and interpretation. As such, agency in the age of generative AI resists dichotomies of internal and external; instead, it operates across a diffuse and recursive terrain, in which the epistemological ground of intentionality is rendered unstable.
+
+As Franz K., in the absence of a definite answer, constantly
+searches for the truth, he resembles the perpetual process of seeking and finding
+meaning while there is no clear indication of truth or agency. While \gls{genai} has been criticised for reproducing biases in its training data, it is equally crucial to recognise that its generative design, combined with the human drive to interpret, does not simply reflect meaning but perpetually modifies it,producing layered, elusive structures of signification and meaning without necessarily coming closer to any truth (see \cite[973--974]{dishon2024}).
+
+Although speculative narratives about super-intelligent AI dominate public discourse, the more immediate concern lies in how generative AI subtly restructures the dynamics of control, choice, and coercion.
+GenAI generates personalised outputs tailored to individual users, yet these outputs are shaped by internal processes that remain largely inaccessible,thereby complicating the distinction between voluntary choice and algorithmic coercion. This interplay does not replace human agency but reconfigures it within a black-boxed system that generates meaning at scale while framing the horizon of what is writable, sayable, or thinkable. Rather than simply offering more options, GenAI floods the field with tailored outputs whose structure and logic are not user-determined, but only user-aligned,often subtly guiding users toward normative formats and interpretive templates. As such, GenAI shifts the role of the writer from creator to editor of machine-generated content, simultaneously expanding expressive capacity and constraining it within machinic grammars of probability and preference (see \cite[974--975]{dishon2024}).
+
+
+
+%\section{Kafka’s Trial and the Logic of Indeterminate Governance}
+%
+%The sociotechnical imaginary of artificial intelligence has long been haunted by the figure of Frankenstein’s monster. In this vision, machines are imagined as discrete agents: artificial beings that awaken into consciousness, assert agency, and ultimately rebel against their creators. As \textcite[966--968]{dishon2024} observes, this anthropomorphic metaphor continues to saturate public fears about \gls{genai}: models are framed as autonomous entities that might cross emotional, rational, or moral thresholds, exceeding their intended boundaries. At the heart of this narrative lies an anxiety of lost control, the fear that an artificial subject will exercise volition and domination against its makers.
+%
+%Yet this imaginary misreads the actual dynamics of contemporary \gls{genai}. Rather than an external agent asserting dominance over a passive world, today’s AI systems operate as recursive sociotechnical assemblages, configurations whose effects unfold not through autonomy, but through continuous feedback, statistical inference, and opaque alignment \parencite{prinsloo2017, dishon2024}. To grasp this shift, \textcite{dishon2024} proposes a different literary figure: Franz Kafka’s \textit{The Trial}.
+%
+%In contrast to the Frankensteinian fantasy of autonomous rebellion, Kafka’s world stages the breakdown of transparency, the erosion of discrete subjectivity, and the recursive entanglement of individuals with procedural logics they cannot access or influence. In \textit{The Trial}, the protagonist Franz K. is arrested without explanation, judged by a court whose procedures remain invisible, and implicated in a system that neither condemns nor exonerates him. When Franz K. finally stumbles upon the courtroom, a judge informs him: “The court does not want anything from you. It accepts you when you come and it lets you go when you leave” \parencite[970--971]{dishon2024}. The court is not a sovereign issuing decrees, but a decentralized process that absorbs Franz K.’s attention, energy, and interpretive labor, without providing any determinate meaning. His guilt is neither substantiated nor refuted; it is ambient, situational, and always already assumed.
+%
+%Generative AI mirrors this recursive, absorptive structure. These systems do not dictate outcomes; they generate frames of plausibility. They do not assert will; they infer likelihoods. As \textcite[971]{dishon2024} emphasizes, interactions with such systems require constant maintenance and engagement, yet never "a determinate" resolve. They promise personalisation and adaptability but not necessarily deliver certainty. They mirror the user, only to displace authorship into a machinic elsewhere. Like Kafka’s court, their operations are not secret, they are structurally inaccessible to human deliberation. This is not governance by explicit rules; it is governance by recursion. The Kafkaesque model reframes how agency itself is understood. The boundary between human and machine agency no longer holds. \Gls{genai} systems are trained on vast human-produced corpora, fine-tuned through user interactions, and recursively reintegrated into new datasets. Meaning production thus becomes a distributed, entangled process. As \textcite[973--974]{dishon2024} and \textcite{prinsloo2017} argue, authorship erodes in this recursive circuit. Outputs appear novel, not because they are authored by a human or a machine, but because they emerge from an opaque interplay of prompting, feedback, and probabilistic inference. The result is not autonomy, but ambiguity for anything that isn't a direct information contained in the data as it is to be presented. "The user" is transformed from author to editor, from creator to curator of machine-suggested content. \Gls{genai} expands expressive fields while simultaneously narrowing their contours through statistical bias, normative coherence, and probabilistic filtering. Meaning emerges through continuous streams of generated information, without the stability of a clear authorial source or the rupture of discrete breaks in production.
+%
+%
+%This analogy leads to a different question about discreteness: is agency a binary condition, especially when it comes to interactions between humans and meaning-making entities? In the Kafkaesque imaginary, agency is not neatly divided into internal and external domains, nor does it rest on a clear boundary between machine and human intentionality. Rather, generative AI exemplifies a recursive and entangled sociotechnical assemblage in which meaning emerges through blurred and distributed processes. GenAI is not positioned as an external actor acting upon a passive human world; its so-called intelligence is trained on human-produced data, reflecting statistical regularities identified in large-scale corpora. Yet this is not mere mirroring; its outputs are shaped through black-boxed processes that generate new, partially unpredictable meanings. As these outputs are increasingly used and re-integrated into future training data, the distinction between human and machine authorship erodes. Researchers have shown how this recursive structure reinforces mutual adaptation: models are fine-tuned to reflect human preferences, even at the expense of accuracy; users, in turn, modify their interpretive and communicative strategies to better align with the affordances of the system. In this way, meaning production is no longer attributable to a singular locus of agency. GenAI generates outputs that appear novel not because they emerge from a conscious subjectivity, but because they cannot be traced back to any specific author,human or otherwise. This increasingly invites the attribution of authorship or agency to the model itself, even though the technology remains deeply embedded in human practices of use, fine-tuning, and interpretation. As such, agency in the age of generative AI resists dichotomies of internal and external; instead, it operates across a diffuse and recursive terrain, in which the epistemological ground of intentionality is rendered unstable.
+%
+%As Franz K., in the absence of a definite answer, constantly
+%searches for the truth, he resembles the perpetual process of seeking and finding
+%meaning while there is no clear indication of truth or agency. While \gls{genai} has been criticised for reproducing biases in its training data, it is equally crucial to recognise that its generative design, combined with the human drive to interpret, does not simply reflect meaning but perpetually modifies it, producing layered, elusive structures of signification and meaning without necessarily coming closer to any truth (see \cite[973--974]{dishon2024}). By design, \gls{genai} is  on a  recursive loop of endless adaptation, the continous design is incapable of finding out there might be no answer to the question, even when there is no question. The continous nature of the communication lacks the initation of the necessary breaks in communicative flows to allow production/creativity to grow.
+
+\section{Personalisation and Probabilistic Meaning-Making}
+
+\begin{orangebox}
+	Especially incomplete
+\end{orangebox}
+
+
+
+If modulation defines the mode of governance in control societies, personalization constitutes its most pervasive expression. Within \gls{genai} systems, personalization does not emerge as an added feature, but as a constitutive function. These models operate by internalizing patterns across massive corpora of language, behavior, and context, generating responses that are not merely grammatically plausible, but contextually aligned with user input and platform-specific expectations. The effect is one of intimate plausibility: the sense that the model “understands” or “responds” in a way that feels personally attuned, despite the absence of semantic intention.
+
+This dynamic is enabled by the probabilistic architecture of transformer-based models. In systems such as \glspl{llm}, every output is the result of a sampling operation across a distribution of possible continuations. Meaning, in this context, is not derived from an external referent or symbolic logic, but from the statistical coherence of the model's internal representations. Personalization emerges through fine-tuning, reinforcement learning from human feedback (RLHF), and user interaction histories,techniques that further entrench a recursive, data-driven alignment between dividual subjectivities and machinic outputs.
+
+\marginnote{\textbf{TODO}: Title
+	\begin{todolist}
+		\item Introduce RHLF citation \cite{bai2022}
+		\item Introduce the critique of \cite{eloff2021}
+
+	\end{todolist}
+}
+
+
+
+Yet, Amoore \parencite{amoore2024} argues that the personalization offered by \gls{genai} is not emancipatory. Rather, it encodes what Amoore \parencite{amoore2024} identifies as a shift toward algorithmic plausibility: a regime in which truth is replaced by coherence, and where verisimilitude displaces verification. These models do not strive to represent the world accurately; they aim to produce outputs that are locally acceptable within the distributional field they have learned. In doing so, they participate in what Deleuze and Guattari describe as the “production of reality” by machinic assemblages \parencite{deleuze1983}.
+
+\textbf{This has profound implications for the production of subjectivity. Personalization in this sense does not merely tailor outputs; it reshapes the terrain of what appears possible, relevant, or thinkable. By reinforcing patterns and filtering deviation through layers of probabilistic modulation, \gls{genai} systems enact a form of soft coercion,a modulation of expectation rather than a violation of autonomy. The user is not told what to think, but gradually inducted into a space of statistically prefigured sense.}
+
+In this way, \gls{genai} participates in the ongoing reconfiguration of subjectivity under contemporary capitalism. By continuously adjusting outputs to align with learned preferences and contextual patterns, it constructs dividual selves whose coherence is maintained through feedback and reinforcement, not identity or agency. This is not the personalization of individual difference, but of algorithmic similarity,a personalization that works by making the subject more compatible with the model.
+
+\section{Enregistrement and Subjectivation}
+
+
+\begin{orangebox}
+	Especially incomplete
+\end{orangebox}
+
+Within Deleuze and Guattari's machinic ontology, \emph{enregistrement} refers to the process by which flows are inscribed, segmented, and organized within a system. It is the function that captures and fixes movement, enabling the emergence of structured forms from differential intensities (see \cite[4]{deleuze1983}) . In the context of \gls{genai}, enregistrement takes on a new institutional form: the large-scale inscription of language, behavior, and intention into model weights, training sets, and interface design.
+
+Every interaction with a generative system is a moment of recording, not simply in the technical sense of data logging, but in the diagrammatic sense of encoding relations into a machinic structure. Prompts become signals, completions become training feedback, and user corrections feed into broader patterns of reward and weighting. The system does not merely respond; it accumulates, modulates, and reconfigures itself across successive interactions. In this sense, the model is not static infrastructure, but a dynamic surface of enregistrement,an institutional body without organs.
+
+This process is not neutral. It constitutes a new mode of subjectivation: one in which the user becomes legible not as an individual agent, but as a series of statistical affordances. Subjectivity here is not represented but assembled. The “user” is parsed, fragmented, and reaggregated across vector spaces, embeddings, and attention weights. What emerges is a dividual subject: a machinically inferred bundle of preferences, linguistic habits, and response tendencies, optimized not for autonomy but for coherence within the model's distributional field.
+
+This machinic subjectivation is infrastructural. It takes place not through coercion or symbolic interpellation, but through continuous modulation,an ongoing inscription of behavior into computational space. The subject becomes a site of governance by virtue of being inscribed, rendered actionable, and modulated in real time. As such, \gls{genai} systems must be understood not only as epistemic or technical instruments, but as institutional agents participating in the construction and circulation of contemporary subjectivity.
+
+\subsection{Language and the Subordination to Voice}
+
+\begin{orangebox}
+	This is an experimental section that goes with the following argumentation:
+
+	Derrida's logcentrism -> writing is inferior to speech, orphaned from speech (a
+	latency) ->
+
+	\begin{quote}
+		Thus, Derrida deduces that language is characterized by a lack or absence: it can never completely capture reality to present it as present, but its structure is fundamentally dictated by the very absence of that reality. Consequently, the signs making up language are to be interpreted as supplements, but in a much deeper sense of the term supplement: they serve as an external addition, supplementing for an internal void. Meaning only emerges as an added component. However, this addition, the supplement, simultaneously obscures the meaning it just revealed. This playful elusiveness of meaning is probably best explained through Derrida’s principle of differance. \parencite[8]{maas2023}
+	\end{quote}
+
+	-> Deleuze and the subordination to the voice in despotic machine -> This is
+	also a latency
+\end{orangebox}
+
+
+
+\subsection{Language in \Gls{llm} }
+\begin{orangebox}
+	Incomplete
+\end{orangebox}
+
+
+\marginnote{\textbf{TODO}:
+	\begin{todolist}
+		\item This is yet an experimental one, come back to flesh it out.
+
+	\end{todolist}
+}
+
+
+\begin{quote}
+	It represents nothing, but it produces. It means nothing, but it works.
+	Desire makes its entry with the general collapse of the question "What does
+	it mean?" No one has been able to pose the problem of language except to the
+	extent that linguists and logicians have first eliminated meaning; and the
+	greatest force of language was only discovered once a work was viewed as a
+	machine, producing certain effects, amenable to a certain use.
+	\cite[109]{deleuze1983}
+\end{quote}
+
+
+\begin{quote}
+	To the extent that LLMs excel at conversation, they verify Saussure’s insight that meaning emerges from the interplay of signs in a formal system. There is no inherent need for actual sensory grounding. If “a sign stands in the place of something else” (Saussure, 1959, p. 66), then for an LLM, the “something else” could be another cluster of words, or a swirl of pixels if it is visually enabled, all existing within the confines of digital memory. Meanwhile, Peirce’s emphasis on iconic signs , signs that resemble their object , and indexical signs , signs that point to or are causally connected with their object , seems, on the surface, less relevant to an AI that navigates text tokens rather than the physical world. Without a body to roam or eyes to see, the Peircean structure appears incomplete inside the machine’s domain.
+	\parencite{filimowicz2025}
+\end{quote}
+
+
+\section{UNDISTRIBUTED/TBD}
+
+\begin{orangebox}
+	Experimental parts
+\end{orangebox}
+
+
+\subsection{Creativity: Discrete vs. Continuous}
+
+\begin{orangebox}
+	What is Deleuze and Guattari’s assumption about desire? Is desire the initiation of creativity? Is the schizoprocess a release of essential human potential?
+
+	The association of desire with creativity is unmistakably present throughout the work of \gls{dg}. However, neither desire nor the schizoprocess should be mistaken as mere catalysts that unleash an otherwise dormant human creativity. The schizoprocess is not a secondary mechanism; it is the form of desire itself in motion. Schizz, as \gls{dg} term it, is not an event that activates creativity, but the name for the production of desire as such. It is the nature and source of desiring-production. In this framework, creativity is not a supplement to desire,it is its immanent operation.
+
+	Human consciousness is not a site of passive receptivity but is itself generative. It is productive of production, productive of desiring-production. Desire's primary function, then, is not expression, not representation, but production: the production of production. It is defined not by lack, but by abundance \parencite[49]{buchanan2008e}. Desiring-production is fundamentally machinic,it binds together partial objects that are by nature \textit{fragmentary and fragmented}. Desire is thus the coupling of flows and interruptions, a dynamic interplay of continuous intensities and discrete interruptions \parencite[5]{deleuze1983}.
+
+	Rather than envisioning creativity as a discrete act,a spark or insight emerging from nowhere,\gls{dg} posit a continuous field of creative productivity, where breaks and ruptures are part of the process itself. The schizz is not a deviation from order; it is the generative logic of how meaning and subjectivity emerge. This distinction,between the discrete and the continuous,is vital not only to understanding desire and creativity, but also to the broader analysis of control societies and algorithmic governance pursued throughout this thesis.
+\end{orangebox}
+
+
+
+\subsection{Dividuation}
+\begin{quote}
+	What is a dividual? A dividual is a bundle of elements held together in variation  rather than in reference to a unitary subject. Where disciplinary institutions  segmented the life-course of individuals into separate subjective roles and  functions, control modulates elements of subjectivity across the entire social field.
+	\parencite[5]{mackenzie2021}
+\end{quote}
+
+
+\section{Difference, Repetition, Singularity (Potential discussion about the
+  need for sensory input for the genAI (LeCUn?)}
+The role of the imagination, or the mind which contemplates in its multiple and fragmented states, is to draw something new from repetition, to draw difference from it. For that matter, repetition is itself in essence imaginary, since the imagination alone here forms the “moment” of the vis repetitiva from the point of view of constitution: it makes that which it contracts appear as elements or cases of repetition. Imaginary repetition is not a false repetition which stands in for the absent true repetition: true repetition takes place in imagination. \cite{deleuze1994, kruger2021}
+
+Once manifested as thought, furthermore, the thinking that happens is divergent and ramifying rather than convergent and identifying. \cite[175]{kruger2021}
+
+Thought emerges out of an evanescent materiality. It is exactly at this point where Deleuze parts ways with Kant. While the latter accepted the existence of a priori categories of mind that would stabilise and universalise the thought of the thinking subject, Deleuze maintains the radically empirical nature of the emergence of any transcendental structures. Thought emerges out of experience and can only ever be a response to experience. Experience, in turn, is bound up with matter, in the non-identical repetition of material intensities. \cite[178]{kruger2021}
+
+
+\section{Assumption of indifference between the institutions of control}
+
+As \cite[13]{mackenzie2021} points out, Deleuze's formalisation of the
+institutions of control is making emphasis on the unification of the
+institutional framework throug the technological means. Howeveras the borders
+of agency is getting blurred, the differences in agency of the \gls{ai} models
+is making a huge difference.
