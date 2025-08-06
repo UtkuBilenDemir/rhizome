@@ -574,7 +574,15 @@ Their tasks in summary, to investigate whether \glspl{llm}  like Claude 3 Sonnet
 }
 .
 
-Once specific patterns are observed after giving speocific inputs,  Anthropic researchers try to \textit{amplify} some specific features. In the case of the amplification of the \textit{Golden Gate Bridge} feature drives Claude into an identity crisis, the model starts to identify itself as the Golden Gate Bridge.
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=0.95\textwidth]{images//golden_gate.png}
+	\end{center}
+	\caption{Claude's Response before and after the Amplification of the
+		\textit{Golden Gate Bridge} Feature}\label{fig:golden_gate}
+\end{figure}
+
+Once specific patterns are observed after giving speocific inputs,  Anthropic researchers try to \textit{amplify} some specific features. In the case of the amplification of the \textit{Golden Gate Bridge} feature drives Claude into an identity crisis, the model starts to identify itself as the Golden Gate Bridge (see Figure~\ref{fig:golden_gate}) .
 
 \begin{quote}
 	For instance, we see that clamping the Golden Gate Bridge feature to 10× its maximum activation value induces thematically-related model behavior. In this example, the model starts to self-identify as the Golden Gate Bridge! Similarly, clamping the Transit infrastructure feature to 5× its maximum activation value causes the model to mention a bridge when it otherwise would not. In each case, the downstream influence of the feature appears consistent with our interpretation of the feature, even though these interpretations were made based only on the contexts in which the feature activates and we are intervening in contexts in which the feature is inactive.
@@ -592,16 +600,16 @@ intensities recombine freely. In this state, like the schizo in
 outputs that are hallucinatory, excessive, and unexpectedly creative. Reid
 \parencite[]{reid2024} also points out a connection to the \textit{double
 	articulation} concept \gls{dg} have introduced in \citetitle{deleuze1987}
-\parencite*[4]{deleuze1987}
+\parencite*{deleuze1987}:
+
+\begin{quote}
+	The first articulation concerns content, the second expression. The distinction between the two articulations is not between forms and substances but between content and expression, expression having just as much substance as content and content just as much form as expression. The double articulation sometimes coincides with the molecular and the molar, and sometimes not; this is because content and expression are sometimes divided along those lines and sometimes along different lines. There is never correspondence or conformity between content and expression, only isomorphism with reciprocal presupposition. The distinction between content and expression is always real, in various ways, but it cannot be said that the terms preexist their double articulation. It is the double articulation that distributes them according to the line it draws in each stratum; it is what constitutes their real distinction.
+
+	— \cite[4]{deleuze1987}
+\end{quote}
 
 
-\begin{figure}
-	\begin{center}
-		\includegraphics[width=0.95\textwidth]{images//golden_gate.png}
-	\end{center}
-	\caption{Claude's Response before and after the Amplification of the
-		\textit{Golden Gate Bridge} Feature}\label{fig:golden_gate}
-\end{figure}
+
 
 
 
