@@ -2754,7 +2754,9 @@
     <bcf:citekey order="350" intorder="1">deleuze1983</bcf:citekey>
     <bcf:citekey order="351" intorder="1">zhuo2023</bcf:citekey>
     <bcf:citekey order="352" intorder="1">zhuo2023</bcf:citekey>
-    <bcf:citekey order="353" intorder="1">mackenzie2021</bcf:citekey>
+    <bcf:citekey order="353" intorder="1">shen2024</bcf:citekey>
+    <bcf:citekey order="354" intorder="1">shen2024</bcf:citekey>
+    <bcf:citekey order="355" intorder="1">mackenzie2021</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
