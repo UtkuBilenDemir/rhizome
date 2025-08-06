@@ -2736,7 +2736,10 @@
     <bcf:citekey order="336" intorder="1">templeton2024</bcf:citekey>
     <bcf:citekey order="336" intorder="2">lindsey2024</bcf:citekey>
     <bcf:citekey order="336" intorder="3">ameisen2025</bcf:citekey>
-    <bcf:citekey order="337" intorder="1">mackenzie2021</bcf:citekey>
+    <bcf:citekey order="337" intorder="1">templeton2024</bcf:citekey>
+    <bcf:citekey order="338" intorder="1">templeton2024</bcf:citekey>
+    <bcf:citekey order="339" intorder="1">mcgraw2024</bcf:citekey>
+    <bcf:citekey order="340" intorder="1">mackenzie2021</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
