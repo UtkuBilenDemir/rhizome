@@ -7,7 +7,6 @@ kindle-sync:
 # Buchanan_2008_Deleuze and Guattaris Anti-Oedipus a readers guide
 ## Metadata
 
-
 ## Highlights
 Thus the challenge of Western Marxism in the aftermath of May '68 was not to supply the strategy to go with the theory, as Anderson demands, but to use theory to cleanse strategy of its fatal taint of impracticality. This is the challenge Anti — location: []() ^ref-9712
 
