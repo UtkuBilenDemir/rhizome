@@ -27,6 +27,6 @@ sort file.name asc
 3. [PROPOSAL](https://zsiat.sharepoint.com/:w:/r/sites/BioDiv-08-Bioregions/_layouts/15/Doc2.aspx?action=edit&sourcedoc=%7Bf80981f5-6036-41ae-9a20-c953bc22a36c%7D&wdOrigin=TEAMS-MAGLEV.teamsSdk_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1754563434073&web=1)
 
 ## TODO
-
+- [ ] #todo Send a greetings to the WP1 partners (as a reply to Wolfgang's email) 🛫 2025-08-07
 # References
 1. [[BIDODIV]]
